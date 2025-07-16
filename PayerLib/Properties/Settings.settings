@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PayerLib.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EMPTY_PARAMETER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Empty parameter "{0}"</Value>
+    </Setting>
+    <Setting Name="INVALID_PARAMETER_VALUE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Invalid parameter value "{0}"</Value>
+    </Setting>
+    <Setting Name="ERROR_XML_NODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Xml node &lt;{0}&gt; not found or node content is invalid</Value>
+    </Setting>
+    <Setting Name="XML_EXCEPTION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Error during xml buffer manipulation</Value>
+    </Setting>
+    <Setting Name="HASH_CREATION_ERROR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Error during hash creation</Value>
+    </Setting>
+    <Setting Name="HASH_VERIFY_ERROR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hash verify error. HashReceived={0} - HashCalculated={1}</Value>
+    </Setting>
+    <Setting Name="TIME_WINDOW_EXPIRED" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Time window expired</Value>
+    </Setting>
+    <Setting Name="INITIALIZATION_SUCCESS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Initialization succeded with parameters: encryptIV={0} - encryptKey={1} - codicePortale={2}</Value>
+    </Setting>
+    <Setting Name="METHOD_START_PARAMETER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Method {0} started with parameter {1}={2}</Value>
+    </Setting>
+    <Setting Name="METHOD_START_2_PARAMETERS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Method {0} started with parameters {1}={2} - {3}={4}</Value>
+    </Setting>
+    <Setting Name="BUFFER_CREATED" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Buffer created: {0}</Value>
+    </Setting>
+    <Setting Name="TIME_WINDOW_VERIFIED" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Time window verified</Value>
+    </Setting>
+    <Setting Name="HASH_VERIFIED" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hash verified</Value>
+    </Setting>
+    <Setting Name="DATA_BUFFER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data buffer: {0}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

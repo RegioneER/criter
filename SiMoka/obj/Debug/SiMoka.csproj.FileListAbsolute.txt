@@ -1,0 +1,25 @@
+C:\SORGENTI\RER\CRITER\CriterV01\SiMoka\bin\Debug\SiMoka.dll.config
+C:\SORGENTI\RER\CRITER\CriterV01\SiMoka\bin\Debug\SiMoka.dll
+C:\SORGENTI\RER\CRITER\CriterV01\SiMoka\bin\Debug\SiMoka.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\SiMoka\obj\Debug\SiMoka.dll
+C:\SORGENTI\RER\CRITER\CriterV01\SiMoka\obj\Debug\SiMoka.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\SiMoka\obj\Debug\SiMoka.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SiMoka\bin\Debug\SiMoka.dll.config
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SiMoka\bin\Debug\SiMoka.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SiMoka\bin\Debug\SiMoka.pdb
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SiMoka\obj\Debug\SiMoka.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SiMoka\obj\Debug\SiMoka.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SiMoka\obj\Debug\SiMoka.pdb
+D:\Applicazioni\CriterV01\SiMoka\bin\Debug\SiMoka.dll.config
+D:\Applicazioni\CriterV01\SiMoka\bin\Debug\SiMoka.dll
+D:\Applicazioni\CriterV01\SiMoka\bin\Debug\SiMoka.pdb
+D:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.csprojResolveAssemblyReference.cache
+D:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.dll
+D:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.pdb
+E:\Applicazioni\CriterV01\SiMoka\bin\Debug\SiMoka.dll.config
+E:\Applicazioni\CriterV01\SiMoka\bin\Debug\SiMoka.dll
+E:\Applicazioni\CriterV01\SiMoka\bin\Debug\SiMoka.pdb
+E:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.csprojAssemblyReference.cache
+E:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.dll
+E:\Applicazioni\CriterV01\SiMoka\obj\Debug\SiMoka.pdb

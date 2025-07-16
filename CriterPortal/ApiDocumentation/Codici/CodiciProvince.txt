@@ -1,0 +1,115 @@
+﻿
+
+/*******************************************************************
+ *
+ *				CODICI PROVINCE CON SIGLE
+ *
+ *******************************************************************/
+
+
+
+1	AL	Alessandria
+2	AN	Ancona
+3	AP	Ascoli Piceno
+4	AR	Arezzo
+5	AT	Asti
+6	BA	Bari
+7	BG	Bergamo
+8	BO	Bologna
+9	BR	Brindisi
+10	BS	Brescia
+11	BZ	Bolzano
+12	CA	Cagliari
+13	CB	Campobasso
+14	CE	Caserta
+15	CH	Chieti
+16	CN	Cuneo
+17	CO	Como
+18	CR	Cremona
+19	CS	Cosenza
+20	FE	Ferrara
+21	FG	Foggia
+22	FI	Firenze
+23	FC	Forlì-Cesena
+24	FR	Frosinone
+25	GO	Gorizia
+26	IM	Imperia
+27	IS	Isernia
+28	LC	Lecco
+29	LE	Lecce
+30	LI	Livorno
+31	LO	Lodi
+32	LT	Latina
+33	LU	Lucca
+34	MC	Macerata
+35	MI	Milano
+36	MN	Mantova
+37	MO	Modena
+38	NA	Napoli
+39	NO	Novara
+40	PC	Piacenza
+41	PD	Padova
+42	PG	Perugia
+43	PI	Pisa
+44	PN	Pordenone
+45	PO	Prato
+46	PR	Parma
+47	PU	Pesaro
+48	PT	Pistoia
+49	PV	Pavia
+50	RA	Ravenna
+51	RE	Reggio Emilia
+52	RM	Roma
+53	RN	Rimini
+54	RO	Rovigo
+56	SA	Salerno
+57	SI	Siena
+58	SP	La Spezia
+59	TE	Teramo
+60	TN	Trento
+61	TO	Torino
+62	TR	Terni
+63	TV	Treviso
+64	UD	Udine
+65	VA	Varese
+66	VC	Vercelli
+67	VE	Venezia
+68	VI	Vicenza
+69	VR	Verona
+70	VT	Viterbo
+71	TA	Taranto
+72	CT	Catania
+73	AG	Agrigento
+74	AO	Aosta
+75	AV	Avellino
+76	BL	Belluno
+77	BN	Benevento
+78	BI	Biella
+79	CL	Caltanissetta
+80	EN	Enna
+81	GE	Genova
+82	GR	Grosseto
+83	AQ	L'Aquila
+84	PA	Palermo
+85	RC	Reggio Calabria
+86	SS	Sassari
+87	CZ	Catanzaro
+88	KR	Crotone
+89	MS	Massa
+90	MT	Matera
+91	ME	Messina
+92	NU	Nuoro
+93	OR	Oristano
+94	PE	Pescara
+95	PZ	Potenza
+96	RG	Ragusa
+97	RI	Rieti
+98	SV	Savona
+99	SR	Siracusa
+100	SO	Sondrio
+101	TP	Trapani
+102	TS	Trieste
+103	VB	Verbania
+104	VV	Vibo Valentia
+105	OT	Olbia-Tempio
+107	MB	Monza e Brianza

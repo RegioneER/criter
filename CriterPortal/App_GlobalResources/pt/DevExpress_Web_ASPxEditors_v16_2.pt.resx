@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxEditorsStringId.DefaultErrorText">
+    <value>Valor Inválido</value>
+  </data>
+  <data name="ASPxEditorsStringId.RegExValidationErrorText">
+    <value>Validação da Expressão Regular falhou</value>
+  </data>
+  <data name="ASPxEditorsStringId.RequiredFieldErrorText">
+    <value>*</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Today">
+    <value>Hoje</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Clear">
+    <value>Limpar</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_OK">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Cancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OK">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Cancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_GroupType">
+    <value>E,Ou,Não E,Não Ou</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClauseType">
+    <value>Igual,Diferente,Maior que,Maior ou igual a,Menor que,Menor ou igual a,No intervalo,Fora do Intervalo,Contém,Não Contém,Começa com,Termina com,Como,Não como,Nulo,Não nulo,Algum dos,Nenhum dos,,,Is beyond this year,Is later this year,Is later this month,Is next week,Is later this week,Is tomorrow,Is today,Is yesterday,Is earlier this week,Is last week,Is earlier this month,Is earlier this year,Is prior this year</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_BetweenAnd">
+    <value>E</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddConditionHint">
+    <value>Adicionar nova condição ao grupo</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_RemoveConditionHint">
+    <value>Remover as condições</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddValueHint">
+    <value>Adicionar novo item a lista</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClearFilter">
+    <value>Limpar</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ShowFilterControl">
+    <value>Criar Filtros</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddGroup">
+    <value>Adicionar Grupo</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddCondition">
+    <value>Adicionar Condição</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Remove">
+    <value>Remover</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_Empty">
+    <value>&amp;lt;Vazio&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_EmptyEnter">
+    <value>&amp;lt;Entre com o valor&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_PopupHeaderText">
+    <value>Construtor de Filtros</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultErrorText" xml:space="preserve">
+    <value>O código introduzido está incorrecto</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultImageAlternateText" xml:space="preserve">
+    <value>Imagem captcha</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultTextBoxLabelText" xml:space="preserve">
+    <value>Digite o código apresentado:</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_RefreshText" xml:space="preserve">
+    <value>Mostrar outro código</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Checked" xml:space="preserve">
+    <value>Marcado</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Unchecked" xml:space="preserve">
+    <value>Desmarcado</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Undefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Not" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Decrement" xml:space="preserve">
+    <value>Diminuir</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Drag" xml:space="preserve">
+    <value>Arrastar</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Increment" xml:space="preserve">
+    <value>Aumentar</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_CustomColor" xml:space="preserve">
+    <value>Cor personalizada...</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidDateEditRange" xml:space="preserve">
+    <value>A data deve estar no intervalo {0}...{1}</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidSpinEditMaxValue" xml:space="preserve">
+    <value>O número deve ser menor ou igual a {0}</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidSpinEditMinValue" xml:space="preserve">
+    <value>O número deve ser maior ou igual a {0}</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidSpinEditRange" xml:space="preserve">
+    <value>O número deve estar no intervalo {0}...{1}</value>
+  </data>
+  <data name="ASPxEditorsStringId.DateRangeMinErrorText" xml:space="preserve">
+    <value>O intervalo de datas deve ser maior ou igual a {0} dias</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidDateEditMaxDate" xml:space="preserve">
+    <value>A data deve ser menor ou igual a {0}</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidDateEditMinDate" xml:space="preserve">
+    <value>A data deve ser maior ou igual a {0}</value>
+  </data>
+  <data name="ASPxEditorsStringId.TokenBox_TokenRemoveButtonToolTip" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Clear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Empty" xml:space="preserve">
+    <value>Nenhuma imagem</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_TextFilterTabCaption" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Empty" xml:space="preserve">
+    <value>&amp;lt;vazio&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OperandTypeButtonHint" xml:space="preserve">
+    <value>Comparar com um valor / outro valor do campo</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_VisualFilterTabCaption" xml:space="preserve">
+    <value>Visual</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_InvalidData" xml:space="preserve">
+    <value>Dados de imagem inválido</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_AutomaticColor" xml:space="preserve">
+    <value>Cor automática</value>
+  </data>
+</root>

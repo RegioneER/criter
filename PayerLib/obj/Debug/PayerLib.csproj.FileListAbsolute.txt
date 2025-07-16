@@ -1,0 +1,82 @@
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\PayerLib.dll.config
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\PayerLib.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\PayerLib.pdb
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\NLog.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.Runtime.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.Runtime.JNI.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.AWT.WinForms.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\bin\Debug\NLog.xml
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\obj\Debug\PayerLib.dll
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\obj\Debug\PayerLib.pdb
+C:\SORGENTI\RER\SACE\SaceV02\PayerLib\obj\Debug\PayerLib.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\bin\Debug\PayerLib.dll.config
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\bin\Debug\PayerLib.dll
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\bin\Debug\PayerLib.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\bin\Debug\NLog.dll
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\bin\Debug\NLog.xml
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\obj\Debug\PayerLib.dll
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\obj\Debug\PayerLib.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\PayerLib\obj\Debug\PayerLib.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\bin\Debug\PayerLib.dll.config
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\bin\Debug\PayerLib.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\bin\Debug\PayerLib.pdb
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\bin\Debug\NLog.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\bin\Debug\NLog.xml
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\obj\Debug\PayerLib.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\obj\Debug\PayerLib.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\PayerLib\obj\Debug\PayerLib.pdb
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\PayerLib.dll.config
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\PayerLib.dll
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\PayerLib.pdb
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\NLog.dll
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\System.Net.Http.dll
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\NLog.xml
+D:\Applicazioni\CriterV01\PayerLib\bin\Debug\System.Net.Http.xml
+D:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.dll
+D:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.pdb
+D:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.csprojResolveAssemblyReference.cache
+E:\Applicazioni\CriterV01\PayerLib\bin\Debug\PayerLib.dll.config
+E:\Applicazioni\CriterV01\PayerLib\bin\Debug\PayerLib.dll
+E:\Applicazioni\CriterV01\PayerLib\bin\Debug\PayerLib.pdb
+E:\Applicazioni\CriterV01\PayerLib\bin\Debug\NLog.dll
+E:\Applicazioni\CriterV01\PayerLib\bin\Debug\NLog.xml
+E:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.csproj.CopyComplete
+E:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.dll
+E:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.pdb
+E:\Applicazioni\CriterV01\PayerLib\obj\Debug\PayerLib.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\bin\Debug\PayerLib.dll.config
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\bin\Debug\PayerLib.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\bin\Debug\PayerLib.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\bin\Debug\NLog.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\bin\Debug\NLog.xml
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.csproj.CoreCompileInputs.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.csproj.CopyComplete
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.pdb
+E:\Applicazioni\Art-ER - Criter\PayerLib\bin\Debug\PayerLib.dll.config
+E:\Applicazioni\Art-ER - Criter\PayerLib\bin\Debug\PayerLib.dll
+E:\Applicazioni\Art-ER - Criter\PayerLib\bin\Debug\PayerLib.pdb
+E:\Applicazioni\Art-ER - Criter\PayerLib\bin\Debug\NLog.dll
+E:\Applicazioni\Art-ER - Criter\PayerLib\bin\Debug\NLog.xml
+E:\Applicazioni\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.csproj.AssemblyReference.cache
+E:\Applicazioni\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.csproj.CoreCompileInputs.cache
+E:\Applicazioni\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.csproj.Up2Date
+E:\Applicazioni\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.dll
+E:\Applicazioni\Art-ER - Criter\PayerLib\obj\Debug\PayerLib.pdb

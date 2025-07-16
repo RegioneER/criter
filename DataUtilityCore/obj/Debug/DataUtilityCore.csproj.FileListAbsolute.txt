@@ -1,0 +1,41 @@
+C:\SORGENTI\RER\CRITER\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CRITER\CriterV01\CriterPortal\Bin\DataUtilityCore.dll
+C:\SORGENTI\RER\CRITER\CriterV01\CriterPortal\Bin\DataUtilityCore.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.dll
+C:\SORGENTI\RER\CRITER\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.pdb
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\CriterPortal\Bin\DataUtilityCore.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\CriterPortal\Bin\DataUtilityCore.pdb
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.pdb
+D:\Applicazioni\CriterV01\CriterPortal\Bin\DataUtilityCore.dll.config
+D:\Applicazioni\CriterV01\CriterPortal\Bin\DataUtilityCore.dll
+D:\Applicazioni\CriterV01\CriterPortal\Bin\DataUtilityCore.pdb
+D:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.csprojResolveAssemblyReference.cache
+D:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.dll
+D:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.pdb
+E:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\CriterPortal\Bin\DataUtilityCore.dll.config
+E:\Applicazioni\CriterV01\CriterPortal\Bin\DataUtilityCore.dll
+E:\Applicazioni\CriterV01\CriterPortal\Bin\DataUtilityCore.pdb
+E:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.CopyComplete
+E:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.dll
+E:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.pdb
+E:\Applicazioni\CriterV01\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\DataUtilityCore.dll.config
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\DataUtilityCore.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\DataUtilityCore.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.CoreCompileInputs.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.CopyComplete
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.pdb
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\Pomiager.Service.Parer.dll.config
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\DataUtilityCore.dll.config
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\DataUtilityCore.dll
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\DataUtilityCore.pdb
+E:\Applicazioni\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.AssemblyReference.cache
+E:\Applicazioni\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.csproj.CoreCompileInputs.cache
+E:\Applicazioni\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtil.D51D1743.Up2Date
+E:\Applicazioni\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.dll
+E:\Applicazioni\Art-ER - Criter\DataUtilityCore\obj\Debug\DataUtilityCore.pdb

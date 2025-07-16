@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E6B4E99-495C-4C17-8E28-6B958074DA9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataLayer</RootNamespace>
+    <AssemblyName>DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\CriterPortal\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CriterPortal\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ApplicationContext.cs" />
+    <Compile Include="COM_AbilitazioniSoggetto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_AnagraficaSoggetti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_AnagraficaSoggettiAccreditamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_AnagraficaSoggettiAccreditamentoStato.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_AnagraficaSoggettiAlbo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_AnagraficaSoggettiFirmaDigitale.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_AnagraficaSoggettiPrivacyCount.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_ClassificazioniImpianto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_CodiciCatastaliCompetenza.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_ContrattoIspettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_MovimentoBonifico.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_MovimentoCassa.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_MovimentoStorno.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_PayerFlussoRiversamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_PayerPaymentData.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_PayerPaymentRequest.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_Portafoglio.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_ProvinceCompetenza.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_Questionari.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_QuestionariDomande.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_QuestionariRisposte.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_Raccomandate.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_RaccomandateDestinatari.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_RaccomandateSteps.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_Reports.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_ReportsAccess.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_RigaPortafoglio.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_RuoliSoggetti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_TipiDistributoriCombustibile.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COM_Utenti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CriterDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CriterDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CriterDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CriterDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CriterDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpianti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiAccumuli.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiAddolcimentoAcqua.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiAltriGeneratori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiBruciatori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiCampiSolariTermici.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiCircuitiInterrati.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiCogeneratori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiCondizionamentoChimico.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiConsumoAcqua.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiConsumoCombustibile.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiConsumoEnergiaElettrica.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiConsumoProdottiChimici.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiDatiCatastali.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiDescrizioniSistemi.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiGruppiTermici.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiImpiantiVMC.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiMacchineFrigorifere.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiPompeCircolazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiRaffreddatoriLiquido.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiRecuperatori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiRecuperatoriCalore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiResponsabili.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiScambiatoriCalore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiScambiatoriCaloreIntermedi.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiSistemiRegolazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTipologiaFiltrazioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTipologiaFluidoVettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTipologiaGeneratori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTipologiaSistemaDistribuzione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTipologiaSistemiEmissione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTorriEvaporative.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTrattamentoAcquaAcs.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTrattamentoAcquaEstiva.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiTrattamentoAcquaInvernale.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiUnitaTrattamentoAria.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiValvoleRegolazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_LibrettiImpiantiVasiEspansione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LIM_TargatureImpianti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LogData.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MNU_Menu.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_BollinoCalorePulito.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_BollinoCalorePulitoConvertito.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_FirmaDigitale.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_LottiBolliniCalorePulito.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RaccomandazioniPrescrizioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoBase.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoBaseCheckList.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoBaseTrattamentoAcs.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoBaseTrattamentoInvernale.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoCG.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoGF.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoGT.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RCT_RapportoDiControlloTecnicoSC.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_AbilitazioneSoggetto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_CausaliRaccomandate.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_ClassificazioneImpianto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_CodiciCatastali.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_CodiciCatastaliSezioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_DestinazioneUso.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_FasceContributive.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_FluidoLatoUtenze.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_FormeGiuridiche.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_FunzioniSoggetti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_ModalitaInstallazioneRecuperatoriCalore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_Orario.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_Paesi.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_ProceduraAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_Province.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_QuestionarioDomande.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_QuestionarioRisposte.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_QuestionarioTipoRisposte.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_RCTCheckList.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_RCTTipologiaCheckList.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_RCTTipologiaPrescrizione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_RCTTipologiaRaccomandazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_Regioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_RuoloSoggetto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_SorgenteLatoEsterno.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoAccertamentoIntervento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoAccertamentoSanzione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoAccreditamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoContratto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoLibrettoImpianto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoPianificazioneIspettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoQuestionario.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_StatoRapportoDiControllo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_SvolgimentoIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipoAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipoDocumentoIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipoIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaAcquaAlimento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaAddolcimentoAcqua.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaCircuitoRaffreddamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaCogeneratore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaCombustibile.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaCondizionamentoChimico.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaContabilizzazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaControllo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaDistributori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaDistributoriCombustibile.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaEventoAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaFiltrazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaFluidoTermoVettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaFluidoVettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaGeneratori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaGeneratoriTermici.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaGruppiTermici.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaImpiantiVMC.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaImpiantoFunzionanteAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaIntervento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaInterventoAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaIspezioneRapportoCheckList.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaMacchineFrigorifere.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaOrdineCollegio.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaProtezioneGelo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaQualificaIspettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaRaccomandazionePrescrizioneRct.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaRapportoDiControllo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaResponsabile.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaRisoluzioneAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaSistemaContabilizzazione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaSistemaDistribuzione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaSistemiEmissione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaTermostatoZona.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaTitoloStudio.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaTrattamentoAcqua.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipologiaVentilatori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipoRaccomandata.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipoSistema.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TipoSoggetto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_TitoliSoggetti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_UnitaMisura.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_UserAccess.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SYS_UserRole.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UTE_Comunicazioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UTE_DatiCatastali.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UTE_DatiFornituraCliente.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_Accertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoDocumento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoFirmaDigitale.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoNonConformita.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoNote.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoProgramma.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoStato.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoVisita.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_AccertamentoVisitaInfo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_Ispezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneDocumento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneGruppoVerifica.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneNotificaRiaperturaIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneQuestinarioQualita.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneRaccomandazioniPrescrizioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneRapporto.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneRapportoCheckList.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneRapportoStrumenti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneRapportoTrattamentoAcs.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneRapportoTrattamentoInvernale.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneStato.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneVisita.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_IspezioneVisitaInfo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_ProgrammaAccertamento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_ProgrammaIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_ProgrammaIspezioneInfo.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VER_RegoleControlli.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_COM_AnagraficaSoggetti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_COM_AnagraficaSoggettiAccreditamentoStato.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_COM_ContrattoIspettore.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_COM_Questionari.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_COM_Raccomandate.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_COM_Utenti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_LibrettiImpianti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_LibrettiImpiantiDatiCatastali.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_LibrettiImpiantiTerziResponsabili.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_TargatureImpianti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_VerifichePeriodicheCG.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_VerifichePeriodicheGF.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_VerifichePeriodicheGT.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_LIM_VerifichePeriodicheSC.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_MNU_Menu.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_RCT_BollinoCalorePulito.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_RCT_RapportiControlloTecnico.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_RCT_RapportoDiControlloTecnicoCG.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_RCT_RapportoDiControlloTecnicoGF.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_RCT_RapportoDiControlloTecnicoGT.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_RCT_RapportoDiControlloTecnicoSC.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_SYS_CheckList.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_SYS_CodiciCatastali.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_SYS_ProvinceRegioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_Accertamenti.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_AccertamentiNota.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_AccertamentiProgramma.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_AccertamentiStato.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_AccertamentoDocumento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_AccertamentoVisita.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_IspezioneDocumento.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_IspezioneNotificaRiaperturaIspezione.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_IspezioneQuestinarioQualita.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_Ispezioni.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_IspezioniStato.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_IspezioniVisite.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="V_VER_ProgrammaIspezioneGeneratori.cs">
+      <DependentUpon>CriterDataModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="CriterDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CriterDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="CriterDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CriterDataModel.edmx</DependentUpon>
+      <LastGenOutput>CriterDataModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="CriterDataModel.edmx.diagram">
+      <DependentUpon>CriterDataModel.edmx</DependentUpon>
+    </None>
+    <None Include="CriterDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CriterDataModel.edmx</DependentUpon>
+      <LastGenOutput>CriterDataModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\POMJ_Lib\POMJ_Lib.csproj">
+      <Project>{f1aa9419-1ffa-47be-8f6a-8a007016755e}</Project>
+      <Name>POMJ_Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

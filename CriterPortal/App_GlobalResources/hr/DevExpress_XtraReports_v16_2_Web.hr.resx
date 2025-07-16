@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.ParametersPanel_Reset">
+    <value>Poništi</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Submit">
+    <value>Pošalji</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True">
+    <value>Da</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False">
+    <value>Ne</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Header">
+    <value>Traženje</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat">
+    <value>Traži&amp;nbsp;što</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat_AccessKey">
+    <value />
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext">
+    <value>Traži slijedeće</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel">
+    <value>Odustani</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord">
+    <value>Traži samo cijele riječi</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord_AccessKey">
+    <value />
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case">
+    <value>Razlikuj velika i mala slova</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case_AccessKey">
+    <value />
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up">
+    <value>Gore</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up_AccessKey">
+    <value />
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down">
+    <value>Dolje</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down_AccessKey">
+    <value />
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished">
+    <value>Pretraživanje dokumenta završeno.</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search">
+    <value>Prikaži tražilicu</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport">
+    <value>Ispiši izvješće</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage">
+    <value>Ispiši trenutnu stranu</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage">
+    <value>Prva stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage">
+    <value>Prethodna strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage">
+    <value>Slijedeća stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage">
+    <value>Zadnja stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow">
+    <value>Prikaži izvješće u novom prozoru</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk">
+    <value>Snimi izvješće na disk</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel">
+    <value>Strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel">
+    <value>od</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx">
+    <value>XLSX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt">
+    <value>Tekst</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png">
+    <value>Slika</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText" xml:space="preserve">
+    <value>Početna</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText" xml:space="preserve">
+    <value>Ispiši</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FirstPage" xml:space="preserve">
+    <value>Prva stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_LastPage" xml:space="preserve">
+    <value>Zadnja stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_NextPage" xml:space="preserve">
+    <value>Slijedeća stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage" xml:space="preserve">
+    <value>Prethodna stranica</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText" xml:space="preserve">
+    <value>Izvoz</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText" xml:space="preserve">
+    <value>Kretanje</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_DocumentMap" xml:space="preserve">
+    <value>Karta dokumenta</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonReportGroupText" xml:space="preserve">
+    <value>Izvješće</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview" xml:space="preserve">
+    <value>Pretpregled</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Next" xml:space="preserve">
+    <value>Slijedeći</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Caption" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold" xml:space="preserve">
+    <value>Podebljano</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape" xml:space="preserve">
+    <value>Pejzaž</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait" xml:space="preserve">
+    <value>Portret</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Previous" xml:space="preserve">
+    <value>Prethodni</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average" xml:space="preserve">
+    <value>Prosječno</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Izbrojano</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Data" xml:space="preserve">
+    <value>Podaci</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SelectAll" xml:space="preserve">
+    <value>(Odaberi sve)</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText" xml:space="preserve">
+    <value>Rezultat pretraživanja</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Loading" xml:space="preserve">
+    <value>Učitavam...</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToFile" xml:space="preserve">
+    <value>Spremi u datoteku</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_SaveToWindow" xml:space="preserve">
+    <value>Spremi u prozor</value>
+  </data>
+</root>

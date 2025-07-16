@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Daily">
+    <value>Täglich</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Weekly">
+    <value>Wöchentlich</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Monthly">
+    <value>Monatlich</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Yearly">
+    <value>Jährlich</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceRange_NoEndDate">
+    <value>Kein Enddatum</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceRange_OccurrenceCount">
+    <value>Endet nach:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceRange_EndBy">
+    <value>Endet am:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Days">
+    <value>Tag(e)</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Every">
+    <value>Alle</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_EveryWeekday">
+    <value>Jeden Wochentag</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurEvery">
+    <value>Wiederhole alle</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_WeeksOn">
+    <value>Woche(n) auf:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Day">
+    <value>Tag</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_The">
+    <value>Die</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OfEvery">
+    <value>von jedem</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Months">
+    <value>Monat(e)</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Of">
+    <value>von</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Occurrences">
+    <value>Ereignisse</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Recurrence">
+    <value>Wiederholungen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_GotoDate">
+    <value>Gehe zu Datum</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_DeleteRecurrentApt">
+    <value>Löschen bestätigen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OpenRecurrentApt">
+    <value>Wiederkehrendes Element öffnen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_Backward">
+    <value>Zurück</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_Forward">
+    <value>Weiter</value>
+  </data>
+  <data name="ASPxSchedulerStringId.CaptionViewNavigator_Today">
+    <value>Heute</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_ViewVisibleInterval_Format">
+    <value>{0:D} &amp;ndash; {1:D}</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OperationToolTip">
+    <value>Drücken Sie ESC um den Vorgang abzubrechen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Error">
+    <value>Fehler</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Warning">
+    <value>Warnung</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Info">
+    <value>Informationen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_DetailInfo">
+    <value>Detailinfo anzeigen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_ShowMore">
+    <value>Mehr anzeigen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_LoadError">
+    <value>Kann {0} nicht laden</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_GotoDate">
+    <value>Gehe zu Datum</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_AllDayEvent">
+    <value>Ganztäglich</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonCancel">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonDelete">
+    <value>Löschen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonDismiss">
+    <value>Verwerfen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonDismissAll">
+    <value>Alles verwerfen</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ConfirmDelete">
+    <value>Wollen Sie alle Vorkommen des Termins "{0}", oder nur diesen einen löschen?</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ConfirmEdit">
+    <value>"{0}" ist ein wiederkehrender Termin. Wollen Sie nur das Auftreten oder die Serie eröffnen?</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Date">
+    <value>Datum:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_EndTime">
+    <value>Endzeit:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Label">
+    <value>Kategorie:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Location">
+    <value>Ort:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Occurrence">
+    <value>Das Auftreten</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_OpenEditForm">
+    <value>Öffne Berabeitungs Form...</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Recurrence">
+    <value>Wiederholung</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Reminder">
+    <value>Erinnerung</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Save">
+    <value>Speichern</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Series">
+    <value>Die Serie</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ShowIn">
+    <value>Zeige in:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_StartTime">
+    <value>Anfangszeit:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Status">
+    <value>Zeige Zeit als:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Subject">
+    <value>Subjekt:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonSnooze">
+    <value>Erneut erinnern</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_SnoozeInfo">
+    <value>Klicke Erneut erinnern, um in wieder erinnert zu werden:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonOk">
+    <value>OK</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Resource">
+    <value>Ressource:</value>
+  </data>
+</root>

@@ -1,0 +1,232 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="~/WebUserControls/WUC_Menu.ascx" TagName="Menu" TagPrefix="ucMenu" %>
+<%@ Register Src="~/WebUserControls/WUC_LoginView.ascx" TagName="LoginView" TagPrefix="ucLoginView" %>
+<%@ Register Src="~/WebUserControls/WUC_SiteMap.ascx" TagName="SiteMap" TagPrefix="ucSiteMap" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="it" xml:lang="it" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Energia in Emilia Romagna" />
+    <meta name="author" content="Francesco Terranova" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--INIZIO HEADER-->
+    <title>Regione Emilia-Romagna</title>
+    <link rel="stylesheet" href="https://wwwservizi.regione.emilia-romagna.it/includes/TemplatesER/styles.css" />
+    <%--<link rel="stylesheet" href="https://cm.regione.emilia-romagna.it/energia/er_base.css" />
+    <link rel="stylesheet" href="https://cm.regione.emilia-romagna.it/energia/er_colors.css" />
+    <link rel="stylesheet" href="https://cm.regione.emilia-romagna.it/energia/++resource++rer.aree_tematiche.stylesheets/aree_tematiche.css" />
+    <link rel="stylesheet" href="https://cm.regione.emilia-romagna.it/energia/er_energia.css" />
+    <link rel="stylesheet" href="https://cm.regione.emilia-romagna.it/energia/ploneCustom.css" />--%>
+    
+    
+    <link id="Link1" rel="stylesheet" runat="server" href="~/Content/StyleCustom.css" media="screen" />
+   <%-- <link rel="stylesheet" href="Content/font-awesome.css" />
+    <link rel="stylesheet" href="Content/bootstrap.css" />--%>
+
+    <link id="Link2" rel="shortcut icon" runat="server" type="image/x-icon" href="https://www.regione.emilia-romagna.it/favicon.ico" />
+    <%--<link id="Link3" rel="apple-touch-icon" runat="server" href="http://energia.regione.emilia-romagna.it/touch_icon.png" />--%>
+    <link rel="search" href="http://energia.regione.emilia-romagna.it/@@search" title="Cerca nel sito" />
+    
+    <script type="text/javascript" src="Scripts/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-accessibleMegaMenu.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.dhtmlwindow.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.MultiFile.js"></script>
+    <script type="text/javascript" src="Scripts/DisableButton.js"></script>
+    <script type="text/javascript" src="Scripts/SiCommonUtility.js"></script>
+    <%--<script type="text/javascript" src="Scripts/jquery_purl.js"></script>--%>
+    
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+
+            $("nav").accessibleMegaMenu({
+                /* prefix for generated unique id attributes, which are required 
+                   to indicate aria-owns, aria-controls and aria-labelledby */
+                uuidPrefix: "accessible-megamenu",
+
+                /* css class used to define the megamenu styling */
+                menuClass: "nav-menu",
+
+                /* css class for a top-level navigation item in the megamenu */
+                topNavItemClass: "nav-item",
+
+                /* css class for a megamenu panel */
+                panelClass: "sub-nav",
+
+                /* css class for a group of items within a megamenu panel */
+                panelGroupClass: "sub-nav-group",
+
+                /* css class for the hover state */
+                hoverClass: "hover",
+
+                /* css class for the focus state */
+                focusClass: "focus",
+
+                /* css class for the open state */
+                openClass: "open"
+            });
+        });
+
+        
+    </script>
+                
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="template-er_portletpage_view_notitle portaltype-erportletpage site-energia section-homepage" dir="ltr">
+    <div id="visual-portal-wrapper">
+        <!-- Plone  -->
+        <form id="webform" runat="server">
+            <asp:ScriptManager ID="smContent" EnableScriptGlobalization="true" AsyncPostBackTimeout ="360000" EnablePartialRendering="true" EnablePageMethods="true" runat="server" />
+            <div id="portal-top">
+                <div class="inner-portal-top">
+                    <div id="portal-header">
+                        <div class="page-max-width">
+                            <p class="hiddenStructure">
+                                <a accesskey="2" href="#inizio_contenuti">Salta ai contenuti</a>
+                                <a accesskey="6" href="#inizio_menu">Salta al menu</a>
+                            </p>
+                            <div id="rer-header">
+                                <a href="http://www.regione.emilia-romagna.it" class="rerHeaderItem">Il portale della Regione Emilia-Romagna
+                                </a>
+                                <h1 id="portal-logo">
+                                    <a accesskey="1" href="http://energia.regione.emilia-romagna.it/">Energia</a>
+                                </h1>
+                            </div>
+                            <div id="rer-logo">
+                                <a href="http://www.regione.emilia-romagna.it">
+                                    <img alt="Regione Emilia-Romagna" src="https://wwwservizi.regione.emilia-romagna.it/includes/TemplatesER/img/rer.gif" />
+                                </a>
+                            </div>
+                            <div id="portal-searchbox">
+                                <div class="LSBox">
+                                    <div class="searchFields">
+                                        <div class="dummySearch">
+                                            <label for="SearchableText" class="hiddenStructure">Cerca</label>
+                                            <input type="text" size="18" title="Search Site" accesskey="4" class="inputLabel" id="SearchableText" name="SearchableText" />
+                                            <input class="searchButton" type="submit" value="Cerca" />
+                                        </div>
+                                    </div>
+                                    <div class="searchSection">
+                                        <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/energia" />
+                                        <label for="searchbox_currentfolder_only">solo nella sezione corrente</label>
+                                    </div>
+                                    <div class="LSResult" id="LSResult" style="">
+                                        <div class="LSShadow" id="LSShadow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="headerImg">
+                        <!-- -->
+                    </div>
+                    <div class="page-max-width">
+                        <div id="UserLogBox">
+                            <ucLoginView:LoginView ID="USCLoginView" runat="server"></ucLoginView:LoginView>
+                        </div>
+                        <div id="rer_data">
+                        </div>
+                        <div id="rer_weather">
+                        </div>
+                        <h5 class="hiddenStructure">Sections</h5>
+                        <ul id="portal-globalnav">
+                            <li id="portaltab-index_html" class="selected">
+                                <a href="http://energia.regione.emilia-romagna.it/" title="">Primo Piano</a>
+                            </li>
+                            <li id="portaltab-entra-in-regione" class="plain">
+                                <a href="http://energia.regione.emilia-romagna.it/entra-in-regione" title="">Entra in Regione</a>
+                            </li>
+                        </ul>
+                        <div class="visualClear">
+                        </div>
+                    </div>
+                </div>
+                <a name="inizio_contenuti" id="A1"></a>
+            </div>
+            <!--FINE HEADER-->
+            <div class="shadow_wrapper_sx">
+                <div class="shadow_wrapper_dx">
+                    <div id="contentTop">
+                        <div class="page-max-width">
+                            <div id="portal-breadcrumbs">
+                                <a class="path_er" href="http://www.regione.emilia-romagna.it/">E-R</a>
+                                <span class="breadcrumbSeparator">|</span>
+                                <ucSiteMap:SiteMap ID="USCSiteMap" runat="server"></ucSiteMap:SiteMap>
+                            </div>
+                        </div>
+                        <div class="ContainerMenuSpace"></div>
+                        <div class="ContainerMenu">
+                            <ucMenu:Menu ID="USCMenu" runat="server"></ucMenu:Menu>
+                        </div>
+                    </div>
+                    <div class="visualClear" id="clear-space-before-wrapper-table">
+                        <!-- -->
+                    </div>
+                    <!--div class="shadow_wrapper_sx">
+	  	        <div class="shadow_wrapper_dx"-->
+                    <table id="portal-columns">
+                        <tbody>
+                            <tr>
+                                <td id="portal-column-content">
+                                    <!--FINE HEADER-->
+                                    <div class="bordo">
+                                    </div>
+                                    <div class="contenuti_pagine_interne bordo">
+                                        <a name="inizio_contenuti" id="inizio_contenuti"></a>
+                                        <div id="content" class="documentContent">
+                                            <asp:ContentPlaceHolder ID="contentDisplay" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                            <div class="visualClear">
+                                                <!-- -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bordo">
+                                    </div>
+                                    <!--INIZIO FOOTER-->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--/div>
+	        </div-->
+                </div>
+            </div>
+            <!-- Plone  -->
+            <div id="portalFooter">
+                <div class="shadow_wrapper_sx">
+                    <div class="shadow_wrapper_dx">
+                        <ul id="portal-siteactions">
+                            <li id="siteaction-contatti"><a href="https://energia.regione.emilia-romagna.it/criter/assistenza" accesskey="" title="Contatti">Contatti</a></li>
+                            <li id="siteaction-informazioni-sul-sito"><a href="http://energia.regione.emilia-romagna.it/info" accesskey="" title="Informazioni sul sito">Informazioni sul sito</a></li>
+                            <li id="siteaction-note-legali"><a href="http://www.regione.emilia-romagna.it/note-legali" accesskey="" title="Note legali">Note legali</a></li>
+                            <li id="siteaction-privacy"><a href="http://www.regione.emilia-romagna.it/privacy" accesskey="" title="Privacy">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="portal-colophon">
+                    <div class="colophonWrapper">
+                        <div class="shadow_wrapper_sx">
+                            <div class="shadow_wrapper_dx">
+                                Regione Emilia-Romagna (CF 800.625.903.79) - Viale Aldo Moro 52, 40127 Bologna - Centralino: 051.5271
+                            <br />
+                                Ufficio Relazioni con il Pubblico: Numero Verde URP: 800 66.22.00,  <a href="mailto:urp@regione.emilia-romagna.it">urp@regione.emilia-romagna.it</a>, <a href="mailto:urp@postacert.regione.emilia-romagna.it">urp@postacert.regione.emilia-romagna.it</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visualClear">
+                    <!-- -->
+                </div>
+            </div>
+            <!--  Plone  -->
+        </form>
+    </div>
+</body>
+</html>

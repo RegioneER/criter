@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxperienceStringId.CallbackGenericErrorText">
+    <value>Der 'Callback-Aufruf' konnte aufgrund eines internen Server Fehlers nicht ausgeführt werden.</value>
+  </data>
+  <data name="ASPxperienceStringId.Loading">
+    <value>Lade...</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_All">
+    <value>Alle</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_First">
+    <value>Erste</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Prev">
+    <value>Vorherige</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Next">
+    <value>Nächste</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Last">
+    <value>Letzte</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryFormat">
+    <value>Seite {0} von {1} ({2} Elemente)</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryAllPagesFormat">
+    <value>Seiten: {0} - {1} ({2} Elemente)</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryFormat">
+    <value>Seite {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryAllPages">
+    <value>Alle Seiten</value>
+  </data>
+  <data name="ASPxperienceStringId.DataViewBase_EmptyDataText">
+    <value>Keine Daten zum Anzeigen</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_BackToTop">
+    <value>Nach oben</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_Page">
+    <value>Seite:</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CloseButton">
+    <value>[Schließen]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_SizeGrip">
+    <value>[Größe ändern]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterCaption">
+    <value>Filter:&amp;nbsp;&amp;nbsp;&amp;nbsp;</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterHint">
+    <value>&lt;b&gt;?&lt;/b&gt; = beliebiges einzelnes Zeichen
+&lt;b&gt;*&lt;/b&gt; = beliebige Zeichen</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_BackToTop">
+    <value>[Nach oben]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_NoData">
+    <value>Keine Daten für dieses Filterkriterium</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_RemoveButton">
+    <value>Entfernen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AddButton">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadButton">
+    <value>Hochladen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_CancelButton">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsPath">
+    <value>Der Dateipfad "{0}" ist kein gültiger Windows-Pfad.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Cancel">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_DeleteConfirm">
+    <value>Wollen Sie die Datei '{0}' wirklich löschen?</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAlreadyExists">
+    <value>Dieser Datei- oder Ordnername existiert bereits</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFileNotFound">
+    <value>Datei wurde nicht gefunden</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFolderNotFound">
+    <value>Ordner wurde nicht gefunden</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorInvalidSymbols">
+    <value>Dieser Name enthält ungültige Zeichen. Die Operation kann nicht durchgeführt werden.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorIO">
+    <value>Unbekannter IO Fehler</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNoAccess">
+    <value>Zugriff verweigert. Die Operation kann nicht durchgeführt werden.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorOther">
+    <value>Unbekannter Fehler</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUsedByAnotherProcess">
+    <value>Die Operation kann nicht durchgeführt werden weil sich die Datei oder der Ordner im Zugriff eines anderen Benutzers befindet</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorWrongExtension">
+    <value>Diese Dateiendung ist nicht erlaubt. Die Operation kann nicht durchgeführt werden.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Filter">
+    <value>Filter:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Folder">
+    <value>Ordner</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FolderLocked">
+    <value>Ordner ist für Uploads gesperrt</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Ok">
+    <value>Ok</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Path">
+    <value>Pfad:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCreate">
+    <value>Erstellen</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDelete">
+    <value>Löschen (Entf)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbMove">
+    <value>Verschieben (F6)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRefresh">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRename">
+    <value>Umbenennen (F2)</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltCollapse">
+    <value>Zusammenklappen</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltExpand">
+    <value>Ausklappen</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltLoading">
+    <value>Lade</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_EnctypeError">
+    <value>File uploading fails because the form's enctype attribute is not set to 'multipart/form-data'</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_FileDoesNotExistError">
+    <value>Die ausgewählte Datei existiert nicht</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_GeneralError">
+    <value>File uploading fails because of an external error that doesn't relate to the ASPxUploadControl's functionality</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedContentTypes">
+    <value>Dieser Dateityp ist nicht erlaubt</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedFileExtension">
+    <value>Diese Dateiendung ist nicht erlaubt</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MaxSize">
+    <value>Dateigröße überschreitet die maximal zulässige Größe, von {0} Bytes</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AccessDeniedError">
+    <value>Der Zugriff auf die Server-Pfad "{0}" wird verweigert. Der Grund könnte sein, Mangels an Berechtigungen, um Dateien in diesen (oder Hauptteil) Ordner zu schreiben.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UnspecifiedError">
+    <value>Der Server hat einen internen nicht näher spezifizierter Fehler, der die Erfüllung der Anforderung verhindert.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadWasCanceledError">
+    <value>Archiv upload wurde abgebrochen.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MultiSelection">
+    <value>Achtung!
+
+ Die folgenden {0} Dateien sind ungültig, weil sie die erlaubte Dateigröße ({1}) übersteigen, oder deren Erweiterungen nicht zulässig sind. Diese Dateien sind von der Auswahl entfernt worden, so dass sie nicht hochgeladen werden.
+
+ {2}</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_ClearFileSelectionButtonToolTip">
+    <value>Auswahl löschen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_SelectedSeveralFiles">
+    <value>{0} Dateien sind für den upload ausgewählt</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorRootFolderNotSpecified">
+    <value>Der Stammordner ist nicht angegeben oder existiert nicht</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNameCannotBeEmpty">
+    <value>Der Datei/Ordnername darf nicht leer sein</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAccessProhibited">
+    <value>Zugang verboten. Der Vorgang kann nicht abgeschlossen werden</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorThumbnail">
+    <value>Kein Zugang zum Thumbnail-Ordner</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUploadSeveralFiles">
+    <value>Der Upload war für {0} von {1} Dateien erfolglos</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_BrowseButton">
+    <value>Durchsuchen...</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerRowPerPage">
+    <value>Zeilen pro Seite:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_FileName">
+    <value>Name</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_LastWriteTime">
+    <value>Zuletzt geändert am</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Size">
+    <value>Größe</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateMonth">
+    <value>Letzte 30 Tage</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateToday">
+    <value>Heute</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateWeek">
+    <value>Letzten 7 Tage</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateYear">
+    <value>Letzten 365 Tage</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeEmpty">
+    <value>Leer ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeGigantic">
+    <value>Gigantische ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeHuge">
+    <value>Riesige ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeLarge">
+    <value>Große ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeMedium">
+    <value>Medium ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeTiny">
+    <value>Winzig ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDownload">
+    <value>Download</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSizeAllItem">
+    <value>Alle</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CollapseButton">
+    <value>[Reduzieren/erweitern]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_MaximizeButton">
+    <value>[Maximieren/wiederherstellen]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_PinButton">
+    <value>[Fixieren/Fixierung aufheben]</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerPageSize">
+    <value>Seitengröße:</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSize">
+    <value>Seitengröße:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeSmall">
+    <value>Klein ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_InformationUnitSymbol">
+    <value>B</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_NewFolderName">
+    <value>Neuer Ordner</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_RefreshButton">
+    <value>[Neu laden]</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_PlatformErrorText">
+    <value>Bitte verwenden Sie einen Browser mit HTML5-Unterstützung, oder installieren Sie &lt; a Href = "{0}" &gt; Microsoft Silverlight v3 oder höher &lt;/a&gt; zum Anzeigen dieser Inhalte und haben eine Möglichkeit zum Hochladen von Dateien.</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_ShowMoreItemsText">
+    <value>Weitere Artikel anzeigen...</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCopy">
+    <value>Kopie</value>
+  </data>
+  <data name="ASPxperienceStringId.Ribbon_FileTabText">
+    <value>Datei</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FolderBrowserPopupHeader">
+    <value>Zielordner auswählen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_TooManyFilesError">
+    <value>Es sind zu viele Dateien ausgewählt. Reduzieren Sie die Anzahl der ausgewählten Dateien, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_OperationTimeoutError">
+    <value>Die Datei-Übertragung konnte aufgrund eines Timeouts nicht abgeschlossen werden. Laden sie die Seite neu und übertragen Sie die Datei noch einmal.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadModeNotSupported">
+    <value>Ihr Browser unterstützt diesen Datei-Upload-Modus nicht.</value>
+  </data>
+  <data name="ASPxperienceStringId.ImageZoom_HintText">
+    <value>Zoom</value>
+  </data>
+  <data name="ASPxperienceStringId.RoundPanel_CollapseButton">
+    <value>[Reduzieren/Erweitern]</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryEmptyText">
+    <value>Keine Daten aufteilen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_DropZone">
+    <value>Dateien hier ablegen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_DragAndDropMoreThanOneFileError">
+    <value>Mehrfachauswahl ist für 'Drag and Drop (Ziehen und Fallenlassen)' nicht zulässig. Wählen Sie bitte nur eine Datei.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MaxFileCountError">
+    <value>{0} Datei(en) sind aus der Auswahl entfernt worden, da die in {1} eingestellte Zahl für maximal zu übertragenden Dateien überschritten worden ist.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorCloudAccessFailed">
+    <value>Fehler beim Zugriff auf einen entfernten Cloud-Dienst</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorPathToLong">
+    <value>Der angegebene Pfad, Dateiname oder beide sind zu lang</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsFileName">
+    <value>Der Dateiname enthält ungültige Zeichen.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_UploadProgressPopupText">
+    <value>Hochladen...</value>
+  </data>
+  <data name="ASPxperienceStringId.Documents_CantSaveToAlreadyOpenedFileMessage">
+    <value>Ist es unmöglich, eine bereits geöffnete Datei zu speichern.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerNextPage">
+    <value>Nächste</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerPreviousPage">
+    <value>Vorherige</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerSummaryFormat">
+    <value>Seite {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCollapse">
+    <value>Reduzieren</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListExpand">
+    <value>Erweitern</value>
+  </data>
+  <data name="ASPxperienceStringId.InsertTableControl_InsertTable">
+    <value>Tabelle einfügen</value>
+  </data>
+  <data name="ASPxperienceStringId.GridViewFilterRow_InputTitle">
+    <value>Filter für die {0} Spalte</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorWrongIdPathLength">
+    <value>Die Anzahl der Verzeichnisse in RelativeName muss gleich der Länge des IdPath-Array sein.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_AscendingSortOrder" xml:space="preserve">
+    <value>Aufsteigend sortiert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_EmptyItem" xml:space="preserve">
+    <value>leer</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewHeaderLinkFormat" xml:space="preserve">
+    <value>{0} Kopfspalte.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TableItemFormat" xml:space="preserve">
+    <value>{0} {1} Spaltenwert,</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListHeaderLinkFormat" xml:space="preserve">
+    <value>Header-Zelle. {0} Spalte {1}. Art</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListNodeExpandedState" xml:space="preserve">
+    <value>Erweitert.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCollapseExpandButtonFormat" xml:space="preserve">
+    <value>{0}-Taste. Zeile {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BlankEditor" xml:space="preserve">
+    <value>leer</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CheckBoxListItemFormat" xml:space="preserve">
+    <value>{2}, {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ItemPositionFormat" xml:space="preserve">
+    <value>, {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_IFrameTitle" xml:space="preserve">
+    <value>Keine Benutzer-content</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DescendingSortOrder" xml:space="preserve">
+    <value>absteigend sortiert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_NoneSortOrder" xml:space="preserve">
+    <value>nicht sortiert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarMultiSelect" xml:space="preserve">
+    <value>ausgewählte Termine sind:</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarRangeFormat" xml:space="preserve">
+    <value>vom {0}, {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListDescriptionFormat" xml:space="preserve">
+    <value>Eine TreeList mit {0} Zeilen und {1} Spalten.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListDeselectAllCheckBox" xml:space="preserve">
+    <value>Deaktivieren Sie alle Knoten</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TitleForFakeInput" xml:space="preserve">
+    <value>Diese Eingabe zeigt ausgewählte Datei-Namen</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ComboBoxCurrentTextFormat" xml:space="preserve">
+    <value>Aktueller Text ist {2}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ComboBoxFilteringResultFormat" xml:space="preserve">
+    <value>Die Anzahl der gefundenen Elements ist {0}. Text des ausgewählten Elements ist {1}.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CalendarDescription" xml:space="preserve">
+    <value>Kalender. Verwenden Sie Pfeiltasten, um zu navigieren.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CheckBoxColumnHeader" xml:space="preserve">
+    <value>Das Kontrollkästchen Spalten</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListSelectAllCheckBox" xml:space="preserve">
+    <value>Wählen Sie alle Knoten</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewDataTableCaption" xml:space="preserve">
+    <value>Datentabelle mit Bezug auf die Header oben</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ButtonEditClearButton" xml:space="preserve">
+    <value>Klar Wert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ButtonEditEllipsisButton" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CardViewCardDescriptionFormat" xml:space="preserve">
+    <value>Karte {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuHorizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuVertical" xml:space="preserve">
+    <value>Vertikal</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Color" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Of" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Column" xml:space="preserve">
+    <value>Spalte</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchChanged" xml:space="preserve">
+    <value>wurde geändert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchEditableCellFormat" xml:space="preserve">
+    <value>{0} editierbare Zelle</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchNotEditableCellFormat" xml:space="preserve">
+    <value>{0} nicht bearbeitbare Zelle</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CardViewSelectCardStateCheckBoxFormat" xml:space="preserve">
+    <value>Auswahlstatus der Karte {0}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Checked" xml:space="preserve">
+    <value>Überprüft</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchFocusedRow" xml:space="preserve">
+    <value>Zeile fokussiert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchFocusedSelectedRow" xml:space="preserve">
+    <value>Zeile fokussiert und ausgewählt</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BatchProgressBarDescriptionFormat" xml:space="preserve">
+    <value>{0} Fortschrittsbalken</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Unchecked" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ValidationSummaryFocusedEditor" xml:space="preserve">
+    <value>und Editor ist fokussiert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_RatingControlItemLabel" xml:space="preserve">
+    <value>Element {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCheckBoxSelectionDescription" xml:space="preserve">
+    <value>Verwenden Sie Kontrollkästchen um Knoten auszuwählen.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DateEditCollapsedState" xml:space="preserve">
+    <value>Dropdown-Kalender geschlossen.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DropDownEditDropDownButton" xml:space="preserve">
+    <value>Öffnen oder schließen Sie das Drop-Down-Fenster</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorNestedControlRowPositionFormat" xml:space="preserve">
+    <value>Zeile {0} von {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorNestedControlTableValueFormat" xml:space="preserve">
+    <value>Farbe {0}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorNestedControlAutomaticColorDescription" xml:space="preserve">
+    <value>Automatische Farbe festlegen</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ColorNestedControlColumnPositionFormat" xml:space="preserve">
+    <value>Spalte {0} von {1}</value>
+  </data>
+</root>

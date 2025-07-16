@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a12a7276339d4d2e83d95cbebc9f555b" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="DataLayer.COM_ProvinceCompetenza" Width="1.5" PointX="10.5" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.COM_RuoliSoggetti" Width="1.5" PointX="10.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTrattamentoAcquaAcs" Width="1.5" PointX="17.625" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTrattamentoAcquaEstiva" Width="1.5" PointX="23.625" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTrattamentoAcquaInvernale" Width="1.5" PointX="23.625" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_CodiciCatastaliSezioni" Width="2.125" PointX="20.625" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_DestinazioneUso" Width="2" PointX="10" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_Paesi" Width="1.5" PointX="6" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_Province" Width="1.5" PointX="30.5" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_Regioni" Width="1.5" PointX="0.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_RuoloSoggetto" Width="1.5" PointX="8.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoLibrettoImpianto" Width="2" PointX="10" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaAcquaAlimento" Width="2" PointX="10" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaAddolcimentoAcqua" Width="1.5" PointX="24.5" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaCircuitoRaffreddamento" Width="2" PointX="10" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaCondizionamentoChimico" Width="1.5" PointX="12.75" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaFiltrazione" Width="1.5" PointX="26.25" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaFluidoVettore" Width="2.375" PointX="5.75" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaGeneratori" Width="2.25" PointX="17.875" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaIntervento" Width="1.5" PointX="10.5" PointY="59" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaProtezioneGelo" Width="1.5" PointX="10.5" PointY="61.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaTrattamentoAcqua" Width="1.5" PointX="12.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TitoliSoggetti" Width="1.5" PointX="6" PointY="40.125" IsExpanded="true" />
+        <AssociationConnector Association="DataLayer.FK_COM_ProvinceCompetenza_SYS_Province" ManuallyRouted="false" />
+        <AssociationConnector Association="DataLayer.FK_COM_RuoliSoggetti_SYS_RuoloSoggetto" ManuallyRouted="false" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTrattamentoAcquaAcs_SYS_TipologiaTrattamentoAcqua" ManuallyRouted="false" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTrattamentoAcquaEstiva_SYS_TipologiaTrattamentoAcqua" ManuallyRouted="false" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTrattamentoAcquaInvernale_SYS_TipologiaTrattamentoAcqua" ManuallyRouted="false" />
+        <AssociationConnector Association="DataLayer.FK_SYS_Province_SYS_Regioni" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaGruppiTermici" Width="2.25" PointX="24.25" PointY="53.875" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiBruciatori" Width="3" PointX="28.375" PointY="43.875" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiRecuperatori" Width="3" PointX="28.375" PointY="49.75" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaMacchineFrigorifere" Width="2.625" PointX="25" PointY="30.75" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiAltriGeneratori" Width="3.25" PointX="17.375" PointY="63.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiCampiSolariTermici" Width="3.25" PointX="17.375" PointY="53.5" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiAccumuli" Width="3" PointX="16.75" PointY="13.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiCircuitiInterrati" Width="3" PointX="16.75" PointY="25.25" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiPompeCircolazione" Width="3" PointX="16.75" PointY="20.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiRecuperatoriCalore" Width="3" PointX="28.375" PointY="38.25" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiScambiatoriCaloreIntermedi" Width="3.375" PointX="16.75" PointY="98.375" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiSistemiRegolazione" Width="3" PointX="16.75" PointY="7.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiUnitaTrattamentoAria" Width="3" PointX="16.75" PointY="87.5" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiValvoleRegolazione" Width="3" PointX="16.75" PointY="93.25" />
+        <EntityTypeShape EntityType="DataLayer.SYS_ModalitaInstallazioneRecuperatoriCalore" Width="3.125" PointX="33" PointY="38.875" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiRecuperatoriCalore_SYS_ModalitaInstallazioneRecuperatoriCalore" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTipologiaSistemiEmissione" Width="1.5" PointX="21.75" PointY="53.25" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaSistemiEmissione" Width="2.25" PointX="20.5" PointY="4.375" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaSistemiEmissione_SYS_TipologiaSistemiEmissione" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaSistemaContabilizzazione" Width="2.375" PointX="9.75" PointY="37.375" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaTermostatoZona" Width="1.5" PointX="12.25" PointY="17.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiDescrizioniSistemi" Width="3" PointX="16.75" PointY="1.875" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiVasiEspansione" Width="3" PointX="17.125" PointY="103.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_UserAccess" Width="1.5" PointX="3" PointY="1.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_UserRole" Width="1.5" PointX="0.75" PointY="5.875" />
+        <EntityTypeShape EntityType="DataLayer.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" />
+        <AssociationConnector Association="DataLayer.FK_SYS_UserAccess_SYS_UserRole" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaFluidoTermoVettore" Width="1.5" PointX="5.375" PointY="3.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_AbilitazioneSoggetto" Width="1.5" PointX="29.125" PointY="22.875" />
+        <EntityTypeShape EntityType="DataLayer.COM_ClassificazioniImpianto" Width="1.5" PointX="31.375" PointY="27.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_ClassificazioneImpianto" Width="1.5" PointX="29.125" PointY="19.875" />
+        <AssociationConnector Association="DataLayer.FK_COM_ClassificazioniImpianto_SYS_ClassificazioneImpianto" />
+        <EntityTypeShape EntityType="DataLayer.COM_AbilitazioniSoggetto" Width="1.5" PointX="31.375" PointY="31.25" />
+        <AssociationConnector Association="DataLayer.FK_COM_AbilitazioniSoggetto_SYS_AbilitazioneSoggetto" />
+        <EntityTypeShape EntityType="DataLayer.MNU_Menu" Width="1.5" PointX="5.375" PointY="7" />
+        <EntityTypeShape EntityType="DataLayer.V_MNU_Menu" Width="1.5" PointX="7.375" PointY="6.75" />
+        <AssociationConnector Association="DataLayer.FK_MNU_Menu_MNU_Menu" />
+        <AssociationConnector Association="DataLayer.FK_SYS_UserAccess_MNU_Menu" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiDatiCatastali" Width="1.5" PointX="32.5" PointY="46.625" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiDatiCatastali_SYS_CodiciCatastaliSezioni" />
+        <EntityTypeShape EntityType="DataLayer.SYS_FluidoLatoUtenze" Width="1.5" PointX="33.125" PointY="51.75" />
+        <EntityTypeShape EntityType="DataLayer.SYS_SorgenteLatoEsterno" Width="1.5" PointX="33.125" PointY="43.25" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_LibrettiImpiantiDatiCatastali" Width="1.5" PointX="9.375" PointY="6.75" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiAddolcimentoAcqua" Width="1.5" PointX="40.375" PointY="46.375" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiCondizionamentoChimico" Width="1.5" PointX="40.375" PointY="43" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTipologiaFiltrazioni" Width="1.5" PointX="43.375" PointY="42.375" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiAddolcimentoAcqua_SYS_TipologiaAddolcimentoAcqua" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCondizionamentoChimico_SYS_TipologiaCondizionamentoChimico" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaFiltrazioni_SYS_TipologiaFiltrazione" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTipologiaGeneratori" Width="1.5" PointX="23.375" PointY="33.75" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaGeneratori_SYS_TipologiaGeneratori" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTipologiaFluidoVettore" Width="1.5" PointX="26.375" PointY="33.375" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaFluidoVettore_SYS_TipologiaFluidoVettore" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaCogeneratore" Width="1.5" PointX="32.125" PointY="16.5" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaCombustibile" Width="1.5" PointX="18.5" PointY="38.375" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTipologiaSistemaDistribuzione" Width="1.5" PointX="27.375" PointY="27.125" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaSistemaDistribuzione" Width="1.5" PointX="25.125" PointY="9.375" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaSistemaDistribuzione_SYS_TipologiaSistemaDistribuzione" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiRaffreddatoriLiquido" Width="1.5" PointX="36.625" PointY="23.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiTorriEvaporative" Width="1.5" PointX="36.625" PointY="17.125" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaVentilatori" Width="1.5" PointX="27.375" PointY="5.75" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiRaffreddatoriLiquido_SYS_TipologiaVentilatori" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTorriEvaporative_SYS_TipologiaVentilatori" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiImpiantiVMC" Width="1.5" PointX="34.375" PointY="29.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaImpiantiVMC" Width="1.5" PointX="32.125" PointY="34.375" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiImpiantiVMC_SYS_TipologieImpiantiVMC" />
+        <EntityTypeShape EntityType="DataLayer.COM_MovimentoBonifico" Width="1.5" PointX="25.125" PointY="3.625" />
+        <EntityTypeShape EntityType="DataLayer.COM_MovimentoCassa" Width="1.5" PointX="25.125" PointY="1.125" />
+        <EntityTypeShape EntityType="DataLayer.COM_PayerFlussoRiversamento" Width="1.5" PointX="11.25" PointY="22.125" />
+        <EntityTypeShape EntityType="DataLayer.COM_PayerPaymentRequest" Width="1.5" PointX="13.5" PointY="33.25" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_PayerPaymentRequest_dbo_COM_PayerFlussoRendicontazione_IdFlussoRendicontazione" />
+        <EntityTypeShape EntityType="DataLayer.COM_PayerPaymentData" Width="1.5" PointX="15.75" PointY="38" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_PayerPaymentData_dbo_COM_PayerPaymentRequest_IdPaymentRequest" />
+        <EntityTypeShape EntityType="DataLayer.SYS_UnitaMisura" Width="1.5" PointX="30.375" PointY="6" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiConsumoCombustibile" Width="1.5" PointX="42.625" PointY="21.875" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoCombustibile_SYS_TipologiaCombustibile" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoCombustibile_SYS_UnitaMisura" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiConsumoAcqua" Width="1.5" PointX="40.625" PointY="28.25" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiConsumoEnergiaElettrica" Width="1.5" PointX="23.375" PointY="60.25" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoAcqua_SYS_UnitaMisura" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiConsumoProdottiChimici" Width="1.5" PointX="39.625" PointY="23.125" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoProdottiChimici_SYS_UnitaMisura" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipoSoggetto" Width="1.5" PointX="13.375" PointY="5.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaResponsabile" Width="1.5" PointX="13.375" PointY="9.875" />
+        <EntityTypeShape EntityType="DataLayer.LogData" Width="1.5" PointX="0.75" PointY="14.75" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoBaseTrattamentoAcs" Width="1.5" PointX="53" PointY="25.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaRapportoDiControllo" Width="1.5" PointX="48.5" PointY="20.875" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoTrattamentoAcs_SYS_TipologiaTrattamentoAcqua" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoRapportoDiControllo" Width="1.5" PointX="3.375" PointY="19.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaControllo" Width="1.5" PointX="5.375" PointY="19.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_RCTTipologiaCheckList" Width="1.5" PointX="55.25" PointY="28.375" />
+        <AssociationConnector Association="DataLayer.FK_SYS_RCTTipologiaCheckList_SYS_TipologiaRapportoDiControllo" />
+        <EntityTypeShape EntityType="DataLayer.SYS_RCTCheckList" Width="1.5" PointX="13.375" PointY="19.875" />
+        <AssociationConnector Association="DataLayer.FK_SYS_RCTTipologiaCheckList_SYS_RCTCheckList" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoBaseTrattamentoInvernale" Width="1.5" PointX="56" PointY="25" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoTrattamentoInvernale_SYS_TipologiaTrattamentoAcqua" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaGeneratoriTermici" Width="1.5" PointX="20.375" PointY="0.875" />
+        <EntityTypeShape EntityType="DataLayer.V_SYS_CheckList" Width="1.5" PointX="22.375" PointY="1.25" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoGF" Width="1.5" PointX="56.375" PointY="31.25" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoGT" Width="1.5" PointX="53.375" PointY="29.25" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGF_dbo_SYS_TipologiaMacchineFrigorifere_IDTipologiemacchineFrigorifere" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGT_dbo_SYS_TipologiaGeneratoriTermici_IdTipologiaGeneratoriTermici" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGT_dbo_SYS_TipologiaGruppiTermici_IdTipologiaGruppiTermici" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoBaseCheckList" Width="1.5" PointX="57.125" PointY="20.625" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBaseCheckList_SYS_RCTCheckList" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="DataLayer.V_SYS_ProvinceRegioni" Width="1.5" PointX="13.375" PointY="22.75" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipoSistema" Width="1.5" PointX="12.375" PointY="12.875" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiDescrizioniSistemi_SYS_TipoSistema" />
+        <EntityTypeShape EntityType="DataLayer.COM_MovimentoStorno" Width="1.5" PointX="46.25" PointY="21.125" />
+        <EntityTypeShape EntityType="DataLayer.COM_RigaPortafoglio" Width="1.5" PointX="48.5" PointY="31.125" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_RigaPortafoglio_dbo_COM_MovimentoBonifico_IdMovimentoBonifico" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_RigaPortafoglio_dbo_COM_MovimentoCassa_IdMovimentoCassa" />
+        <AssociationConnector Association="DataLayer.FK_COM_RigaPortafoglio_COM_MovimentoStorno" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_RigaPortafoglio_dbo_COM_PayerPaymentRequest_IdPaymentRequest" />
+        <EntityTypeShape EntityType="DataLayer.RCT_LottiBolliniCalorePulito" Width="1.5" PointX="35.625" PointY="8.5" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_RigaPortafoglio_dbo_RCT_LottiBolliniCalorePulito_IdLottoBollinicalorePulito" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoSC" Width="1.5" PointX="59.375" PointY="31.375" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoSC_dbo_SYS_TipologiaFluidoTermoVettore_IDTipologiaFluidoTermoVettoreEntrata" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoSC_dbo_SYS_TipologiaFluidoTermoVettore_IDTipologiaFluidoTermoVettoreUscita" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoCG" Width="1.5" PointX="55.125" PointY="14.75" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoCG_dbo_SYS_TipologiaFluidoTermoVettore_IDTipologiaFluidoTermoVettore" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoCG_SYS_TipologiaCogeneratore" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaContabilizzazione" Width="1.5" PointX="48.875" PointY="37.5" />
+        <EntityTypeShape EntityType="DataLayer.COM_AnagraficaSoggettiFirmaDigitale" Width="1.5" PointX="26.875" PointY="21" />
+        <EntityTypeShape EntityType="DataLayer.RCT_FirmaDigitale" Width="1.5" PointX="53.375" PointY="38.75" />
+        <EntityTypeShape EntityType="DataLayer.COM_Utenti" Width="1.5" PointX="26.875" PointY="15.125" />
+        <AssociationConnector Association="DataLayer.FK_COM_Utenti_SYS_UserRole" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaQualificaIspettore" Width="1.5" PointX="10.375" PointY="0.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaTitoloStudio" Width="1.5" PointX="30.375" PointY="8.5" />
+        <EntityTypeShape EntityType="DataLayer.SYS_CodiciCatastali" Width="1.5" PointX="5.25" PointY="27.25" />
+        <AssociationConnector Association="DataLayer.FK_SYS_CodiciCatastali_SYS_Province" />
+        <AssociationConnector Association="DataLayer.FK_SYS_CodiciCatastaliSezioni_SYS_CodiciCatastali" />
+        <EntityTypeShape EntityType="DataLayer.SYS_RCTTipologiaPrescrizione" Width="1.5" PointX="54.125" PointY="52.25" />
+        <EntityTypeShape EntityType="DataLayer.SYS_RCTTipologiaRaccomandazione" Width="1.5" PointX="54.125" PointY="44.375" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaRaccomandazionePrescrizioneRct" Width="1.5" PointX="51.875" PointY="52.25" />
+        <AssociationConnector Association="DataLayer.FK_SYS_RCTTipologiaPrescrizione_SYS_TipologiaRaccomandazionePrescrizioneRct" />
+        <AssociationConnector Association="DataLayer.FK_SYS_RCTTipologiaRaccomandazione_SYS_TipologiaRaccomandazionePrescrizioneRct" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RaccomandazioniPrescrizioni" Width="1.5" PointX="64.625" PointY="37.875" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RaccomandazioniPrescrizioni_SYS_RCTTipologiaPrescrizione" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RaccomandazioniPrescrizioni_SYS_RCTTipologiaRaccomandazione" />
+        <EntityTypeShape EntityType="DataLayer.LIM_TargatureImpianti" Width="1.5" PointX="44.875" PointY="54.5" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoAccertamento" Width="1.5" PointX="62.375" PointY="20.75" />
+        <EntityTypeShape EntityType="DataLayer.COM_AnagraficaSoggettiAlbo" Width="1.5" PointX="44.875" PointY="45.75" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAlbo_SYS_Province" />
+        <EntityTypeShape EntityType="DataLayer.V_RCT_RapportiControlloTecnico" Width="1.5" PointX="0.75" PointY="35" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoNote" Width="1.5" PointX="66.875" PointY="26.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNote_COM_Utenti" />
+        <EntityTypeShape EntityType="DataLayer.COM_TipiDistributoriCombustibile" Width="1.5" PointX="44.875" PointY="63.25" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaDistributoriCombustibile" Width="1.5" PointX="42.625" PointY="70.375" />
+        <AssociationConnector Association="DataLayer.FK_COM_TipiDistributoriCombustibile_SYS_TipologiaDistributoriCombustibile" />
+        <EntityTypeShape EntityType="DataLayer.UTE_Comunicazioni" Width="1.5" PointX="44.875" PointY="78" />
+        <EntityTypeShape EntityType="DataLayer.UTE_DatiCatastali" Width="1.5" PointX="49.375" PointY="78.125" />
+        <EntityTypeShape EntityType="DataLayer.UTE_DatiFornituraCliente" Width="1.5" PointX="47.125" PointY="76.5" />
+        <AssociationConnector Association="DataLayer.FK_dbo_UTE_DatiFornituraCliente_dbo_UTE_Comunicazioni_IdComunicazione" />
+        <AssociationConnector Association="DataLayer.FK_dbo_UTE_DatiCatastali_dbo_UTE_DatiFornituraCliente_IdDatiFornituraCliente" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_VerifichePeriodicheCG" Width="1.5" PointX="9.375" PointY="11.75" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_VerifichePeriodicheGF" Width="1.5" PointX="3.375" PointY="11.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_VerifichePeriodicheGT" Width="1.5" PointX="29.375" PointY="10.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_VerifichePeriodicheSC" Width="1.5" PointX="5.375" PointY="12.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaOrdineCollegio" Width="1.5" PointX="45.375" PointY="59.625" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiCogeneratori" Width="1.5" PointX="64.75" PointY="42" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiMacchineFrigorifere" Width="1.5" PointX="61.75" PointY="48.5" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiScambiatoriCalore" Width="1.5" PointX="61.75" PointY="68" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoCG_dbo_LIM_LibrettiImpiantiCogeneratori_IdLIM_LibrettiImpiantiCogeneratori" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCogeneratori_SYS_TipologiaCogeneratore" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCogeneratori_SYS_TipologiaCombustibile" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGF_dbo_LIM_LibrettiImpiantiMacchineFrigorifere_IdLIM_LibrettiImpiantiMacchineFrigorifere" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiMacchineFrigorifere_SYS_FluidoLatoUtenze" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiMacchineFrigorifere_SYS_SorgenteLatoEsterno" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiMacchineFrigorifere_SYS_TipologiaMacchineFrigorifere" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoSC_dbo_LIM_LibrettiImpiantiScambiatoriCalore_IdLIM_LibrettiImpiantiScambaitoriCalore" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiGruppiTermici" Width="1.5" PointX="67.75" PointY="32.375" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiBruciatori_LIM_LibrettiImpiantiGruppiTermici" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGT_dbo_LIM_LibrettiImpiantiGruppiTermici_IDLIM_LibrettiImpiantiGruppitermici" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiGruppiTermici_SYS_TipologiaCombustibile" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiGruppiTermici_SYS_TipologiaFluidoTermoVettore" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiGruppiTermici_SYS_TipologiaGruppiTermici" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiRecuperatori_LIM_LibrettiImpiantiGruppiTermici" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaImpiantoFunzionanteAccertamento" Width="1.5" PointX="62.375" PointY="10.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaRisoluzioneAccertamento" Width="1.5" PointX="62.375" PointY="14.375" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaEventoAccertamento" Width="1.5" PointX="7.375" PointY="26.875" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaDistributori" Width="1.5" PointX="62.375" PointY="57.375" />
+        <AssociationConnector Association="DataLayer.FK_SYS_TipologiaDistributori_SYS_CodiciCatastali" />
+        <EntityTypeShape EntityType="DataLayer.COM_Portafoglio" Width="1.5" PointX="49.875" PointY="48.75" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_RigaPortafoglio_dbo_COM_Portafoglio_IdPortafoglio" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaInterventoAccertamento" Width="1.5" PointX="67.625" PointY="49.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoFirmaDigitale" Width="1.5" PointX="69.875" PointY="48.125" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoAccertamentoIntervento" Width="1.5" PointX="23.375" PointY="18.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoNonConformita" Width="1.5" PointX="73.875" PointY="26.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_COM_Utenti" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_SYS_TipologiaEventoAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_SYS_TipologiaImpiantoFunzionanteAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_SYS_TipologiaInterventoAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_SYS_TipologiaRisoluzioneAccertamento" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoStato" Width="1.5" PointX="76.875" PointY="28.75" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_AccertamentiStato" Width="1.5" PointX="12.375" PointY="0.75" FillColor="Red" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNote_COM_UtentiCoordinatore" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoStato_COM_UtentiAccertatore" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoIspezione" Width="1.5" PointX="72.875" PointY="35.25" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoPianificazioneIspettore" Width="1.5" PointX="75.125" PointY="42.25" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoContratto" Width="1.5" PointX="50.625" PointY="46.125" />
+        <EntityTypeShape EntityType="DataLayer.COM_ContrattoIspettore" Width="1.5" PointX="52.875" PointY="48.5" />
+        <AssociationConnector Association="DataLayer.FK_COM_ContrattoIspettore_SYS_StatoContratto" />
+        <EntityTypeShape EntityType="DataLayer.V_COM_ContrattoIspettore" Width="1.5" PointX="16.375" PointY="30.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipologiaIspezioneRapportoCheckList" Width="1.5" PointX="80.375" PointY="63.5" />
+        <EntityTypeShape EntityType="DataLayer.SYS_CausaliRaccomandate" Width="1.5" PointX="74.625" PointY="38.25" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoDocumento" Width="1.5" PointX="76.875" PointY="33" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoDocumento_SYS_CausaliRaccomandate" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_TargatureImpianti" Width="1.5" PointX="0.75" PointY="18.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.SYS_QuestionarioDomande" Width="1.5" PointX="40.375" PointY="37.75" />
+        <EntityTypeShape EntityType="DataLayer.SYS_QuestionarioRisposte" Width="1.5" PointX="42.625" PointY="37.5" />
+        <EntityTypeShape EntityType="DataLayer.SYS_QuestionarioTipoRisposte" Width="1.5" PointX="40.375" PointY="34.75" />
+        <AssociationConnector Association="DataLayer.FK_SYS_QuestionarioRisposte_SYS_QuestionarioDomande" />
+        <AssociationConnector Association="DataLayer.FK_SYS_QuestionarioRisposte_SYS_QuestionarioTipoRisposte" />
+        <EntityTypeShape EntityType="DataLayer.COM_Questionari" Width="1.5" PointX="64.375" PointY="34" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoQuestionario" Width="1.5" PointX="62.125" PointY="17.375" />
+        <AssociationConnector Association="DataLayer.FK_COM_Questionari_SYS_StatoQuestionario" />
+        <EntityTypeShape EntityType="DataLayer.COM_QuestionariDomande" Width="1.5" PointX="66.625" PointY="23.25" />
+        <EntityTypeShape EntityType="DataLayer.COM_QuestionariRisposte" Width="1.5" PointX="69.875" PointY="28.75" />
+        <AssociationConnector Association="DataLayer.FK_COM_QuestionariDomande_COM_Questionari" />
+        <AssociationConnector Association="DataLayer.FK_COM_QuestionariRisposte_COM_QuestionariDomande" />
+        <AssociationConnector Association="DataLayer.FK_COM_QuestionariRisposte_SYS_QuestionarioTipoRisposte" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_LibrettiImpianti" Width="1.5" PointX="53.25" PointY="0.875" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipoIspezione" Width="1.5" PointX="70.625" PointY="52.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_ProgrammaIspezione" Width="1.5" PointX="70.625" PointY="55.625" />
+        <EntityTypeShape EntityType="DataLayer.V_COM_Questionari" Width="1.5" PointX="33.375" PointY="19.75" />
+        <EntityTypeShape EntityType="DataLayer.V_SYS_CodiciCatastali" Width="1.5" PointX="20.375" PointY="14.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.SYS_FormeGiuridiche" Width="1.5" PointX="15.625" PointY="73.25" />
+        <AssociationConnector Association="DataLayer.FK_SYS_FormeGiuridiche_SYS_TipoSoggetto" />
+        <EntityTypeShape EntityType="DataLayer.SYS_FunzioniSoggetti" Width="1.5" PointX="15.625" PointY="76.375" />
+        <AssociationConnector Association="DataLayer.FK_SYS_FunzioniSoggetti_SYS_TipoSoggetto" />
+        <EntityTypeShape EntityType="DataLayer.COM_CodiciCatastaliCompetenza" Width="1.5" PointX="49.875" PointY="42.5" />
+        <AssociationConnector Association="DataLayer.FK_COM_CodiciCatastaliCompetenza_SYS_CodiciCatastali" />
+        <EntityTypeShape EntityType="DataLayer.COM_Reports" Width="1.5" PointX="0.75" PointY="3.125" />
+        <EntityTypeShape EntityType="DataLayer.COM_ReportsAccess" Width="1.5" PointX="3" PointY="6.125" />
+        <AssociationConnector Association="DataLayer.FK_COM_ReportsAccess_COM_Reports" />
+        <AssociationConnector Association="DataLayer.FK_COM_ReportsAccess_SYS_UserRole" />
+        <EntityTypeShape EntityType="DataLayer.V_RCT_RapportoDiControlloTecnicoCG" Width="1.5" PointX="37.75" PointY="28.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.V_RCT_RapportoDiControlloTecnicoGF" Width="1.5" PointX="13.75" PointY="42.75" />
+        <EntityTypeShape EntityType="DataLayer.V_RCT_RapportoDiControlloTecnicoGT" Width="1.5" PointX="0.75" PointY="45.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.V_RCT_RapportoDiControlloTecnicoSC" Width="1.5" PointX="2.75" PointY="45.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.RCT_RapportoDiControlloTecnicoBase" Width="1.5" PointX="62.125" PointY="23.75" />
+        <AssociationConnector Association="DataLayer.FK_COM_Questionari_RCT_RapportoDiControlloTecnicoBase" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_LIM_TargatureImpianti" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_FirmaDigitale_dbo_RCT_RapportoDiControlloTecnicoBase_IDRapporto" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RaccomandazioniPrescrizioni_RCT_RapportoDiControlloTecnicoBase" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoBase_dbo_SYS_CodiciCatastali_ComuneId" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoBase_dbo_SYS_TipologiaCombustibile_IdTipologiaCombustibile" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoBase_dbo_SYS_TipologiaFluidoTermoVettore_IdTipologiaFluidoVettoreTermico" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoBase_dbo_SYS_TipologiaResponsabile_IDTipologiaResponsabile" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoCG_dbo_RCT_RapportoDiControlloTecnicoBase_Id" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGF_dbo_RCT_RapportoDiControlloTecnicoBase_Id" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoGT_dbo_RCT_RapportoDiControlloTecnicoBase_Id" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoSC_dbo_RCT_RapportoDiControlloTecnicoBase_Id" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_SYS_StatoRapportoDiControllo" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_SYS_TipologiaContabilizzazione" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_SYS_TipologiaControllo" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_SYS_TipologiaRapportoDiControllo" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_SYS_TipologiaSistemaDistribuzione" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_SYS_TipoSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBaseCheckList_RCT_RapportoDiControlloTecnicoBase" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoTrattamentoAcs_RCT_RapportoDiControlloTecnicoBase" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoTrattamentoInvernale_RCT_RapportoDiControlloTecnicoBase" />
+        <EntityTypeShape EntityType="DataLayer.COM_AnagraficaSoggettiAccreditamento" Width="1.5" PointX="64.875" PointY="56.75" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoAccreditamento" Width="1.5" PointX="15.625" PointY="69.125" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAccreditamento_SYS_StatoAccreditamento" />
+        <AssociationConnector Association="DataLayer.FK_SYS_StatoAccreditamento_SYS_TipoSoggetto" />
+        <EntityTypeShape EntityType="DataLayer.COM_AnagraficaSoggettiAccreditamentoStato" Width="1.5" PointX="67.125" PointY="41.625" />
+        <EntityTypeShape EntityType="DataLayer.V_COM_AnagraficaSoggettiAccreditamentoStato" Width="1.5" PointX="3.375" PointY="22.75" FillColor="Red" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAccreditamentoStato_COM_AnagraficaSoggettiAccreditamento" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAccreditamentoStato_COM_Utenti" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAccreditamentoStato_SYS_StatoAccreditamento" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneVisita" Width="1.5" PointX="72.875" PointY="55.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneVisita_VER_ProgrammaIspezione" />
+        <EntityTypeShape EntityType="DataLayer.SYS_Orario" Width="1.5" PointX="72.875" PointY="43.625" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneStato" Width="1.5" PointX="79.375" PointY="33.25" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_IspezioniStato" Width="1.5" PointX="5.375" PointY="22.75" FillColor="Red" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneStato_COM_Utenti" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneStato_SYS_Orario" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneStato_SYS_Orario1" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneStato_SYS_StatoIspezione" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneRapportoCheckList" Width="1.5" PointX="88.875" PointY="69.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneRapportoStrumenti" Width="1.5" PointX="85.875" PointY="74.25" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneRapportoTrattamentoAcs" Width="1.5" PointX="85.875" PointY="77.625" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneRapportoTrattamentoInvernale" Width="1.5" PointX="85.875" PointY="68.875" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRapportoCheckList_SYS_TipologiaInterventiMigliorativi" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneRaccomandazioniPrescrizioni" Width="1.5" PointX="77.375" PointY="55.125" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpiantiResponsabili" Width="1.5" PointX="67.125" PointY="53" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiResponsabili_SYS_Province" />
+        <EntityTypeShape EntityType="DataLayer.COM_AnagraficaSoggetti" Width="1.5" PointX="56.625" PointY="39.375" />
+        <EntityTypeShape EntityType="DataLayer.V_COM_AnagraficaSoggetti" Width="1.5" PointX="32.375" PointY="54.75" />
+        <AssociationConnector Association="DataLayer.FK_COM_AbilitazioniSoggetto_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_FormeGiuridiche" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_FunzioniSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Paesi" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Paesi_IDPaeseNascita" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Paesi1" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Paesi2" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Province" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Province1" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Province2" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Province3" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_Province4" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_TipologiaOrdineCollegio" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_TipologiaQualificaIspettore" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_TipologiaTitoloStudio" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_TipoSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggetti_SYS_TitoliSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAccreditamento_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiAlbo_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiFirmaDigitale_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_ClassificazioniImpianto_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_CodiciCatastaliCompetenza_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_ContrattoIspettore_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_ProvinceCompetenza_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_RuoliSoggetti_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_TipiDistributoriCombustibile_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_COM_Utenti_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_PayerPaymentRequest_dbo_COM_AnagraficaSoggetti_IdSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_Portafoglio_dbo_COM_AnagraficaSoggetti_IdSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_dbo_LIM_LibrettiImpiantiResponsabili_dbo_COM_AnagraficaSoggetti_IDSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_LottiBolliniCalorePulito_dbo_COM_AnagraficaSoggetti_IDSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_LIM_TargatureImpianti_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_RCT_RapportoDiControlloTecnicoBase_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_UTE_Comunicazioni_COM_AnagraficaSoggetti" />
+        <EntityTypeShape EntityType="DataLayer.COM_AnagraficaSoggettiPrivacyCount" Width="1.5" PointX="58.875" PointY="69.875" />
+        <AssociationConnector Association="DataLayer.FK_COM_AnagraficaSoggettiPrivacyCount_COM_AnagraficaSoggetti" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_AccertamentiProgramma" Width="1.5" PointX="34.375" PointY="54.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoProgramma" Width="1.5" PointX="84.625" PointY="26.125" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoVisita" Width="1.5" PointX="35.125" PointY="12.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_AccertamentoVisitaInfo" Width="1.5" PointX="86.875" PointY="25.125" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoProgramma_COM_Utenti" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoVisita_COM_Utenti" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoVisitaInfo_VER_AccertamentoProgramma" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoVisitaInfo_VER_AccertamentoVisita" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_AccertamentoVisita" Width="3" PointX="47.75" PointY="0.875" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.VER_ProgrammaAccertamento" Width="1.5" PointX="11.625" PointY="69.375" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoProgramma_VER_ProgrammaAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoVisita_VER_ProgrammaAccertamento" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipoAccertamento" Width="1.5" PointX="7.375" PointY="44.75" />
+        <AssociationConnector Association="DataLayer.FK_VER_ProgrammaAccertamento_SYS_TipoAccertamento" />
+        <EntityTypeShape EntityType="DataLayer.SYS_ProceduraAccertamento" Width="1.5" PointX="9.625" PointY="51.625" />
+        <AssociationConnector Association="DataLayer.FK_SYS_ProceduraAccertamento_SYS_TipoAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoDocumento_SYS_ProceduraAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_SYS_ProceduraAccertamento" />
+        <EntityTypeShape EntityType="DataLayer.V_COM_Utenti" Width="1.5" PointX="20.375" PointY="7.75" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_AccertamentoDocumento" Width="1.5" PointX="22.375" PointY="7.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.SYS_StatoAccertamentoSanzione" Width="1.5" PointX="85.375" PointY="42.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_RegoleControlli" Width="1.5" PointX="73" PointY="48.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_RegoleControlli_LIM_LibrettiImpiantiGruppiTermici" />
+        <AssociationConnector Association="DataLayer.FK_VER_RegoleControlli_LIM_TargatureImpianti" />
+        <AssociationConnector Association="DataLayer.FK_VER_RegoleControlli_SYS_TipologiaCombustibile" />
+        <AssociationConnector Association="DataLayer.FK_VER_RegoleControlli_SYS_TipologiaGruppiTermici" />
+        <EntityTypeShape EntityType="DataLayer.VER_ProgrammaIspezioneInfo" Width="1.5" PointX="89.875" PointY="50.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_ProgrammaIspezioneInfo_SYS_TipoIspezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_ProgrammaIspezioneInfo_VER_ProgrammaIspezione" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneVisitaInfo" Width="1.5" PointX="75.125" PointY="53.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneVisitaInfo_SYS_TipoIspezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneVisitaInfo_VER_IspezioneVisita" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_IspezioniVisite" Width="1.5" PointX="20.375" PointY="18.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.LIM_LibrettiImpianti" Width="1.5" PointX="58.875" PointY="37.125" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_COM_AnagraficaSoggetti1" />
+        <AssociationConnector Association="DataLayer.FK_dbo_COM_RigaPortafoglio_dbo_LIM_LibrettiImpianti_IDLibrettoImpianto" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_RapportoDiControlloTecnicoBase_dbo_LIM_LibrettiImpianti_IDLibrettoImpianto" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_LIM_TargatureImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_CodiciCatastali" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_CodiciCatastali1" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_DestinazioneUso" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_StatoLibrettoImpianto" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaAcquaAlimento" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaCircuitoRaffreddamento" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaIntervento" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaProtezioneGelo" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaResponsabile" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaSistemaContabilizzazione" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipologiaTermostatoZona" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpianti_SYS_TipoSoggetto" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiAccumuli_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiAddolcimentoAcqua_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiAltriGeneratori_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCampiSolariTermici_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCircuitiInterrati_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCogeneratori_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiCondizionamentoChimico_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoAcqua_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoCombustibile_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoEnergiaElettrica_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiConsumoProdottiChimici_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiDatiCatastali_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiDescrizioniSistemi_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiGruppiTermici_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiImpiantiVMC_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiMacchineFrigorifere_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiPompeCircolazione_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiRaffreddatoriLiquido_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiRecuperatoriCalore_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiResponsabili_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiScambiatoriCalore_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiScambiatoriCaloreIntermedi_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiSistemiRegolazione_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaFiltrazioni_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaFluidoVettore_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaGeneratori_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaSistemaDistribuzione_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTipologiaSistemiEmissione_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTorriEvaporative_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTrattamentoAcquaAcs_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTrattamentoAcquaEstiva_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiTrattamentoAcquaInvernale_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiUnitaTrattamentoAria_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiValvoleRegolazione_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_LIM_LibrettiImpiantiVasiEspansione_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_VER_ProgrammaIspezioneInfo_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_VER_RegoleControlli_LIM_LibrettiImpianti" />
+        <EntityTypeShape EntityType="DataLayer.COM_RaccomandateDestinatari" Width="1.5" PointX="22.375" PointY="21.75" />
+        <EntityTypeShape EntityType="DataLayer.COM_RaccomandateSteps" Width="1.5" PointX="94.625" PointY="27.5" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipoRaccomandata" Width="1.5" PointX="9.375" PointY="3.875" />
+        <EntityTypeShape EntityType="DataLayer.V_LIM_LibrettiImpiantiTerziResponsabili" Width="1.5" PointX="41.375" PointY="0.75" FillColor="0, 192, 0" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_ProgrammaIspezioneGeneratori" Width="1.5" PointX="37.125" PointY="0.625" FillColor="Lime" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneGruppoVerifica" Width="1.5" PointX="77.375" PointY="49.5" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneGruppoVerifica_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneGruppoVerifica_SYS_StatoPianificazioneIspettore" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneGruppoVerifica_VER_IspezioneVisita" />
+        <EntityTypeShape EntityType="DataLayer.SYS_TipoDocumentoIspezione" Width="1.5" PointX="84.875" PointY="49.75" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneDocumento" Width="1.5" PointX="82.5" PointY="48.125" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneDocumento_SYS_TipoDocumentoIspezione" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_IspezioneDocumento" Width="1.5" PointX="22.375" PointY="13.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneRapporto" Width="1.5" PointX="82.625" PointY="0.75" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRapportoCheckList_VER_IspezioneRapporto" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRapportoStrumenti_VER_IspezioneRapporto" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRapportoTrattamentoAcs_VER_IspezioneRapporto" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRapportoTrattamentoInvernale_VER_IspezioneRapporto" />
+        <EntityTypeShape EntityType="DataLayer.V_RCT_BollinoCalorePulito" Width="1.5" PointX="0.75" PointY="28.75" FillColor="Red" />
+        <EntityTypeShape EntityType="DataLayer.RCT_BollinoCalorePulito" Width="1.5" PointX="64.375" PointY="25.625" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_BollinoCalorePulito_dbo_RCT_LottiBolliniCalorePulito_IdLottoBolliniCalorePulito" />
+        <AssociationConnector Association="DataLayer.FK_dbo_RCT_BollinoCalorePulito_dbo_RCT_RapportoDiControlloTecnicoBase_IdrapportoDiControlloTecnico" />
+        <EntityTypeShape EntityType="DataLayer.SYS_FasceContributive" Width="1.5" PointX="50.75" PointY="20.75" FillColor="255, 128, 0" />
+        <AssociationConnector Association="DataLayer.FK_SYS_FasceContributive_SYS_TipologiaRapportoDiControllo" />
+        <EntityTypeShape EntityType="DataLayer.RCT_BollinoCalorePulitoConvertito" Width="1.5" PointX="69.625" PointY="25.875" />
+        <AssociationConnector Association="DataLayer.FK_RCT_BollinoCalorePulitoConvertito_COM_RigaPortafoglio" />
+        <AssociationConnector Association="DataLayer.FK_RCT_BollinoCalorePulitoConvertito_RCT_BollinoCalorePulito" />
+        <EntityTypeShape EntityType="DataLayer.VER_Accertamento" Width="1.5" PointX="93.375" PointY="32.25" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_Accertamenti" Width="1.5" PointX="45.375" PointY="23.75" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_dbo_VER_Accertamento_dbo_COM_Utenti_Accertatore" />
+        <AssociationConnector Association="DataLayer.FK_dbo_VER_Accertamento_dbo_COM_Utenti_Coordinatore" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_COM_Utenti" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_LIM_LibrettiImpianti" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_LIM_TargatureImpianti" />
+        <AssociationConnector Association="DataLayer.FK_dbo_VER_Accertamento_dbo_RCT_RapportoDiControlloTecnicoBase_IDRapportoDiControlloTecnicoBase" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_CodiciCatastali" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_StatoAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_StatoAccertamentoIntervento" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_StatoAccertamentoSanzione" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_TipoAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_TipologiaCombustibile" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_SYS_TipologiaDistributori" />
+        <AssociationConnector Association="DataLayer.FK_dbo_VER_AccertamentoStato_dbo_VER_Accertamento_IDAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_VER_ProgrammaAccertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoDocumento_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoFirmaDigitale_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNonConformita_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoNote_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoProgramma_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_AccertamentoVisitaInfo_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_VER_ProgrammaIspezioneInfo_VER_Accertamento" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_AccertamentiNota" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DataLayer.SYS_SvolgimentoIspezione" Width="1.5" PointX="24.375" PointY="25.875" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneNotificaRiaperturaIspezione" Width="1.5" PointX="82.375" PointY="45" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_IspezioneNotificaRiaperturaIspezione" Width="1.5" PointX="27.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DataLayer.VER_Ispezione" Width="1.5" PointX="79.375" PointY="37.625" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_COM_AnagraficaSoggetti" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_COM_AnagraficaSoggetti_1" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_COM_ContrattoIspettore" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_SYS_Orario" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_SYS_Orario1" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_SYS_Orario2" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_SYS_Orario3" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_SYS_StatoIspezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_SYS_SvolgimentoIspezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_Accertamento_VER_Ispezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_VER_IspezioneVisita" />
+        <AssociationConnector Association="DataLayer.FK_VER_Ispezione_VER_IspezioneVisitaInfo" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneDocumento_VER_Ispezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneNotificaRiaperturaIspezione_VER_Ispezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRaccomandazioniPrescrizioni_VER_Ispezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneRapporto_VER_Ispezione" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneStato_VER_Ispezione" />
+        <EntityTypeShape EntityType="DataLayer.VER_IspezioneQuestinarioQualita" Width="1.5" PointX="81.625" PointY="51.875" />
+        <AssociationConnector Association="DataLayer.FK_VER_IspezioneQuestinarioQualita_VER_Ispezione" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_IspezioneQuestinarioQualita" Width="1.5" PointX="29.375" PointY="0.75" FillColor="Lime" />
+        <EntityTypeShape EntityType="DataLayer.V_VER_Ispezioni" Width="1.5" PointX="47.375" PointY="51.75" FillColor="Lime" />
+        <EntityTypeShape EntityType="DataLayer.COM_Raccomandate" Width="1.5" PointX="97.625" PointY="24.25" />
+        <EntityTypeShape EntityType="DataLayer.V_COM_Raccomandate" Width="1.5" PointX="20.375" PointY="28.75" />
+        <AssociationConnector Association="DataLayer.FK_COM_Raccomandate_COM_Raccomandate" />
+        <AssociationConnector Association="DataLayer.FK_COM_Raccomandate_SYS_TipoRaccomandata" />
+        <AssociationConnector Association="DataLayer.FK_COM_Raccomandate_VER_Accertamento" />
+        <AssociationConnector Association="DataLayer.FK_COM_Raccomandate_VER_AccertamentoDocumento" />
+        <AssociationConnector Association="DataLayer.FK_COM_Raccomandate_VER_Ispezione" />
+        <AssociationConnector Association="DataLayer.FK_COM_RaccomandateSteps_COM_Raccomandate" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

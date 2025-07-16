@@ -1,0 +1,238 @@
+﻿        1	Afghanistan
+        2	Albania
+        3	Algeria
+        4	Andorra
+        5	Angola
+        6	Anguilla
+        7	Antigua e Barbuda
+        8	Antille Olandesi
+        9	Arabia Saudita
+        10	Argentina
+        11	Armenia
+        12	Aruba
+        13	Australia
+        14	Austria
+        15	Azerbaigian
+        16	Bahamas
+        17	Bahrein
+        18	Bangladesh
+        19	Barbados
+        20	Belgio
+        21	Belize
+        22	Benin
+        23	Bermuda
+        24	Bhutan
+        25	Bielorussia
+        26	Bolivia
+        27	Bosnia-Erzegovina
+        28	Botswana
+        29	Brasile
+        30	Brunei
+        31	Bulgaria
+        32	Burkina Faso
+        33	Burundi
+        34	Cambogia
+        35	Camerun
+        36	Canada
+        37	Capo Verde
+        38	Christmas Island
+        39	Ciad
+        40	Cile
+        41	Cina
+        42	Cipro
+        43	Città del Vaticano
+        44	Colombia
+        45	Comore
+        46	Congo, Repubblica del
+        47	Congo, Repubblica democratica del
+        48	Corea del Sud
+        49	Costa d Avorio
+        50	Costa Rica
+        51	Croazia
+        52	Danimarca
+        53	Dominica
+        54	Ecuador
+        55	Egitto
+        56	El Salvador
+        57	Emirati Arabi Uniti
+        58	Eritrea
+        59	Estonia
+        60	Etiopia
+        61	Federazione Russa
+        62	Figi
+        63	Filippine
+        64	Finlandia
+        65	Francia
+        66	Francia(Territori europei)
+        67	Gabon
+        68	Gambia
+        69	Georgia
+        70	Germania
+        71	Ghana
+        72	Giamaica
+        73	Giappone
+        74	Gibilterra
+        75	Gibuti
+        76	Giordania
+        77	Grecia
+        78	Grenada
+        79	Groenlandia
+        80	Guadalupa Francese
+        81	Guam
+        82	Guatemala
+        83	Guinea
+        84	Guinea Bissau
+        85	Guinea Equatoriale
+        86	Guyana
+        87	Guyana Francese
+        88	Haiti
+        89	Honduras
+        90	Hong Kong
+        91	India
+        92	Indonesia
+        93	Iraq
+        94	Irlanda
+        95	Islanda
+        96	Isola di Bouvet
+        97	Isola di Norfolk
+        98	Isola di Pitcairn
+        99	Isole Cayman
+        100	Isole Cocos(Keeling)
+        101	Isole Cook
+        102	Isole Faer Oer
+        103	Isole Falkland
+        104	Isole Heard e McDonald
+        105	Isole Marianne Settentrionali
+        106	Isole Marshall
+        107	Isole minori americane del Pacifico
+        108	Isole Salomone
+        109	Isole Sandwich Australi
+        110	Isole Svalbard e Jan Mayen
+        111	Isole Turks e Caicos
+        112	Isole Vergini(USA)
+        113	Isole Vergini Britanniche
+        114	Isole Wallis e Futuna
+        115	Israele
+        116	Italia
+        117	Iugoslavia
+        118	Kazakistan
+        119	Kenya
+        120	Kirghizistan
+        121	Kiribati
+        122	Kuwait
+        123	Laos
+        124	Lesotho
+        125	Lettonia
+        126	Libano
+        127	Liberia
+        128	Libia
+        129	Liechtenstein
+        130	Lituania
+        131	Lussemburgo
+        132	Macao
+        133	Macedonia
+        134	Madagascar
+        135	Malawi
+        136	Malaysia
+        137	Maldive
+        138	Mali
+        139	Malta
+        140	Marocco
+        141	Martinica Francese
+        142	Mauritania
+        143	Mauritius
+        144	Mayotte
+        145	Messico
+        146	Micronesia
+        147	Moldavia
+        148	Mongolia
+        149	Montserrat
+        150	Mozambico
+        151	Myanmar Union of(Burma)
+        152	Namibia
+        153	Nauru
+        154	Nepal
+        155	Nicaragua
+        156	Niger
+        157	Nigeria
+        158	Niue
+        159	Norvegia
+        160	Nuova Caledonia Francese
+        161	Nuova Zelanda
+        162	Oman
+        163	Paesi Bassi
+        164	Pakistan
+        165	Palau
+        166	Panama
+        167	Papua Nuova Guinea
+        168	Paraguay
+        169	Penisola Antartica
+        170	Perù
+        171	Polinesia Francese
+        172	Polonia
+        173	Portogallo
+        174	Principato di Monaco
+        175	Qatar
+        176	Regno Unito
+        177	Repubblica Ceca
+        178	Repubblica Centrafricana
+        179	Repubblica Dominicana
+        180	Riunione Francese
+        181	Romania
+        182	Ruanda
+        183	Sahara Occidentale
+        184	Saint Kitts e Nevis
+        185	Saint Lucia
+        186	Saint Pierre e Miquelon
+        187	Saint Vincent e Grenadine
+        188	Samoa
+        189	Samoa Americane
+        190	San Marino
+        191	Sant Elena
+        192	Senegal
+        193	Seychelles
+        194	Sierra Leone
+        195	Singapore
+        196	Slovacchia
+        197	Slovenia
+        198	Somalia
+        199	Spagna
+        200	Sri Lanka
+        201	Stati Uniti
+        202	Sudafrica
+        203	Suriname
+        204	Svezia
+        205	Svizzera
+        206	Swaziland
+        207	Tagikistan
+        208	Taiwan
+        209	Tanzania
+        210	Territori Britannici dell'O.I.
+        211	Territori Meridionali Francesi
+        212	Thailandia
+        213	Timor Est
+        214	Togo
+        215	Tokelau
+        216	Tonga
+        217	Trinidad e Tobago
+        218	Tunisia
+        219	Turchia
+        220	Turkmenistan
+        221	Tuvalu
+        222	Ucraina
+        223	Uganda
+        224	Ungheria
+        225	Uruguay
+        226	Uzbekistan
+        227	Vanuatu
+        228	Venezuela
+        229	Vietnam
+        230	Yemen
+        231	Zambia
+        232	Zimbabwe
+        233	Zona Neutrale
+        234	Siria
+        235	Venezuela
+        236	Congo
+        237	Svizzera
+        238	Iran

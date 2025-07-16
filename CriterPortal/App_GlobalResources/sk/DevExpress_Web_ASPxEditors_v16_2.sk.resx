@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxEditorsStringId.DefaultErrorText">
+    <value>Nesprávna hodnota</value>
+  </data>
+  <data name="ASPxEditorsStringId.RegExValidationErrorText">
+    <value>Text nezodpovedá zadanému kritériu.</value>
+  </data>
+  <data name="ASPxEditorsStringId.RequiredFieldErrorText">
+    <value>*</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Today">
+    <value>Dnes</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Clear">
+    <value>Prázdny</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_OK">
+    <value>Ok</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Cancel">
+    <value>Zrušiť</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OK">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Cancel">
+    <value>Zrušiť</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_GroupType">
+    <value>A,Alebo,Nie A,Nie Alebo</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClauseType">
+    <value>Rovná sa,Nerovná sa,Je väčší ako,Je väčší alebo rovný,Je menší ako,Je menší rovný,Je medzi,Nie je medzi,Obsahuje,Neobsahuje,Začína sa,Končí sa,Je ako,Nie je ako,Je prázdny,Nie je prázdny,Je čokoľvek z,Nie je ani jeden z,,,Is beyond this year,Is later this year,Is later this month,Is next week,Is later this week,Is tomorrow,Is today,Is yesterday,Is earlier this week,Is last week,Is earlier this month,Is earlier this year,Is prior this year</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_BetweenAnd">
+    <value>A</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddConditionHint">
+    <value>Pridaj podmienku</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_RemoveConditionHint">
+    <value>Odstráň podmienku</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddValueHint">
+    <value>Pridaj nový element do zoznamu</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClearFilter">
+    <value>Zrušiť filter</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ShowFilterControl">
+    <value>Vytvoriť filter</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddGroup">
+    <value>Pridaj skupinu</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddCondition">
+    <value>Pridaj podmienku</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Remove">
+    <value>Odstráň</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_Empty">
+    <value>&amp;lt;prázdny&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_EmptyEnter">
+    <value>&amp;lt;vlož prázdny&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_PopupHeaderText">
+    <value>Editor filtra</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Not">
+    <value>nie prázdne</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultImageAlternateText">
+    <value>CAPTCHA obrazu</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_RefreshText">
+    <value>Generovať iný kód</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultErrorText">
+    <value>Odovzdaný kód je nesprávny</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultTextBoxLabelText">
+    <value>Zadajte zobrazený kód</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Checked">
+    <value>Označené</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Unchecked">
+    <value>Neoznačené</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Undefined">
+    <value>nedefinované</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Drag" xml:space="preserve">
+    <value>Presunúť</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_CustomColor" xml:space="preserve">
+    <value>Vlastná farba...</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Decrement" xml:space="preserve">
+    <value>Úbytok</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Increment" xml:space="preserve">
+    <value>Prírastok</value>
+  </data>
+  <data name="ASPxEditorsStringId.TokenBox_TokenRemoveButtonToolTip" xml:space="preserve">
+    <value>&amp;Odstrániť</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Uploading" xml:space="preserve">
+    <value>Nahrávanie...</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Empty" xml:space="preserve">
+    <value>&amp; lt; prázdne &amp; gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_EmptyEnter" xml:space="preserve">
+    <value>&amp; lt; zadajte hodnotu &amp; gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Clear" xml:space="preserve">
+    <value>Vyčistiť</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_TextFilterTabCaption" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidDateEditMaxDate" xml:space="preserve">
+    <value>Dátum musí byť menší alebo rovný {0}</value>
+  </data>
+</root>

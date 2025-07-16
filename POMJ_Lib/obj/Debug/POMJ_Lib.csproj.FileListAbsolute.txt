@@ -1,0 +1,33 @@
+D:\Applicazioni\CriterV01\POMJ_Lib\bin\Debug\POMJ_Lib.xml
+D:\Applicazioni\CriterV01\POMJ_Lib\bin\Debug\POMJ_Lib.dll
+D:\Applicazioni\CriterV01\POMJ_Lib\bin\Debug\POMJ_Lib.pdb
+C:\Users\sandro\Documents\Visual Studio 2015\Projects\Criter\POMJ_Lib\obj\Debug\POMJ_Lib.dll
+C:\Users\sandro\Documents\Visual Studio 2015\Projects\Criter\POMJ_Lib\obj\Debug\POMJ_Lib.pdb
+C:\Users\sandro\Documents\Visual Studio 2015\Projects\Criter\CriterPortal\Bin\POMJ_Lib.dll
+C:\Users\sandro\Documents\Visual Studio 2015\Projects\Criter\CriterPortal\Bin\POMJ_Lib.pdb
+C:\Users\sandro\Documents\Visual Studio 2015\Projects\Criter\CriterPortal\Bin\POMJ_Lib.xml
+D:\Applicazioni\CriterV01\CriterPortal\Bin\POMJ_Lib.xml
+D:\Applicazioni\CriterV01\CriterPortal\Bin\POMJ_Lib.dll
+D:\Applicazioni\CriterV01\CriterPortal\Bin\POMJ_Lib.pdb
+D:\Applicazioni\CriterV01\POMJ_Lib\obj\Debug\POMJ_Lib.dll
+D:\Applicazioni\CriterV01\POMJ_Lib\obj\Debug\POMJ_Lib.pdb
+E:\Applicazioni\CriterV01\CriterPortal\Bin\POMJ_Lib.xml
+E:\Applicazioni\CriterV01\CriterPortal\Bin\POMJ_Lib.dll
+E:\Applicazioni\CriterV01\CriterPortal\Bin\POMJ_Lib.pdb
+E:\Applicazioni\CriterV01\POMJ_Lib\obj\Debug\POMJ_Lib.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\POMJ_Lib\obj\Debug\POMJ_Lib.dll
+E:\Applicazioni\CriterV01\POMJ_Lib\obj\Debug\POMJ_Lib.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\POMJ_Lib.xml
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\POMJ_Lib.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\POMJ_Lib.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.csproj.CoreCompileInputs.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.pdb
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\POMJ_Lib.xml
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\POMJ_Lib.dll
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\POMJ_Lib.pdb
+E:\Applicazioni\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.csproj.AssemblyReference.cache
+E:\Applicazioni\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.csproj.CoreCompileInputs.cache
+E:\Applicazioni\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.dll
+E:\Applicazioni\Art-ER - Criter\POMJ_Lib\obj\Debug\POMJ_Lib.pdb

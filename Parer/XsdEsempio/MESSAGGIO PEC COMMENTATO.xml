@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UnitaDocumentaria xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Intestazione>
+		<Versione>1.5</Versione>
+		<Versatore>
+			<!--Informazioni comunicate da ParER quando ci danno l'utenza di test-->
+			<!-- Mettere queste in variabili configuration -->
+			<Ambiente>xxx</Ambiente>
+			<Ente>xxx</Ente>
+			<Struttura>xxx</Struttura>
+			<UserID>xxx</UserID>
+		</Versatore>
+    <Chiave>
+      <!-- Guid univoco Criter/Sace -->
+			<Numero>xxx</Numero>
+			<Anno>xxxx</Anno>
+			<TipoRegistro>PEC</TipoRegistro>
+		</Chiave>
+		<TipologiaUnitaDocumentaria>MESSAGGIO PEC</TipologiaUnitaDocumentaria>
+	</Intestazione>
+	<Configurazione>
+				<!-- Il tag sarà valorizzato con la stringa fissa "VERSAMENTO_ANTICIPATO" che definisce il processo di conservazione relativo a singole unità documentarie che possono trovarsi ancora nella fase attiva del loro ciclo di vita  -->
+        <TipoConservazione>VERSAMENTO_ANTICIPATO</TipoConservazione>
+				<!-- Definisce il comportamento del Sistema in relazione al versamento di SIP contenenti file non firmati. Assume valori False o True. Valore di default: False. 
+				False: il Sistema accetta il versamento dell’Unità Documentaria solo se è presente almeno un file firmato. 
+				True: il Sistema accetta il versamento dell’Unità documentaria anche nel caso in cui nessuno dei file sia firmato-->
+				<ForzaConservazione>true</ForzaConservazione>    
+				<!-- Definisce il comportamento del Sistema in relazione agli esiti delle verifiche di firma e/o formato dei file contenuti nel SIP. Assume valori False o True. Valore di default: False. 
+				False: il Sistema accetta il versamento dell’Unità documentaria solo se tutti i controlli relativi alla firma e al formato hanno esito positivo. 
+				True: il Sistema accetta il versamento dell’Unità documentaria anche nel caso in cui almeno uno dei controlli relativi alla firma e al formato hanno esito negativo. -->
+				<ForzaAccettazione>true</ForzaAccettazione>
+				<!-- Definisce il comportamento del Sistema in funzione della presenza o meno nel Sistema stesso delle Unità documentarie oggetto di collegamento. Assume valori False o True. Valore di default: False. 
+				False: il Sistema accetta il versamento di Unità documentarie i cui eventuali Collegamenti siano rivolti a Unità documentarie già presenti nel Sistema. 
+				True: il Sistema accetta il versamento di Unità documentarie anche nel caso in cui gli eventuali Collegamenti siano rivolti a Unità documentaria non presenti nel Sistema. -->
+        <ForzaCollegamento>true</ForzaCollegamento>
+				<!-- Definisce il comportamento del Sistema in funzione della verifica dell’hash versato. Assume valori False o True. Valore di default: False. 
+				False: il Sistema accetta il versamento di Unità documentarie il cui hash dichiarato nell’Indice SIP corrisponde a quello calcolato dal sistema 
+				True: il Sistema accetta il versamento di Unità documentarie il cui hash dichiarato nell’Indice SIP non corrisponde a quello calcolato dal sistema -->
+			  <ForzaHash>true</ForzaHash>
+				<!-- Definisce il comportamento del Sistema in funzione del formato del numero dell’unità documentaria versata. 
+				False: il Sistema accetta il versamento di Unità documentarie il cui formato del numero è coerente alla configurazione definita 
+				True: il Sistema accetta il versamento di Unità documentarie il cui formato del numero non è coerente alla configurazione definite -->
+			  <ForzaFormatoNumero>false</ForzaFormatoNumero>
+			 <!-- Definisce il comportamento del Sistema in funzione del formato del file dichiarato e di quello calcolato dal Sistema in fase di versamento. 
+	     False: il Sistema accetta il versamento di Unità documentarie il cui formato del file dichiarato corrisponde a quello calcolato dal Sistema in fase di versamento
+	     True: il Sistema accetta il versamento di Unità documentarie il cui formato del file dichiarato non corrisponde a quello calcolato dal Sistema in fase di versamento -->
+			 <ForzaFormatoFile>true</ForzaFormatoFile>  
+	</Configurazione>
+	<ProfiloUnitaDocumentaria>
+    <!--Oggetto della nostra PEC-->
+		<Oggetto>xxxxx</Oggetto>
+		<Data>AAAA-MM-GG</Data>
+	</ProfiloUnitaDocumentaria>
+  <!-- Elemento opzionale nel quale è possibile inserire il tracciato del documento amministrativo informatico come indicato dall’Allegato 5 delle Linee Guida sulla formazione, gestione e conservazione dei documenti informatici. 
+  È possibile inserire un solo documento amministrativo informatico all’interno dell’elemento ProfiloNormativo -->
+	<ProfiloNormativo versione="concordata con Parer">
+    PROFILO_NORMATIVO_UNITA_DOC_xsd_AGID_V_1.0.xsd
+  </ProfiloNormativo>
+	<DatiSpecifici>
+		<VersioneDatiSpecifici>1.0</VersioneDatiSpecifici>
+		<IndirizzoPECMittente>criter.art-er@pec.it</IndirizzoPECMittente>
+		<IndirizzoPECDestinatario>xxxx</IndirizzoPECDestinatario>
+		<GestorePEC>Aruba</GestorePEC>
+    <CodiceAttivita>Codice Verifica Sace</CodiceAttivita>
+		<DataRicezione>AAAA-MM-GGTHH:MM:SS</DataRicezione>
+		<DataInvio>AAAA-MM-GGTHH:MM:SS</DataInvio>
+		<Movimento>ENTRATA/USCITA</Movimento>
+	</DatiSpecifici>
+	<!--<DocumentiCollegati>
+	--><!--Possibilità di collegare la pec al relativo protocollo, se versato in conservazione --><!--
+	</DocumentiCollegati>-->
+	<NumeroAllegati>1</NumeroAllegati>
+	<NumeroAnnessi>1</NumeroAnnessi>
+	<NumeroAnnotazioni>1</NumeroAnnotazioni>
+	<DocumentoPrincipale>
+		<IDDocumento>xxxxx</IDDocumento>
+		<TipoDocumento>MESSAGGIO PEC</TipoDocumento>
+		<ProfiloDocumento/>
+		<StrutturaOriginale>
+			<TipoStruttura>DocumentoGenerico</TipoStruttura>
+			<Componenti>
+				<Componente>
+          <!-- OBBLIGATORIO. È la chiave del file nel SIP e consente di ricongiungere il Componente al relativo file del SIP -->
+          <ID>XXXXXXX</ID>
+          <!-- OBBLIGATORIO. Numero che indica l’ordine di successione del singolo Componente all’interno del Documento. Deve essere univoco e possibilmente sequenziale all’interno del Documento -->
+          <OrdinePresentazione>1</OrdinePresentazione>
+          <!-- FACOLTATIVO. Tipologia del Componente. Se non è valorizzato assume il valore di default Contenuto.-->		  
+          <TipoComponente>Contenuto</TipoComponente>
+          <!-- FACOLTATIVO. Individua il tipo di supporto del componente. Il tag può essere omesso e in questo caso assume il valore di default "FILE" -->
+          <TipoSupportoComponente>FILE</TipoSupportoComponente>
+          <!-- OBBLIGATORIO. Stringa che rappresenta il nome del file nei sistemi del Produttore -->
+          <NomeComponente>XXXXXXXXXXXXX</NomeComponente>
+          <!-- FACOLTATIVO. Rappresenta il formato del file -->
+          <FormatoFileVersato>PDF</FormatoFileVersato>
+          <!-- FACOLTATIVO. Rappresenta l’hash del file -->
+          <HashVersato>XXXXXXXXXXXXXX</HashVersato>
+          <!--  FACOLTATIVO. Stringa univoca che rappresenta l'indirizzo logico in cui è memorizzato il file nei sistemi del Produttore -->
+          <UrnVersato>XXXXXXXXXXXXXX</UrnVersato>
+          <!-- FACOLTATIVO. Identificativo univoco del Componente nei Sistemi del produttore -->
+          <IDComponenteVersato>XXXXXXXXXXXXX</IDComponenteVersato>
+					<UtilizzoDataFirmaPerRifTemp>false</UtilizzoDataFirmaPerRifTemp>
+          <!-- Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale    -->	  
+				  <RiferimentoTemporale>aaaa-mm-ggThh:mm:ss</RiferimentoTemporale>
+          <!-- Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale  -->
+          <DescrizioneRiferimentoTemporale>XXXXXXX</DescrizioneRiferimentoTemporale>
+        </Componente>
+        <Componente>
+          <!-- OBBLIGATORIO. È la chiave del file nel SIP e consente di ricongiungere il Componente al relativo file del SIP -->
+          <ID>XXXXXXX</ID>
+          <!-- OBBLIGATORIO. Numero che indica l’ordine di successione del singolo Componente all’interno del Documento. Deve essere univoco e possibilmente sequenziale all’interno del Documento -->
+          <OrdinePresentazione>1</OrdinePresentazione>
+          <!-- FACOLTATIVO. Tipologia del Componente. Se non è valorizzato assume il valore di default Contenuto.-->		  
+          <TipoComponente>Contenuto</TipoComponente>
+          <!-- FACOLTATIVO. Individua il tipo di supporto del componente. Il tag può essere omesso e in questo caso assume il valore di default "FILE" -->
+          <TipoSupportoComponente>FILE</TipoSupportoComponente>
+          <!-- OBBLIGATORIO. Stringa che rappresenta il nome del file nei sistemi del Produttore -->
+          <NomeComponente>XXXXXXXXXXXXX</NomeComponente>
+          <!-- FACOLTATIVO. Rappresenta il formato del file -->
+          <FormatoFileVersato>PDF</FormatoFileVersato>
+          <!-- FACOLTATIVO. Rappresenta l’hash del file -->
+          <HashVersato>XXXXXXXXXXXXXX</HashVersato>
+          <!--  FACOLTATIVO. Stringa univoca che rappresenta l'indirizzo logico in cui è memorizzato il file nei sistemi del Produttore -->
+          <UrnVersato>XXXXXXXXXXXXXX</UrnVersato>
+          <!-- FACOLTATIVO. Identificativo univoco del Componente nei Sistemi del produttore -->
+          <IDComponenteVersato>XXXXXXXXXXXXX</IDComponenteVersato>
+					<UtilizzoDataFirmaPerRifTemp>false</UtilizzoDataFirmaPerRifTemp>
+          <!-- Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale    -->	  
+				  <RiferimentoTemporale>aaaa-mm-ggThh:mm:ss</RiferimentoTemporale>
+          <!-- Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale  -->
+          <DescrizioneRiferimentoTemporale>XXXXXXX</DescrizioneRiferimentoTemporale>
+        </Componente>
+			</Componenti>
+		</StrutturaOriginale>
+	</DocumentoPrincipale>
+	<Allegati>
+		<Allegato>
+       <IDDocumento>XXXXXXXXXXXXXXXXX</IDDocumento>
+		<!--il tag andrà valorizzato con la tipologia di allegato. "GENERICO" o tipizzato--> 
+       <TipoDocumento>GENERICO</TipoDocumento>
+	     	   
+       <ProfiloDocumento>
+         <Descrizione>XXXXXXXXXXXXXXXXX</Descrizione>
+         <Autore>XXXXXXXXXXXXXXXXXXX</Autore>
+       </ProfiloDocumento>
+        <StrutturaOriginale>
+         <Componenti>
+            <Componente>
+                <ID>XXXXXXX</ID>
+			   <!--OBBLIGATORIO. È la chiave del file nel SIP e consente di ricongiungere il Componente al relativo file del SIP-->         
+			  <OrdinePresentazione>X</OrdinePresentazione>
+			   <!--OBBLIGATORIO. Numero che indica l’ordine di successione del singolo Componente all’interno del Documento. Deve essere univoco e possibilmente sequenziale all’interno del Documento--> 	  
+			  <TipoComponente>Contenuto</TipoComponente>
+			   <!--FACOLTATIVO. Tipologia del Componente. Se non è valorizzato assume il valore di default Contenuto.-->		  
+			  <TipoSupportoComponente>FILE</TipoSupportoComponente>
+			   <!--FACOLTATIVO. Individua il tipo di supporto del componente. Il tag può essere omesso e in questo caso assume il valore di default "FILE"-->         
+			  <NomeComponente>XXXXXXXXXXXXX</NomeComponente>
+			   <!--OBBLIGATORIO. Stringa che rappresenta il nome del file nei sistemi del Produttore-->         
+			  <FormatoFileVersato>XXX</FormatoFileVersato>
+			   <!--FACOLTATIVO. Rappresenta il formato del file-->        
+			  <HashVersato>XXXXXXXXXXXXXX</HashVersato>
+			   <!--FACOLTATIVO. Rappresenta l’hash del file--> 	  
+			  <UrnVersato>XXXXXXXXXXXXXX</UrnVersato>
+				<!--FACOLTATIVO. Stringa univoca che rappresenta l'indirizzo logico in cui è memorizzato il file nei sistemi del Produttore--> 		  
+			  <IDComponenteVersato>XXXXXXXXXXXXX</IDComponenteVersato>
+			      <!--FACOLTATIVO. Identificativo univoco del Componente nei Sistemi del produttore--> 	
+				   <UtilizzoDataFirmaPerRifTemp>false</UtilizzoDataFirmaPerRifTemp>
+						  
+				   <RiferimentoTemporale>aaaa-mm-ggThh:mm:ss</RiferimentoTemporale>
+					 <!--Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale-->    
+						
+					 <DescrizioneRiferimentoTemporale>XXXXXXX</DescrizioneRiferimentoTemporale>
+					  <!--Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale-->  	
+            </Componente>
+         </Componenti>
+        </StrutturaOriginale>
+    </Allegato>
+    <Allegato>
+       <IDDocumento>XXXXXXXXXXXXXXXXX</IDDocumento>
+		<!--il tag andrà valorizzato con la tipologia di allegato. "GENERICO" o tipizzato--> 
+       <TipoDocumento>GENERICO</TipoDocumento>
+	     	   
+       <ProfiloDocumento>
+         <Descrizione>XXXXXXXXXXXXXXXXX</Descrizione>
+         <Autore>XXXXXXXXXXXXXXXXXXX</Autore>
+       </ProfiloDocumento>
+        <StrutturaOriginale>
+         <Componenti>
+            <Componente>
+                <ID>XXXXXXX</ID>
+			   <!--OBBLIGATORIO. È la chiave del file nel SIP e consente di ricongiungere il Componente al relativo file del SIP-->         
+			  <OrdinePresentazione>X</OrdinePresentazione>
+			   <!--OBBLIGATORIO. Numero che indica l’ordine di successione del singolo Componente all’interno del Documento. Deve essere univoco e possibilmente sequenziale all’interno del Documento--> 	  
+			  <TipoComponente>Contenuto</TipoComponente>
+			   <!--FACOLTATIVO. Tipologia del Componente. Se non è valorizzato assume il valore di default Contenuto.-->		  
+			  <TipoSupportoComponente>FILE</TipoSupportoComponente>
+			   <!--FACOLTATIVO. Individua il tipo di supporto del componente. Il tag può essere omesso e in questo caso assume il valore di default "FILE"-->         
+			  <NomeComponente>XXXXXXXXXXXXX</NomeComponente>
+			   <!--OBBLIGATORIO. Stringa che rappresenta il nome del file nei sistemi del Produttore-->         
+			  <FormatoFileVersato>XXX</FormatoFileVersato>
+			   <!--FACOLTATIVO. Rappresenta il formato del file-->        
+			  <HashVersato>XXXXXXXXXXXXXX</HashVersato>
+			   <!--FACOLTATIVO. Rappresenta l’hash del file--> 	  
+			  <UrnVersato>XXXXXXXXXXXXXX</UrnVersato>
+				<!--FACOLTATIVO. Stringa univoca che rappresenta l'indirizzo logico in cui è memorizzato il file nei sistemi del Produttore--> 		  
+			  <IDComponenteVersato>XXXXXXXXXXXXX</IDComponenteVersato>
+			      <!--FACOLTATIVO. Identificativo univoco del Componente nei Sistemi del produttore--> 	
+				   <UtilizzoDataFirmaPerRifTemp>false</UtilizzoDataFirmaPerRifTemp>
+						  
+				   <RiferimentoTemporale>aaaa-mm-ggThh:mm:ss</RiferimentoTemporale>
+					 <!--Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale-->    
+						
+					 <DescrizioneRiferimentoTemporale>XXXXXXX</DescrizioneRiferimentoTemporale>
+					  <!--Qualora il documento sia firmato, utilizzare uno dei riferimenti indicati con riferimento al documento principale-->  	
+            </Componente>
+         </Componenti>
+        </StrutturaOriginale>
+    </Allegato>
+  </Allegati>
+</UnitaDocumentaria>

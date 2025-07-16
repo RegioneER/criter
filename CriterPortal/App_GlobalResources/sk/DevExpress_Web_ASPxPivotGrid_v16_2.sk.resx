@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PivotGridStringId.RowHeadersCustomization">
+    <value>Pritiahnuť riadok sem</value>
+  </data>
+  <data name="PivotGridStringId.ColumnHeadersCustomization">
+    <value>Pritiahnuť stĺpce sem</value>
+  </data>
+  <data name="PivotGridStringId.FilterHeadersCustomization">
+    <value>Pretiahnuť filter sem</value>
+  </data>
+  <data name="PivotGridStringId.DataHeadersCustomization">
+    <value>Pretiahni údajové záznamy sem</value>
+  </data>
+  <data name="PivotGridStringId.RowArea">
+    <value>Zóna riadkov</value>
+  </data>
+  <data name="PivotGridStringId.ColumnArea">
+    <value>Stĺpce</value>
+  </data>
+  <data name="PivotGridStringId.FilterArea">
+    <value>Zóna pre filter</value>
+  </data>
+  <data name="PivotGridStringId.DataArea">
+    <value>Zóna pre údaje</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowAll">
+    <value>(Zobraziť všetko)</value>
+  </data>
+  <data name="PivotGridStringId.FilterShowBlanks">
+    <value>Zobraziť prázdne</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormCaption">
+    <value>Zoznam dostupných položiek</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormText">
+    <value>Pritiahnuť položku do gridu</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormAddTo">
+    <value>Pridať</value>
+  </data>
+  <data name="PivotGridStringId.Total">
+    <value>Celkom</value>
+  </data>
+  <data name="PivotGridStringId.GrandTotal">
+    <value>Konečný počet</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormat">
+    <value>{0} Celkom</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCount">
+    <value>{0} Počet</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatSum">
+    <value>{0} Suma</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMin">
+    <value>{0} Min</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatMax">
+    <value>{0} Max</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatAverage">
+    <value>{0} Priemer</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDev">
+    <value>{0} StdDev</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatStdDevp">
+    <value>{0} StdDevp</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVar">
+    <value>{0} Var</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatVarp">
+    <value>{0} Varp</value>
+  </data>
+  <data name="PivotGridStringId.TotalFormatCustom">
+    <value>{0} Iný</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageOptions">
+    <value>Voľby</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerPageBehavior">
+    <value>Režim</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryDefault">
+    <value>Základné</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryLines">
+    <value>Čiary</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryHeaders">
+    <value>Hlavičky</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHorizontalLines">
+    <value>Horizontálny čiary</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerVerticalLines">
+    <value>Vertikálne čiary</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerFilterHeaders">
+    <value>Záhlavie fitra</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerDataHeaders">
+    <value>Záhlavie údajov</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerColumnHeaders">
+    <value>Záhlavie stĺpcov</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerRowHeaders">
+    <value>Záhlavie riadkov</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUsePrintAppearance">
+    <value>Použiť vzhľad tlače</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRefreshData">
+    <value>Obnoviť údaje</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideField">
+    <value>Skryť</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowFieldList">
+    <value>Zobraziť list záznamov</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHideFieldList">
+    <value>Skryť list záznamov</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFieldOrder">
+    <value>Poradie</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoBeginning">
+    <value>Premiestniť na začiatok</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoLeft">
+    <value>Premiestniť vľavo</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoRight">
+    <value>Premiestniť vpravo</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuMovetoEnd">
+    <value>Premiestniť na koniec</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapse">
+    <value>Zbaliť</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuCollapseAll">
+    <value>Zbaliť všetko</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpand">
+    <value>Rozbaliť</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuExpandAll">
+    <value>Rozbaliť všetko</value>
+  </data>
+  <data name="PivotGridStringId.DataFieldCaption">
+    <value>Údaje</value>
+  </data>
+  <data name="PivotGridStringId.TopValueOthersRow">
+    <value>Iné</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesigner">
+    <value>Návrhár tlače</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerCategoryFieldValues">
+    <value>Hodnoty pola</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerHeadersOnEveryPage">
+    <value>Hlavičky na každej strane</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerUnusedFilterFields">
+    <value>Nepoužité polia</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeColumnFieldValues">
+    <value>Spojiť hodnoty v stĺpcoch</value>
+  </data>
+  <data name="PivotGridStringId.PrintDesignerMergeRowFieldValues">
+    <value>Spojiť hodnoty v riadkoch</value>
+  </data>
+  <data name="PivotGridStringId.CellError">
+    <value>Chyba</value>
+  </data>
+  <data name="PivotGridStringId.CannotCopyMultipleSelections">
+    <value>Tento príkaz nemôže byť použitý no viacerých výberoch</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowPrefilter">
+    <value>Ukázať filter</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuHidePrefilter">
+    <value>Schovať filter</value>
+  </data>
+  <data name="PivotGridStringId.EditPrefilter">
+    <value>Upraviť filter</value>
+  </data>
+  <data name="PivotGridStringId.PrefilterFormCaption">
+    <value>Filter</value>
+  </data>
+  <data name="PivotGridStringId.FilterCancel">
+    <value>Zrušiť</value>
+  </data>
+  <data name="PivotGridStringId.FilterOk">
+    <value>OK</value>
+  </data>
+  <data name="PivotGridStringId.OLAPMeasuresCaption">
+    <value>Hodnoty</value>
+  </data>
+  <data name="PivotGridStringId.OLAPDrillDownFilterException">
+    <value>Príkaz Ukáž detail nemôže byť vykonaný keď sú vybrané viaceré položky. Vyberte jednu položku pre každé pole pred vykonaným tohto príkazu.</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingDown">
+    <value>Klesajúce</value>
+  </data>
+  <data name="PivotGridStringId.TrendGoingUp">
+    <value>Stúpajúce</value>
+  </data>
+  <data name="PivotGridStringId.TrendNoChange">
+    <value>Stagnujúce</value>
+  </data>
+  <data name="PivotGridStringId.StatusBad">
+    <value>Dobré</value>
+  </data>
+  <data name="PivotGridStringId.StatusNeutral">
+    <value>Neutrálne</value>
+  </data>
+  <data name="PivotGridStringId.StatusGood">
+    <value>Zlé</value>
+  </data>
+  <data name="PivotGridStringId.SummarySum">
+    <value>Súčet</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Collapse">
+    <value>[Zbaliť]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterWindowSizeGrip">
+    <value>[Zmena veľkosti]</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormListBoxText">
+    <value>Pretiahnite sem pole pre prispôsobenie rozloženia</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByColumn">
+    <value>Trieď "{0}" podľa tohoto stĺpca</value>
+  </data>
+  <data name="PivotGridStringId.Alt_TopPanelOnlyLayout">
+    <value>[Rozloženie iba vrchného panelu]</value>
+  </data>
+  <data name="PivotGridStringId.FilterInvert">
+    <value>Invertovať filter</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly1by4">
+    <value>Iba sekcie oblastí (1 - 4)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedDescending">
+    <value>(Zostupne)</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVarp">
+    <value>Varp</value>
+  </data>
+  <data name="PivotGridStringId.Alt_Expand">
+    <value>[Rozbaliť]</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormLayoutButtonTooltip">
+    <value>Rozloženie formy prispôsobenia</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHiddenFields">
+    <value>Skryté polia</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormTopPanelOnly">
+    <value>Iba sekcie polí</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DataAreaHeaders">
+    <value>[Záhlavia oblasti dát]</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortFieldByRow">
+    <value>Trieď "{0}" podľa tohoto riadku</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterAreaHeaders">
+    <value>[Záhlavia oblasti filtra]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_BottomPanelOnly2by2Layout">
+    <value>[Iba spodný panel 2 - 2 rozloženie]</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedSideBySide">
+    <value>Sekcie polí a sekcie plôch bok po boku</value>
+  </data>
+  <data name="PivotGridStringId.Alt_ColumnAreaHeaders">
+    <value>[Záhlavia oblasti stĺpca]</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuRemoveAllSortByColumn">
+    <value>Odstrániť všetko triedenie</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormHint">
+    <value>Pretiahnite polia medzi oblasťami nižšie:</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDev">
+    <value>StdDev</value>
+  </data>
+  <data name="PivotGridStringId.SummaryVar">
+    <value>Var</value>
+  </data>
+  <data name="PivotGridStringId.Alt_StackedDefaultLayout">
+    <value>[Skladané východzie rozloženie]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_SortedAscending">
+    <value>(Vzostupne)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_DragHideField">
+    <value>Skryť</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormStackedDefault">
+    <value>Sekcie polí a sekcie plôch skladané</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCount">
+    <value>Počet</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuClearSorting">
+    <value>Vynuluj triedenie</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormDeferLayoutUpdate">
+    <value>Odložiť aktualizáciu rozloženia</value>
+  </data>
+  <data name="PivotGridStringId.Alt_LayoutButton">
+    <value>[Tlačidlo rozloženia]</value>
+  </data>
+  <data name="PivotGridStringId.FilterBlank">
+    <value>(Prázdny)</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortAscending">
+    <value>Trieď A-Z</value>
+  </data>
+  <data name="PivotGridStringId.Alt_StackedSideBySideLayout">
+    <value>Skladané rozloženie bok po boku]</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormUpdate">
+    <value>Aktualizácia</value>
+  </data>
+  <data name="PivotGridStringId.Alt_RowAreaHeaders">
+    <value>[Záhlavia oblasti riadku]</value>
+  </data>
+  <data name="PivotGridStringId.SummaryStdDevp">
+    <value>StdDevp</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuShowExpression">
+    <value>Editor výrazu...</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuSortDescending">
+    <value>Trieď Z-A</value>
+  </data>
+  <data name="PivotGridStringId.CustomizationFormBottomPanelOnly2by2">
+    <value>Iba sekcie oblastí (2 - 2)</value>
+  </data>
+  <data name="PivotGridStringId.Alt_BottomPanelOnly1by4Layout">
+    <value>[Iba spodný panel 1 - 4 rozloženie]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButtonActive">
+    <value>[Filtrované]</value>
+  </data>
+  <data name="PivotGridStringId.SearchBoxText">
+    <value>Hľadať</value>
+  </data>
+  <data name="PivotGridStringId.SummaryCustom">
+    <value>Užívateľský</value>
+  </data>
+  <data name="PivotGridStringId.SummaryAverage">
+    <value>Priemer</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FieldListHeaders">
+    <value>[Záhlavia skrytých polí]</value>
+  </data>
+  <data name="PivotGridStringId.Alt_FilterButton">
+    <value>[Filtrovať]</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicNone" xml:space="preserve">
+    <value>Žiadny</value>
+  </data>
+  <data name="PivotGridStringId.ValueError" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterLegendVisible" xml:space="preserve">
+    <value>Viditeľné</value>
+  </data>
+  <data name="PivotGridStringId.OLAPKPITypeValue" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMin" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PivotGridStringId.SummaryFilterClearButton" xml:space="preserve">
+    <value>Vyčistiť</value>
+  </data>
+  <data name="PivotGridStringId.SummaryMax" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuFormatRulesColumn" xml:space="preserve">
+    <value>Stĺpec</value>
+  </data>
+  <data name="PivotGridStringId.PopupMenuKPIGraphicShapes" xml:space="preserve">
+    <value>Tvary</value>
+  </data>
+</root>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="http://energia.regione.emilia-romagna.it/" title="Energia"  description="Energia">
+      <siteMapNode url="https://criter.regione.emilia-romagna.it/Default.aspx" title="Criter"  description="Criter">
+        <siteMapNode url="~/Index.aspx" title="Home Page Criter" description="Home Page Criter"></siteMapNode>
+        <siteMapNode url="~/Iscrizione.aspx" title="Iscrizione Sistema Criter" description="Iscrizione Sistema Criter"></siteMapNode>
+        <siteMapNode url="~/IscrizioneConferma.aspx" title="Conferma Iscrizione Sistema Criter" description="Conferma Iscrizione Sistema Criter"></siteMapNode>
+        <siteMapNode url="~/IscrizioneCriter.aspx" title="Iscrizione al Sistema Criter" description="Iscrizione al Sistema Criter"></siteMapNode>
+        <siteMapNode url="~/IscrizioneCredenziali.aspx" title="Conferma Credenziali Sistema Criter" description="Conferma Credenziali Sistema Criter"></siteMapNode>
+        <siteMapNode url="~/IscrizioneCredenzialiError.aspx" title="Credenziali Sistema Criter già inserite" description="Credenziali Sistema Criter già inserite"></siteMapNode>
+        <siteMapNode url="~/Login.aspx" title="Accesso Sistema Criter" description="Accesso Sistema Criter" />
+        <siteMapNode url="~/RecuperoCredenziali.aspx" title="Recupera credenziali dimenticate" description="Recupera credenziali dimenticate" />
+        <siteMapNode url="~/ElencoImpreseManutentriciAlbo.aspx" title="Albo Imprese di Installazione/Manutenzione" description="Albo Imprese di Installazione/Manutenzione"></siteMapNode>
+
+        <siteMapNode url="~/Default.aspx" title="Home Page" description="Home Page" />
+        <siteMapNode url="~/COM_Password.aspx" title="Cambia password" description="Cambia password"></siteMapNode>
+        <siteMapNode url="~/ANAG_Anagrafica.aspx" title="Gestione anagrafica" description="Gestione anagrafica"></siteMapNode>
+        <siteMapNode url="~/ANAG_AnagraficaAccount.aspx" title="Gestione account utente" description="Gestione account utente"></siteMapNode>
+        <siteMapNode url="~/ANAG_AnagraficaAlbo.aspx" title="Gestione anagrafica su Albo" description="Gestione anagrafica su Albo"></siteMapNode>
+        <siteMapNode url="~/ANAG_AnagraficaSearch.aspx" title="Ricerca anagrafiche" description="Ricerca anagrafiche"></siteMapNode>
+        <siteMapNode url ="~/COM_ImportazioneDatiDistributore.aspx" title="Importazione dati distributore" description="Importazione dati distributore"></siteMapNode>
+        
+        <siteMapNode url="~/LIM_TargatureImpianti.aspx" title="Prenotazione codici targatura impianti" description="Prenotazione codici targatura impianti"></siteMapNode>
+        <siteMapNode url="~/LIM_TargatureImpiantiSearch.aspx" title="Codici targatura impianti" description="Codici targatura impianti"></siteMapNode>
+
+        <siteMapNode url="~/RCT_BollinoCalorePulitoSearch.aspx" title="Ricerca Bollini Calore Pulito" description="Ricerca Bollini Calore Pulito"></siteMapNode>
+        <siteMapNode url="~/RCT_BollinoCalorePulito.aspx" title="Assegnazione Bollini Calore Pulito" description="Assegnazione Bollini Calore Pulito"></siteMapNode>
+        
+        <siteMapNode url="~/LIM_LibrettiImpiantiNuovo.aspx" title="Creazione nuovo Libretto Impianto" description="Creazione nuovo Libretto Impianto"></siteMapNode>
+        <siteMapNode url="~/LIM_LibrettiImpianti.aspx" title="Gestione libretto impianto" description="Gestione libretto impianto"></siteMapNode>
+        <siteMapNode url="~/LIM_LibrettiImpiantiSearch.aspx" title="Ricerca libretti impianti" description="Ricerca libretti impianti"></siteMapNode>
+        <siteMapNode url="~/LIM_LibrettiImpiantiSearchCatasto.aspx" title="Ricerca libretti di impianto su Catasto" description="Ricerca libretti di impianto su Catasto"></siteMapNode>
+        <siteMapNode url="~/LIM_LibrettiImpiantiSearchRevisioni.aspx" title="Visulizza versioni precedenti del libretto di impianto" description="Visulizza versioni precedenti del libretto di impianto"></siteMapNode>
+        <siteMapNode url="~/LIM_ResponsabiliImpianto.aspx" title="Nomina Terzo Responsabile" description="Nomina Terzo Responsabile"></siteMapNode>
+        <siteMapNode url="~/LIM_ResponsabiliImpiantoSearch.aspx" title="Ricerca libretti impianto nomine terzo responsabile" description="Ricerca libretti impianto nomine terzo responsabile"></siteMapNode>
+        
+        <siteMapNode url="~/COM_Reports.aspx" title="Gestione report" description="Gestione report" />
+        <siteMapNode url="~/COM_Manuali.aspx" title="Manuali di utilizzo" description="Manuali di utilizzo" />
+        <siteMapNode url="~/CriterApi/CriterApi.aspx" title="Gestione Api Sistema Criter" description="Gestione Api Sistema Criter" />
+
+        <siteMapNode url="~/ErrorPage.aspx" title="Errore nel sistema Criter" description="Errore nel sistema Criter" />
+        <siteMapNode url="~/ErrorPagePermission.aspx" title="Errore di permessi nel sistema Criter" description="Errore di permessi nel sistema Criter" />
+
+        <siteMapNode url="~/RCT_RapportoDiControlloTecnicoSearch.aspx" title="Ricerca rapporti di controllo tecnico" description="Ricerca rapporti di controllo tecnico"></siteMapNode>
+        <siteMapNode url="~/RCT_RapportoDiControlloTecnicoNuovo.aspx" title="Creazione nuovo Rapporto di Controllo Tecnico" description="Creazione nuovo Rapporto di Controllo Tecnico"></siteMapNode>
+        <siteMapNode url="~/RCT_RapportoDiControlloTecnico.aspx" title="Visualizza Rapporto di Controllo Tecnico" description="Visualizza Rapporto di Controllo Tecnico"></siteMapNode>
+        <siteMapNode url="~/RCT_RapportoDiControlloTecnicoSearchFirma.aspx" title="Ricerca rapporti di controllo tecnico da Firmare Digitalmente" description="Ricerca rapporti di controllo tecnico da Firmare Digitalmente"></siteMapNode>
+        
+        <siteMapNode url="~/MNG_UtentiSearch.aspx" title="Lista Utenti" description="Ricerca degli utenti Criter"></siteMapNode>
+        <siteMapNode url="~/MNG_Utenti.aspx" title="Gestione Utenti" description="Pagina di gestione degli utenti"></siteMapNode>
+        
+        <siteMapNode url ="~/MNG_GruppiSearch.aspx" title="Lista Gruppi" description="Ricerca dei gruppi utente Criter"></siteMapNode>
+        <siteMapNode url ="~/MNG_Gruppi.aspx" title="Gestione Gruppi" description="Pagina di gestione dei gruppi utente Criter"></siteMapNode>
+
+        <siteMapNode url="~/MNG_AccessiSearch.aspx" title="Lista Accessi" description="Ricerca degli accessi a Criter"></siteMapNode>
+        <siteMapNode url="~/MNG_Accessi.aspx" title="Gestione Accessi" description="pagina di gestione degli accessi"></siteMapNode>
+
+        <siteMapNode url ="~/MNG_Menu.aspx" title="Gestione Menu" description ="pagina di gestione dei menu"></siteMapNode>
+        
+        <siteMapNode url ="~/MNG_Portafoglio.aspx" title="Gestione movimenti portafoglio azienda" description="Gestione movimenti portafoglio azienda"></siteMapNode>
+        <siteMapNode url ="~/MNG_PortafoglioSaldo.aspx" title="Gestione saldo portafoglio azienda" description="Gestione saldo portafoglio azienda"></siteMapNode>
+        <siteMapNode url ="~/MNG_PagamentoPayER.aspx" title="Ricarica portafoglio attraverso PayER" description ="Ricarica portafoglio attraverso PayER"></siteMapNode>
+        <siteMapNode url ="~/Payer_Ritorno.aspx" title="PayER - Elaborazione transazione" description="PayER - Elaborazione transazione "></siteMapNode>
+
+        <siteMapNode url ="~/MNG_PortafoglioRicaricaBonifico.aspx" title="Gestione ricarica con bonifico portafoglio azienda" description="Gestione ricarica con bonifico portafoglio azienda"></siteMapNode>
+        <siteMapNode url ="~/MNG_PortafoglioRicaricaContanti.aspx" title="Gestione ricarica con contanti portafoglio azienda" description="Gestione ricarica con contanti portafoglio azienda"></siteMapNode>
+        <siteMapNode url ="~/MNG_PortafoglioStorno.aspx" title="Gestione movimento storno del portafoglio azienda" description="Gestione movimento storno del portafoglio azienda"></siteMapNode>
+        <siteMapNode url ="~/MNG_PortafoglioRendicontazioneImport.aspx" title="Gestione importazione files rendicontazione PayER" description="Gestione importazione files rendicontazione PayER"></siteMapNode>
+                
+        <siteMapNode url="~/VER_AccertamentiSearch.aspx" title="Gestione accertamenti rapporti di controllo tecnico" description="Gestione accertamenti rapporti di controllo tecnico"></siteMapNode>
+        <siteMapNode url="~/VER_AccertamentiSearchFirma.aspx" title="Gestione accertamenti da firmare" description="Gestione accertamenti da firmare"></siteMapNode>
+        <siteMapNode url="~/VER_Accertamenti.aspx" title="Gestione accertamenti rapporti di controllo tecnico" description="Gestione accertamenti rapporti di controllo tecnico"></siteMapNode>
+        <siteMapNode url="~/ConfermaAccertamento.aspx" title="Conferma Accertamento" description="Conferma Accertamento"></siteMapNode>
+        <siteMapNode url="~/VER_IspezioniSearch.aspx" title="Gestione ispezioni di controllo" description="Gestione ispezioni di controllo"></siteMapNode>
+        <siteMapNode url="~/VER_Ispezioni.aspx" title="Gestione ispezioni di controllo" description="Gestione ispezioni di controllo"></siteMapNode>
+        <siteMapNode url="~/VER_IspezioniPianificazione.aspx" title="Pianificazione verifiche ispettive" description="Pianificazione verifiche ispettive"></siteMapNode>
+        <siteMapNode url="~/VER_IspezioniPianificazioneDetails.aspx" title="Gestione Pianificazione verifiche ispettive" description="Gestione Pianificazione verifiche ispettive"></siteMapNode>
+        <siteMapNode url="~/VER_InterventiSearch.aspx" title="Ricerca interventi su accertamenti" description="Ricerca interventi su accertamenti"></siteMapNode>
+        <siteMapNode url="~/VER_Interventi.aspx" title="Gestione interventi su accertamenti" description="Gestione interventi su accertamenti"></siteMapNode>
+        <siteMapNode url="~/VER_InterventiScadenzirio.aspx" title="Gestione Scadenziario interventi" description="Gestione Scadenziario interventi"></siteMapNode>
+        <siteMapNode url="~/VER_ProgrammaIspezione.aspx" title="Gestione Programma Ispezioni" description="Gestione Programma Ispezioni"></siteMapNode>
+        <siteMapNode url="~/ConfermaIspezione.aspx" title="Conferma Ispezione" description="Conferma Ispezione"></siteMapNode>
+        <siteMapNode url="~/ConfermaIspezioneIncarico.aspx" title="Conferma Incarico tecnico" description="Conferma Incarico tecnico"></siteMapNode>
+        <siteMapNode url="~/ConfermaIspezioneRVI.aspx" title="Conferma Rapporto di verifica ispettiva" description="Conferma Rapporto di verifica ispettiva"></siteMapNode>
+        
+        <siteMapNode url="~/COM_QualificaIspettoreSearch.aspx" title="Ricerca Qualifiche Ispettore" description="Ricerca Qualifiche Ispettore"></siteMapNode>
+        <siteMapNode url="~/COM_QualificaIspettore.aspx" title="Gestione Qualifica Ispettore" description="Gestione Qualifica Ispettore"></siteMapNode>
+
+        <siteMapNode url="~/COM_ContrattoIspettoreSearch.aspx" title="Ricerca Contratti Ispettore" description="Ricerca Contratti Ispettore"></siteMapNode>
+        <siteMapNode url="~/COM_ContrattoIspettore.aspx" title="Gestione Contratti Ispettore" description="Gestione Contratti Ispettore"></siteMapNode>
+
+        <siteMapNode url="~/COM_QuestionarioSearch.aspx" title="Ricerca libretti su cui sottoporre il questionario" description="Ricerca libretti su cui sottoporre il questionario"></siteMapNode>
+        <siteMapNode url="~/COM_Questionario.aspx" title="Questionario" description="Questionario"></siteMapNode>
+        
+      </siteMapNode>  
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,39 @@
+C:\SORGENTI\RER\CRITER\CriterV01\SacePortal\Bin\FirmaLib.dll.config
+C:\SORGENTI\RER\CRITER\CriterV01\SacePortal\Bin\FirmaLib.dll
+C:\SORGENTI\RER\CRITER\CriterV01\SacePortal\Bin\FirmaLib.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.dll
+C:\SORGENTI\RER\CRITER\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SacePortal\Bin\FirmaLib.dll.config
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SacePortal\Bin\FirmaLib.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\SacePortal\Bin\FirmaLib.pdb
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.pdb
+D:\Applicazioni\CriterV01\CriterPortal\Bin\FirmaLib.dll.config
+D:\Applicazioni\CriterV01\CriterPortal\Bin\FirmaLib.dll
+D:\Applicazioni\CriterV01\CriterPortal\Bin\FirmaLib.pdb
+D:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.csprojResolveAssemblyReference.cache
+D:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.dll
+D:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.pdb
+E:\Applicazioni\CriterV01\CriterPortal\Bin\FirmaLib.dll.config
+E:\Applicazioni\CriterV01\CriterPortal\Bin\FirmaLib.dll
+E:\Applicazioni\CriterV01\CriterPortal\Bin\FirmaLib.pdb
+E:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.csprojAssemblyReference.cache
+E:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.dll
+E:\Applicazioni\CriterV01\FirmaDigitale\obj\Debug\FirmaLib.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\FirmaLib.dll.config
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\FirmaLib.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\FirmaLib.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.csproj.CoreCompileInputs.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.pdb
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\FirmaLib.dll.config
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\FirmaLib.dll
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\FirmaLib.pdb
+E:\Applicazioni\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.csproj.AssemblyReference.cache
+E:\Applicazioni\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.csproj.CoreCompileInputs.cache
+E:\Applicazioni\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.dll
+E:\Applicazioni\Art-ER - Criter\FirmaDigitale\obj\Debug\FirmaLib.pdb

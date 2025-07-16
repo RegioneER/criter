@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://cxf.ws.omnys.com/" name="WSFirma" targetNamespace="http://cxf.ws.omnys.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://cxf.ws.omnys.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="cleanUp" type="tns:cleanUp" />
+      <xs:element name="cleanUpResponse" type="tns:cleanUpResponse" />
+      <xs:element name="completaTransazioneFirma" type="tns:completaTransazioneFirma" />
+      <xs:element name="completaTransazioneFirmaResponse" type="tns:completaTransazioneFirmaResponse" />
+      <xs:element name="controllaTransazioneFirma" type="tns:controllaTransazioneFirma" />
+      <xs:element name="controllaTransazioneFirmaResponse" type="tns:controllaTransazioneFirmaResponse" />
+      <xs:element name="creaTransazioneFirma" type="tns:creaTransazioneFirma" />
+      <xs:element name="creaTransazioneFirmaResponse" type="tns:creaTransazioneFirmaResponse" />
+      <xs:element name="creaTransazioneVerifica" type="tns:creaTransazioneVerifica" />
+      <xs:element name="creaTransazioneVerificaResponse" type="tns:creaTransazioneVerificaResponse" />
+      <xs:complexType name="creaTransazioneFirma">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="policyFileName" type="xs:string" />
+          <xs:element name="sessionId" type="xs:long" />
+          <xs:element minOccurs="0" name="signerCn" type="xs:string" />
+          <xs:element minOccurs="0" name="pin" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="files" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="b64Files" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="creaTransazioneFirmaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CreaTransazioneFirmaResponse" type="tns:beanDssCreaTransazioneFirma" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssCreaTransazioneFirma">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="htmlPage" type="xs:string" />
+          <xs:element minOccurs="0" name="htmlPageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listUrlDataToSign" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pin" type="xs:string" />
+          <xs:element minOccurs="0" name="policyId" type="xs:string" />
+          <xs:element name="returnCode" type="xs:int" />
+          <xs:element minOccurs="0" name="returnMessage" type="xs:string" />
+          <xs:element name="sessionId" type="xs:long" />
+          <xs:element minOccurs="0" name="signerCn" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cleanUp">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sessionId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cleanUpResponse">
+        <xs:sequence>
+          <xs:element name="cleanUpResponse" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="completaTransazioneFirma">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sessionId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="completaTransazioneFirmaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CompletaTransazioneFirmaResponse" type="tns:beanDssCompletaTransazioneFirma" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssCompletaTransazioneFirma">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="certificato" type="xs:base64Binary" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="firme" nillable="true" type="tns:beanDssCompletaTransazioneFirmaItem" />
+          <xs:element minOccurs="0" name="hashCertificato" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="issuer" type="xs:string" />
+          <xs:element name="returnCode" type="xs:int" />
+          <xs:element minOccurs="0" name="returnMessage" type="xs:string" />
+          <xs:element name="sessionId" type="xs:long" />
+          <xs:element minOccurs="0" name="subjectCn" type="xs:string" />
+          <xs:element minOccurs="0" name="subjectDn" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssCompletaTransazioneFirmaItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dataFirma" type="xs:dateTime" />
+          <xs:element name="esito" type="xs:int" />
+          <xs:element minOccurs="0" name="esitoMsg" type="xs:string" />
+          <xs:element minOccurs="0" name="originalData" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="recFileName" type="xs:string" />
+          <xs:element minOccurs="0" name="signedData" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="signedDataFileName" type="xs:string" />
+          <xs:element minOccurs="0" name="tokenLdoc" type="xs:string" />
+          <xs:element minOccurs="0" name="tstFileName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="creaTransazioneVerifica">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="policyFileName" type="xs:string" />
+          <xs:element name="sessionId" type="xs:long" />
+          <xs:element minOccurs="0" name="signerCn" type="xs:string" />
+          <xs:element minOccurs="0" name="pin" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="files" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="b64Files" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="creaTransazioneVerificaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CreaTransazioneVerificaResponse" type="tns:beanDssCreaTransazioneVerifica" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssCreaTransazioneVerifica">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listUrlDataToSign" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pin" type="xs:string" />
+          <xs:element minOccurs="0" name="policyId" type="xs:string" />
+          <xs:element minOccurs="0" name="returnCode" type="xs:int" />
+          <xs:element minOccurs="0" name="returnMessage" type="xs:string" />
+          <xs:element name="sessionId" type="xs:long" />
+          <xs:element minOccurs="0" name="signerCn" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="verifyData" nillable="true" type="tns:beanDssCreaTransazioneVerificaData" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssCreaTransazioneVerificaData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="documentMessage" type="xs:string" />
+          <xs:element minOccurs="0" name="documentName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="signatureInfo" nillable="true" type="tns:beanDssCreaTransazioneVerificaSignatureInfo" />
+          <xs:element minOccurs="0" name="signed" type="xs:boolean" />
+          <xs:element minOccurs="0" name="valid" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssCreaTransazioneVerificaSignatureInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="certificateB64" type="xs:string" />
+          <xs:element minOccurs="0" name="isTimeStamped" type="xs:boolean" />
+          <xs:element minOccurs="0" name="issuerDn" type="xs:string" />
+          <xs:element minOccurs="0" name="revocationControl" type="xs:string" />
+          <xs:element minOccurs="0" name="revocationTimeStamp" type="xs:string" />
+          <xs:element minOccurs="0" name="signatureTime" type="xs:string" />
+          <xs:element minOccurs="0" name="subjectCn" type="xs:string" />
+          <xs:element minOccurs="0" name="subjectDn" type="xs:string" />
+          <xs:element minOccurs="0" name="subjectEmail" type="xs:string" />
+          <xs:element minOccurs="0" name="verified" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="controllaTransazioneFirma">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="policyFileName" type="xs:string" />
+          <xs:element minOccurs="0" name="sessionId" type="xs:long" />
+          <xs:element minOccurs="0" name="b64Files" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="controllaTransazioneFirmaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ControllaTransazioneFirmaResponse" type="tns:beanDssControllaTransazioneFirma" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="beanDssControllaTransazioneFirma">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="b64p7m" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="policyId" type="xs:string" />
+          <xs:element name="returnCode" type="xs:int" />
+          <xs:element minOccurs="0" name="returnMessage" type="xs:string" />
+          <xs:element name="sessionId" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="IOException" type="tns:IOException" />
+      <xs:complexType name="IOException">
+        <xs:sequence />
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="cleanUp">
+    <wsdl:part name="parameters" element="tns:cleanUp" />
+  </wsdl:message>
+  <wsdl:message name="controllaTransazioneFirma">
+    <wsdl:part name="parameters" element="tns:controllaTransazioneFirma" />
+  </wsdl:message>
+  <wsdl:message name="completaTransazioneFirma">
+    <wsdl:part name="parameters" element="tns:completaTransazioneFirma" />
+  </wsdl:message>
+  <wsdl:message name="cleanUpResponse">
+    <wsdl:part name="parameters" element="tns:cleanUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOException">
+    <wsdl:part name="IOException" element="tns:IOException" />
+  </wsdl:message>
+  <wsdl:message name="creaTransazioneFirmaResponse">
+    <wsdl:part name="parameters" element="tns:creaTransazioneFirmaResponse" />
+  </wsdl:message>
+  <wsdl:message name="controllaTransazioneFirmaResponse">
+    <wsdl:part name="parameters" element="tns:controllaTransazioneFirmaResponse" />
+  </wsdl:message>
+  <wsdl:message name="creaTransazioneVerifica">
+    <wsdl:part name="parameters" element="tns:creaTransazioneVerifica" />
+  </wsdl:message>
+  <wsdl:message name="creaTransazioneFirma">
+    <wsdl:part name="parameters" element="tns:creaTransazioneFirma" />
+  </wsdl:message>
+  <wsdl:message name="creaTransazioneVerificaResponse">
+    <wsdl:part name="parameters" element="tns:creaTransazioneVerificaResponse" />
+  </wsdl:message>
+  <wsdl:message name="completaTransazioneFirmaResponse">
+    <wsdl:part name="parameters" element="tns:completaTransazioneFirmaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSFirma">
+    <wsdl:operation name="creaTransazioneFirma">
+      <wsdl:input name="creaTransazioneFirma" message="tns:creaTransazioneFirma" />
+      <wsdl:output name="creaTransazioneFirmaResponse" message="tns:creaTransazioneFirmaResponse" />
+      <wsdl:fault name="IOException" message="tns:IOException" />
+    </wsdl:operation>
+    <wsdl:operation name="cleanUp">
+      <wsdl:input name="cleanUp" message="tns:cleanUp" />
+      <wsdl:output name="cleanUpResponse" message="tns:cleanUpResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="completaTransazioneFirma">
+      <wsdl:input name="completaTransazioneFirma" message="tns:completaTransazioneFirma" />
+      <wsdl:output name="completaTransazioneFirmaResponse" message="tns:completaTransazioneFirmaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="creaTransazioneVerifica">
+      <wsdl:input name="creaTransazioneVerifica" message="tns:creaTransazioneVerifica" />
+      <wsdl:output name="creaTransazioneVerificaResponse" message="tns:creaTransazioneVerificaResponse" />
+      <wsdl:fault name="IOException" message="tns:IOException" />
+    </wsdl:operation>
+    <wsdl:operation name="controllaTransazioneFirma">
+      <wsdl:input name="controllaTransazioneFirma" message="tns:controllaTransazioneFirma" />
+      <wsdl:output name="controllaTransazioneFirmaResponse" message="tns:controllaTransazioneFirmaResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSFirmaSoapBinding" type="tns:WSFirma">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="creaTransazioneFirma">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="creaTransazioneFirma">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="creaTransazioneFirmaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="cleanUp">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="cleanUp">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="cleanUpResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="completaTransazioneFirma">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="completaTransazioneFirma">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="completaTransazioneFirmaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="creaTransazioneVerifica">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="creaTransazioneVerifica">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="creaTransazioneVerificaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="IOException">
+        <soap:fault use="literal" name="IOException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="controllaTransazioneFirma">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="controllaTransazioneFirma">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="controllaTransazioneFirmaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSFirma">
+    <wsdl:port name="WSFirmaPort" binding="tns:WSFirmaSoapBinding">
+      <soap:address location="http://interop.tn.camcom.it/FirmaDigitale/services/WSFirma" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

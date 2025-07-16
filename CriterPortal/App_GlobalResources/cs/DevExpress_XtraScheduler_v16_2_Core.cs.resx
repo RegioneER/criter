@@ -1,0 +1,986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerStringId.Msg_IsNotValid">
+    <value>'{0}' není platná hodnota pro '{1}'</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeekForDailyRecurrence">
+    <value>Nesprávný den týdne pro denní opakování. Pouze WeekDays.EveryDay, WeekDays.WeekendDays and WeekDays.WorkDays lze použít  v tomto kontextu.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InternalError">
+    <value>Interní chyba!</value>
+  </data>
+  <data name="SchedulerStringId.Msg_NoMappingForObject">
+    <value>Následující požadované mapování pro objekt 
+ {0} není přiděleno</value>
+  </data>
+  <data name="SchedulerStringId.Msg_XtraSchedulerNotAssigned">
+    <value>SchedulerStorage komponenta není přiděleno do SchedulerControleru.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidTimeOfDayInterval">
+    <value>Neplatné trvání pro TimeOfDayInterval</value>
+  </data>
+  <data name="SchedulerStringId.Msg_OverflowTimeOfDayInterval">
+    <value>Neplatné trvání pro TimeOfDayInterval. Měl by být méně nebo rovno dni</value>
+  </data>
+  <data name="SchedulerStringId.Msg_LoadCollectionFromXml">
+    <value>Plánovač v nevázaném modu musí obsahovat data z xml</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_None">
+    <value>Žádný</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Important">
+    <value>Důležitý</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Business">
+    <value>Obchodní</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Personal">
+    <value>Osobní</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Vacation">
+    <value>Dovolená</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_MustAttend">
+    <value>Povinná</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_TravelRequired">
+    <value>Plánovaná cesta</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_NeedsPreparation">
+    <value>Je nutná příprava</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Birthday">
+    <value>Narozeniny</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_Anniversary">
+    <value>Výročí</value>
+  </data>
+  <data name="SchedulerStringId.AppointmentLabel_PhoneCall">
+    <value>Zavolat</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidEndDate">
+    <value>Použité datum je menší než počáteční datum.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Appointment">
+    <value>{0} - Schůzka</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Event">
+    <value>{0} - Událost</value>
+  </data>
+  <data name="SchedulerStringId.Caption_UntitledAppointment">
+    <value>Neoznačený</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ReadOnly">
+    <value> [Pouze pro čtení]</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysEveryDay">
+    <value>Den</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWeekendDays">
+    <value>Volný den</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekDaysWorkDays">
+    <value>Pracovní den</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFirst">
+    <value>První</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthSecond">
+    <value>Druhý</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthThird">
+    <value>Třetí</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthFourth">
+    <value>Čtvrtý</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekOfMonthLast">
+    <value>Poslední</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayCount">
+    <value>Neplatný počet dní. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayCountValue">
+    <value>Neplatný počet dní. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidWeekCount">
+    <value>Neplatný počet týdnů. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidWeekCountValue">
+    <value>Neplatný počet týdnů. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidMonthCount">
+    <value>Neplatný počet měsíců. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidMonthCountValue">
+    <value>Neplatný počet měsíců. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidYearCount">
+    <value>Neplatný počet let. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidYearCountValue">
+    <value>Neplatný počet let. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidOccurrencesCount">
+    <value>Neplatný počet událostí. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidOccurrencesCountValue">
+    <value>Neplatný počet událostí. Prosím zadejte kladné číslo.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumber">
+    <value>Neplatný počet dní. Prosím zadejte číslo od 1 do {0}.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayNumberValue">
+    <value>Neplatný počet dní. Prosím zadejte číslo od 1 do {0}.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_WarningDayNumber">
+    <value>Některé měsíce mají méně než {0} dnů. Pro tyto měsíce se aktivuje výskyt v posledním dnu měsíce.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidDayOfWeek">
+    <value>Není vybrán žádný den. Prosím vyberte přinejmenším jeden den v týdnu.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenAppointment">
+    <value>&amp;Otevřít</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_PrintAppointment">
+    <value>&amp;Tisk</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointment">
+    <value>&amp;Odstranit</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_EditSeries">
+    <value>&amp;Editovat sérii</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_RestoreOccurrence">
+    <value>&amp;Vrátit do původních hodnot</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAppointment">
+    <value>Nová schůzka</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewAllDayEvent">
+    <value>Nová celodenní událost</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringAppointment">
+    <value>Nová opakovaná schůzka</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NewRecurringEvent">
+    <value>Nová opakovaná událost</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoThisDay">
+    <value>Přejít na tento den</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoToday">
+    <value>Přejít na dnešní den</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_GotoDate">
+    <value>Přejít na datum...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OtherSettings">
+    <value>Ostatní nastavení...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeCurrentView">
+    <value>&amp;Změnit tento náhled...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_CustomizeTimeRuler">
+    <value>Změnit časovou osu...</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_5Minutes">
+    <value>&amp;5 Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_6Minutes">
+    <value>&amp;6 Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_10Minutes">
+    <value>10 &amp;Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_15Minutes">
+    <value>&amp;15 Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_20Minutes">
+    <value>&amp;20 Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_30Minutes">
+    <value>&amp;30 Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_60Minutes">
+    <value>&amp;5 Minut</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchViewMenu">
+    <value>Změnit vzhled na</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToDayView">
+    <value>&amp;Denní náhled</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToWorkWeekView">
+    <value>Pracovní dny náhled</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToWeekView">
+    <value>&amp;Týdenní náhled</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToMonthView">
+    <value>&amp;Měsíční náhled</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToTimelineView">
+    <value>&amp;Časová osa</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScalesMenu">
+    <value>&amp;Časové měřítko</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleCaptionsMenu">
+    <value>Časové měřítko &amp;Titulky</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleHour">
+    <value>&amp;Hodina</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleDay">
+    <value>&amp;Den</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleWeek">
+    <value>&amp;Týden</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleMonth">
+    <value>&amp;Měsíc</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleQuarter">
+    <value>&amp;Kvartál</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_TimeScaleYear">
+    <value>&amp;Rok</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ShowTimeAs">
+    <value>&amp;Zobrazit čas jako</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Free">
+    <value>&amp;Volno</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Busy">
+    <value>&amp;Zaneprázdněn</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Tentative">
+    <value>&amp;Nezávazně</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OutOfOffice">
+    <value>&amp;Mimo kancelář</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_LabelAs">
+    <value>&amp;Štítek jako</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelNone">
+    <value>&amp;Žádný</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelImportant">
+    <value>&amp;Důležité</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelBusiness">
+    <value>&amp;Obchodní</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelPersonal">
+    <value>&amp;Osobní</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelVacation">
+    <value>&amp;Dovolená</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelMustAttend">
+    <value>Povinné</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelTravelRequired">
+    <value>&amp;Požadována cesta</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelNeedsPreparation">
+    <value>&amp;Potřeba přípravy</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelBirthday">
+    <value>&amp;Narozeniny</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelAnniversary">
+    <value>&amp;Výročí</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentLabelPhoneCall">
+    <value>Telefonní hovor</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentMove">
+    <value>P&amp;řesunout</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentCopy">
+    <value>&amp;Kopírovat</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_AppointmentCancel">
+    <value>Z&amp;rušit</value>
+  </data>
+  <data name="SchedulerStringId.Caption_5Minutes">
+    <value>5 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_6Minutes">
+    <value>6 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_10Minutes">
+    <value>10 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_15Minutes">
+    <value>15 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_20Minutes">
+    <value>20 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_30Minutes">
+    <value>30 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_60Minutes">
+    <value>60 Minut</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Free">
+    <value>Volno</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Busy">
+    <value>Zaneprázdněn</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Tentative">
+    <value>Nezávazně</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OutOfOffice">
+    <value>Mimo kancelář</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Day">
+    <value>Denní kalendář</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_WorkDays">
+    <value>Kalendář pracovního týdne</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Week">
+    <value>Týdenní kalendář</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Month">
+    <value>Měsíční kalendář</value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Timeline">
+    <value>Časová osa - kalendář</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Hour">
+    <value>Hodina</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Day">
+    <value>Den</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Week">
+    <value>Týden</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Month">
+    <value>Měsíc</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Quarter">
+    <value>Kvartál</value>
+  </data>
+  <data name="SchedulerStringId.TimeScaleDisplayName_Year">
+    <value>Rok</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort1">
+    <value>m</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_MinutesShort2">
+    <value>min</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minute">
+    <value>minuta</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Minutes">
+    <value>minut</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_HoursShort">
+    <value>h</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hour">
+    <value>hodina</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Hours">
+    <value>hodiny</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_DaysShort">
+    <value>d</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Day">
+    <value>den</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Days">
+    <value>dny</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_WeeksShort">
+    <value>w</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Week">
+    <value>týden</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Weeks">
+    <value>týdny</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Month">
+    <value>měsíc</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Months">
+    <value>měsíce</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Year">
+    <value>rok</value>
+  </data>
+  <data name="SchedulerStringId.Abbr_Years">
+    <value>roky</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminder">
+    <value>{0} připomenutí</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Reminders">
+    <value>{0} připomenutí</value>
+  </data>
+  <data name="SchedulerStringId.Caption_StartTime">
+    <value>Počáteční čas: {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NAppointmentsAreSelected">
+    <value>{0} schůzek je vybráno</value>
+  </data>
+  <data name="SchedulerStringId.Format_TimeBeforeStart">
+    <value>{0} Před startem</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Conflict">
+    <value>Uspořádaná schůzka je v konfliktu s jednou nebo několika dalšími schůzkami.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidAppointmentDuration">
+    <value>Nesprávná hodnota pro interval trvání. Prosím zadejte kladnou hodnotu.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidReminderTimeBeforeStart">
+    <value>Nesprávná hodnota pro čas připomenutí. Prosím zadejte kladnou hodnotu.</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromTo">
+    <value>Od {0} do {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDays">
+    <value>Od {0} do {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysHours">
+    <value>Od {0} do {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysMinutes">
+    <value>Od {0} do {1} {3}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_FromForDaysHoursMinutes">
+    <value>Od {0} do {1} {2} {3}</value>
+  </data>
+  <data name="SchedulerStringId.TextDuration_ForPattern">
+    <value>{0} {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryDay">
+    <value>Každý {0} {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryDays">
+    <value>každý {2} {1} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryWeekDay">
+    <value>každý pracovní den {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextDailyPatternString_EveryWeekend">
+    <value>každý volný den {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_0Day">
+    <value>Nespecifikovaný den v týdnu</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_1Day">
+    <value>{0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_2Day">
+    <value>{0} a {1}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_3Day">
+    <value>{0}, {1}, a {2}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_4Day">
+    <value>{0}, {1}, {2}, a {3}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_5Day">
+    <value>{0}, {1}, {2}, {3}, a {4}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_6Day">
+    <value>{0}, {1}, {2}, {3}, {4}, a {5}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeekly_7Day">
+    <value>{0}, {1}, {2}, {3}, {4}, {5}, a {6}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeeklyPatternString_EveryWeek">
+    <value>každý {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextWeeklyPatternString_EveryWeeks">
+    <value>každý {1} {2} na {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString_SubPattern">
+    <value>Každý {0} {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString1">
+    <value>Den {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextMonthlyPatternString2">
+    <value>{1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearString1">
+    <value>každý {3} {4} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearString2">
+    <value>{5} {6} z {3} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearsString1">
+    <value>{3} {4} každý {1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.TextYearlyPattern_YearsString2">
+    <value>{5} {6} z {3} každý {1} {2} {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AllDay">
+    <value>Všechny dny</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PleaseSeeAbove">
+    <value>Prosím viz výše</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceSubject">
+    <value>Subjekt:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceLocation">
+    <value>Umístění:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceStartTime">
+    <value>Start:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceEndTime">
+    <value>Konec:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrenceShowTimeAs">
+    <value>Zobrazit jako:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_Recurrence">
+    <value>Opakování:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_RecurrencePattern">
+    <value>Vzor opakování:</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneRecurrence">
+    <value>(žádný)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NoneReminder">
+    <value>Žádný</value>
+  </data>
+  <data name="SchedulerStringId.MemoPrintDateFormat">
+    <value>{0} {1} {2}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_EmptyResource">
+    <value>(jakýkoliv)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DailyPrintStyle">
+    <value>Denní styl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeeklyPrintStyle">
+    <value>Týdenní styl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MonthlyPrintStyle">
+    <value>Měsíční styl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TrifoldPrintStyle">
+    <value>Tri-fold Styl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CalendarDetailsPrintStyle">
+    <value>Detailní styl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MemoPrintStyle">
+    <value>Memo Styl</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterFullColor">
+    <value>Plné barvy</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterGrayScale">
+    <value>Šedé barvy</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ColorConverterBlackAndWhite">
+    <value>Černobílé</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ResourceNone">
+    <value>(žádný)</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ResourceAll">
+    <value>(Vše)</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormatTabControlCustomizeShading">
+    <value>&lt;Změnit...&gt;</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormatTabControlSizeAndFontName">
+    <value>{0} pt. {1}</value>
+  </data>
+  <data name="SchedulerStringId.PrintRangeControlInvalidDate">
+    <value>Konečné datum musí být větší než počáteční.</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlDayPeriod">
+    <value>Den</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlWeekPeriod">
+    <value>Týden</value>
+  </data>
+  <data name="SchedulerStringId.PrintCalendarDetailsControlMonthPeriod">
+    <value>Měsíc</value>
+  </data>
+  <data name="SchedulerStringId.PrintMonthlyOptControlOnePagePerMonth">
+    <value>1 stránka/měsíc</value>
+  </data>
+  <data name="SchedulerStringId.PrintMonthlyOptControlTwoPagesPerMonth">
+    <value>2 stránky/měsíc</value>
+  </data>
+  <data name="SchedulerStringId.PrintTimeIntervalControlInvalidDuration">
+    <value>Trvání nemůže být delší než 1 den a větší než 0</value>
+  </data>
+  <data name="SchedulerStringId.PrintTimeIntervalControlInvalidStartEndTime">
+    <value>Konečný čas musí být větší než počáteční.</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlDailyCalendar">
+    <value>Denní kalendář</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlWeeklyCalendar">
+    <value>Týdenní kalendář</value>
+  </data>
+  <data name="SchedulerStringId.PrintTriFoldOptControlMonthlyCalendar">
+    <value>Měsíční kalendář</value>
+  </data>
+  <data name="SchedulerStringId.PrintWeeklyOptControlOneWeekPerPage">
+    <value>1 stránka/týden</value>
+  </data>
+  <data name="SchedulerStringId.PrintWeeklyOptControlTwoWeekPerPage">
+    <value>2 stránky/týden</value>
+  </data>
+  <data name="SchedulerStringId.PrintPageSetupFormCaption">
+    <value>Nastavení tisku: {0}</value>
+  </data>
+  <data name="SchedulerStringId.PrintMoreItemsMsg">
+    <value>Více položek...</value>
+  </data>
+  <data name="SchedulerStringId.PrintNoPrintersInstalled">
+    <value>Není naistalována tiskárna</value>
+  </data>
+  <data name="SchedulerStringId.Caption_IncreaseVisibleResourcesCount">
+    <value>Zvětšit viditelné zdroje</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DecreaseVisibleResourcesCount">
+    <value>Zmenšit viditelné zdroje</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAllDayArea">
+    <value>Zona všech dnů</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAppointments">
+    <value>Schůzky</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToAppointmentStatuses">
+    <value>Statusy schůzek</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToHeaders">
+    <value>Hlavičky</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToTimeRulers">
+    <value>Časová osa</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ShadingApplyToCells">
+    <value>Buňky</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidSize">
+    <value>Nesprávná velikost pro velikost</value>
+  </data>
+  <data name="SchedulerStringId.Msg_ApplyToAllStyles">
+    <value>Použít nynější tiskové nastavení pro všechny styly ?</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MemoPrintNoSelectedItems">
+    <value>Nelze tisknout bez vybrání platné položky. Vyberte položku a opakujte tisk.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_AllResources">
+    <value>Všechny zdroje</value>
+  </data>
+  <data name="SchedulerStringId.Caption_VisibleResources">
+    <value>Viditelné zdroje</value>
+  </data>
+  <data name="SchedulerStringId.Caption_OnScreenResources">
+    <value>Viditelné zdroje</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByNone">
+    <value>Žádný</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByDate">
+    <value>Datum</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByResources">
+    <value>Zdroje</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InvalidInputFile">
+    <value>Vložený soubor je neplatný.</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeDaily">
+    <value>Denně</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeWeekly">
+    <value>Týdně</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMonthly">
+    <value>Měsíčně</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeYearly">
+    <value>Ročně</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeMinutely">
+    <value>Minutově</value>
+  </data>
+  <data name="SchedulerStringId.TextRecurrenceTypeHourly">
+    <value>Hodinově</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_EndContinueText">
+    <value>Do {0}</value>
+  </data>
+  <data name="SchedulerStringId.Appointment_StartContinueText">
+    <value>Od {0}</value>
+  </data>
+  <data name="SchedulerStringId.Caption_CheckMappings">
+    <value>Ověřit zobrazení</value>
+  </data>
+  <data name="SchedulerStringId.Caption_DayViewDescription">
+    <value>Přepnout do denního pohledu. Nejdetailnější pohled na vybrané dny.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FirstVisibleResources">
+    <value>První</value>
+  </data>
+  <data name="SchedulerStringId.Caption_LastVisibleResources">
+    <value>Poslední</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MappingsValidation">
+    <value>Kontrola zobrazení</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MappingsWizard">
+    <value>Průvodce zobrazení...</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyAppointmentMappingsTransactionDescription">
+    <value>Nastavení zobrazení události</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyAppointmentStorageTransactionDescription">
+    <value>Nastavení paměti události</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyResourceMappingsTransactionDescription">
+    <value>Změnit prostředky události</value>
+  </data>
+  <data name="SchedulerStringId.Caption_ModifyResourceStorageTransactionDescription">
+    <value>Změnit prostředky paměti</value>
+  </data>
+  <data name="SchedulerStringId.Caption_MonthViewDescription">
+    <value>Přepnout do měsíčního (více týdenního) pohledu. Pohled na kalendář vhodný pro dlouhodobé plánování.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextAppointment">
+    <value>Další událost</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResources">
+    <value>Další</value>
+  </data>
+  <data name="SchedulerStringId.Caption_NextVisibleResourcesPage">
+    <value>Další stránka</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevAppointment">
+    <value>Předchozí událost</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResources">
+    <value>Předchozí</value>
+  </data>
+  <data name="SchedulerStringId.Caption_PrevVisibleResourcesPage">
+    <value>Předchozí stránka</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupAppointmentMappings">
+    <value>Nastavení zobrazení události</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupAppointmentStorage">
+    <value>Nastavení paměti události</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupResourceMappings">
+    <value>Nastavení zrdojů zobrazení</value>
+  </data>
+  <data name="SchedulerStringId.Caption_SetupResourceStorage">
+    <value>Nastavení zdrojů uložení</value>
+  </data>
+  <data name="SchedulerStringId.Caption_TimelineViewDescription">
+    <value>Přepnout pohled na časovou osu. Seřadí záznamy podle času.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WeekViewDescription">
+    <value>Přepnout na týdenní pohled. Seřadí záznamy do týdenního přehledu.</value>
+  </data>
+  <data name="SchedulerStringId.Caption_WorkWeekViewDescription">
+    <value>Přepnout na pohled pracovního týdne. Seřadí záznamy do přehledu pracovních dní týdne.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_GotoToday">
+    <value>Přepne zobrazení aktuálního pohledu na dnešní den.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NavigateBackward">
+    <value>Krok zpět, vzhledem k aktuelnímu zobrazení.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_NavigateForward">
+    <value>Krok vpřed, vzhledem k aktuálnímu zobrazení.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ViewZoomIn">
+    <value>Zvýší rozlišení.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_ViewZoomOut">
+    <value>Sníží rozlišení.</value>
+  </data>
+  <data name="SchedulerStringId.Format_CopyNOf">
+    <value>Kopie ({0}) z {1}</value>
+  </data>
+  <data name="SchedulerStringId.Format_CopyOf">
+    <value>Kopie {0}</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateBackward">
+    <value>Nazpět</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_NavigateForward">
+    <value>Dopředu</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ViewZoomIn">
+    <value>Zvětšit</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ViewZoomOut">
+    <value>Zmenšit</value>
+  </data>
+  <data name="SchedulerStringId.Msg_CantFitIntoPage">
+    <value>Není možné vtěsnat výstup do jedné stránky se současným nastavením tisku. Pokuste se prosím zvýšit výšku stránky, nebo snížit rozsah tisknutého období.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_DuplicateCustomFieldMappings">
+    <value>Duplikátní název uživatelského souboru. Zkontrolujte následující mapování:
+{0}</value>
+  </data>
+  <data name="SchedulerStringId.Msg_DuplicateMappingMember">
+    <value>'{0}' položka mapování není jedinečná: </value>
+  </data>
+  <data name="SchedulerStringId.Msg_iCalendar_AppointmentsImportWarning">
+    <value>Nemůže importovat událost</value>
+  </data>
+  <data name="SchedulerStringId.Msg_iCalendar_NotValidFile">
+    <value>Neplatný internetový kalendářový soubor</value>
+  </data>
+  <data name="SchedulerStringId.Msg_InconsistentRecurrenceInfoMapping">
+    <value>
+	To support recurrence you must map both RecurrenceInfo and Type members.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_IncorrectMappingsQuestion">
+    <value>Neplatné zobrazení. Přesto pokračovat?
+Detaily:
+</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MappingsCheckPassedOk">
+    <value>Ověření mapování proběhlo v pořádku!</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MissingMappingMember">
+    <value>Chybějící '{1}' část '{0}' vlastnosti zobrazení.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_MissingRequiredMapping">
+    <value>Požadované zobrazení '{0}' vlastnosti nebylo nalezeno.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_OutlookCalendarNotFound">
+    <value>Kalendář '{0}' nebyl nalezen.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_PrintStyleNameExists">
+    <value>Jméno '{0}' Již existuje. Zvolte jiné jméno.</value>
+  </data>
+  <data name="SchedulerStringId.Msg_Warning">
+    <value>Varování!</value>
+  </data>
+  <data name="SchedulerStringId.Msg_WarningAppointmentDeleted">
+    <value>Místo bylo smazáno jiným uživatelem.</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Day">
+    <value>Den</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Month">
+    <value>Měsíc</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Timeline">
+    <value>Časová osa</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_Week">
+    <value>Týden</value>
+  </data>
+  <data name="SchedulerStringId.ViewShortDisplayName_WorkDays">
+    <value>Pracovní týden</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByResource">
+    <value>&amp;Seskupit podle zdroje</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByDate">
+    <value>&amp;Seskupit podle datumu</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByNoneDescription">
+    <value>Seskupit podle ničeho</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByResourceDescription">
+    <value>Seskupit podle zdrojů</value>
+  </data>
+  <data name="SchedulerStringId.DefaultToolTipStringFormat_SplitAppointment">
+    <value>{0} : krok {1}</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToGroupByNone">
+    <value>&amp;Seskupit podle ničeho</value>
+  </data>
+  <data name="SchedulerStringId.Caption_GroupByDateDescription">
+    <value>Seskupit podle data</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteOccurrence" xml:space="preserve">
+    <value>Odstranit výskyt.</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_DeleteSeries" xml:space="preserve">
+    <value>Odstranit řadu.</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteOccurrence" xml:space="preserve">
+    <value>Odstranit výskyt</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteSeries" xml:space="preserve">
+    <value>Odstranit řadu</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_ToggleRecurrence" xml:space="preserve">
+    <value>Opakování</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SaveSchedule" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_DeleteAppointmentDependency" xml:space="preserve">
+    <value>&amp;Odstranit</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_OpenSchedule" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="SchedulerStringId.TextAppointmentSnapToCells_Auto" xml:space="preserve">
+    <value>Automaticky</value>
+  </data>
+  <data name="SchedulerStringId.TextAppointmentSnapToCells_Always" xml:space="preserve">
+    <value>Vždy</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_Print" xml:space="preserve">
+    <value>Rychlý tisk</value>
+  </data>
+  <data name="SchedulerStringId.DescCmd_OpenAppointment" xml:space="preserve">
+    <value>Otevřít vybranou schůzku.</value>
+  </data>
+  <data name="SchedulerStringId.DateTimeAutoFormat_WithoutYear" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SchedulerStringId.DateTimeAutoFormat_Week" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SchedulerStringId.ViewDisplayName_Gantt" xml:space="preserve">
+    <value>Ganttův diagram</value>
+  </data>
+  <data name="SchedulerStringId.MenuCmd_SwitchToFullWeekView" xml:space="preserve">
+    <value>Týdenní náhled</value>
+  </data>
+  <data name="SchedulerStringId.Caption_FullWeekViewDescription" xml:space="preserve">
+    <value>Přepnout do zobrazení celého týdne. Uspořádá schůzky pro konkrétní týden v kompaktní podobě.</value>
+  </data>
+</root>

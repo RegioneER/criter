@@ -1,0 +1,413 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BootstrapItalia.master.cs" Inherits="BootstrapItalia" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <!-- -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="canonical" href="https://energia.regione.emilia-romagna.it" />
+    <link rel="alternate" href="https://energia.regione.emilia-romagna.it/RSS" title="Energia - RSS 1.0" type="application/rss+xml" />
+    <link rel="alternate" href="https://energia.regione.emilia-romagna.it/rss.xml" title="Energia - RSS 2.0" type="application/rss+xml" />
+    <link rel="alternate" href="https://energia.regione.emilia-romagna.it/atom.xml" title="Energia - Atom" type="application/rss+xml" />
+    <link rel="search" href="https://energia.regione.emilia-romagna.it/@@search" title="Cerca nel sito" />
+
+    <link href="~/Content/StyleCustomBootstrapItalia.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Content/StyleCustomBootstrapItaliaBundle.css" data-bundle="rer-agidtheme-base-css-bundle" />
+
+    <script type="text/javascript">PORTAL_URL = 'https://energia.regione.emilia-romagna.it';</script>
+    <script type="text/javascript" src="Scripts/BootstrapItalia.js"></script>
+    <script type="text/javascript" src="https://energia.regione.emilia-romagna.it/++plone++production/++unique++2023-05-05T15:56:36.913977/default.js" data-bundle="production"></script>
+
+    <script type="text/javascript" src="https://energia.regione.emilia-romagna.it/++plone++static/++unique++2019-05-30%2009%3A17%3A25.909173/plone-compiled.min.js" data-bundle="plone"></script>
+
+    <script type="text/javascript" src="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/js/dist/rer-agidtheme-base-bundle-compiled.min.js" data-bundle="rer-agidtheme-base-js-bundle"></script>
+    <script type="text/javascript" src="https://energia.regione.emilia-romagna.it/++theme++design.plone.theme/js/dist/design-plone-theme-bundle-compiled.min.js" data-bundle="design-plone-theme-js-bundle"></script>
+    <script type="text/javascript" src="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/js/dist/rer-agidtheme-base-icons-bundle.min.js" data-bundle="rer-agidtheme-base-icons-bundle"></script>
+
+
+    <title>Catasto regionale impianti termici - CRITER — Energia</title>
+    <link rel="apple-touch-icon" href="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://energia.regione.emilia-romagna.it/++theme++rer.agidtheme.base/apple-touch-icon-precomposed.png" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="summary" name="twitter:card" />
+    <meta content="Energia" property="og:site_name" />
+    <meta content="Homepage" property="og:title" />
+    <meta content="website" property="og:type" />
+    <meta content="" property="og:description" />
+    <meta content="https://energia.regione.emilia-romagna.it" property="og:url" />
+    <meta content="https://energia.regione.emilia-romagna.it/@@site-logo/logo_rer_quadrato_bianco.png" property="og:image" />
+    <meta content="image/png" property="og:image:type" />
+    <meta name="generator" content="Plone - http://plone.com" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://energia.regione.emilia-romagna.it/favicon.ico" />
+    <!-- -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="visual-portal-wrapper" class="frontend icons-on portaltype-document section-criter site-energia subsection-catasto-criter template-document_view thumbs-on userrole-anonymous viewpermission-view subsite-child" dir="ltr" data-view-url="https://energia.regione.emilia-romagna.it/criter/catasto-criter"  data-portal-url="https://energia.regione.emilia-romagna.it"  data-base-url="https://energia.regione.emilia-romagna.it/criter/catasto-criter">
+    <form id="webform" runat="server">
+        <asp:ScriptManager ID="smContent" EnableScriptGlobalization="true" AsyncPostBackTimeout="360000" EnablePartialRendering="true" EnablePageMethods="true" runat="server" />
+
+        <!-- HEADER -->
+        <header id="portal-top">
+            <div class="skip-link-wrapper">
+                <a accesskey="2" class="skip-link skip-link-content" href="#content">Vai al Contenuto</a>
+                <a accesskey="6" class="skip-link skip-link-navigation" href="#portal-mainnavigation">Vai alla navigazione del sito</a>
+            </div>
+            <div id="header-banner">
+                <div class="header-banner-inner">
+                    <div class="header-banner-owner">
+                        <a href="https://www.regione.emilia-romagna.it">Regione Emilia-Romagna</a>
+                    </div>
+                </div>
+            </div>
+            <div id="portal-header">
+                <a id="portal-logo" title="Home" href="https://energia.regione.emilia-romagna.it">
+                    <img src="https://energia.regione.emilia-romagna.it/@@site-logo/logo_rer_quadrato_bianco.png" alt="" />
+                    <span>Energia</span>
+                </a>
+                <div class="search-social-wrapper">
+                    <div id="header-social">
+                        <p>Seguici su</p>
+                        <ul>
+                            <li>
+                                <a href="https://energia.regione.emilia-romagna.it/newsletter" title="newsletter - apri in una nuova scheda" class="social" target="_blank" rel="noopener noreferrer">
+                                    <i class="far fa-newspaper"></i>
+                                    <span>newsletter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://energia.regione.emilia-romagna.it/rss-dal-portale" title="rss - apri in una nuova scheda" class="social" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-rss"></i>
+                                    <span>rss</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="portal-searchbox">
+                        <%--<form id="searchGadget_form" action="https://energia.regione.emilia-romagna.it/@@search" role="search" data-pat-livesearch="ajaxUrl:https://energia.regione.emilia-romagna.it/@@ajax-search" class="">--%>
+                        <div class="LSBox">
+                            <label class="hiddenStructure" for="searchGadget">Cerca nel sito</label>
+                            <input name="SearchableText" type="text" size="18" id="searchGadget" title="Cerca nel sito" placeholder="Cerca nel sito" class="searchField" />
+                            <button class="search-button" type="submit" aria-label="Cerca" title="Cerca"></button>
+                        </div>
+                        <%--</form>--%>
+                    </div>
+                    <button id="search-toggle" aria-controls="portal-searchbox" aria-label="Apri/chiudi ricerca" title="Apri/chiudi ricerca">
+                        <i class="fas fa-search"></i>
+                        <span class="close-icon"></span>
+                        <span class="sr-only">SEARCH</span>
+                    </button>
+                    <div class="plone-navbar-header">
+                        <button type="button" class="plone-navbar-toggle" aria-controls="portal-mainnavigation" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span><i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- NAVIGATION -->
+        <div id="portal-mainnavigation">
+            <nav aria-label="Sezioni" class="globalnavWrapper">
+                <div class="globalnavClose">
+                    <button id="globalnav-close" aria-controls="menu" aria-label="Esci dalla navigazione" title="Esci dalla navigazione">
+                        <span class="icon" aria-hidden="true"></span>
+                        <span class="sr-only">chiudi</span>
+                    </button>
+                </div>
+                <ul role="menubar" id="portal-globalnav">
+                    <li id="portaltab-0" class="plain">
+                        <a href="https://energia.regione.emilia-romagna.it/criter/catasto-criter" data-tabid="0" class="menuTabLink clickandgo" aria-haspopup="true"><span>Aree tematiche</span></a>
+                    </li>
+                    <%--<li id="portaltab-0" class="plain">
+                        <a href="#" data-tabid="0" class="menuTabLink " aria-haspopup="true" aria-expanded="false" role="menuitem"><span>Aree tematiche</span></a>
+                        <div id="submenu-details" class="submenu-0" style="">
+
+                            <div class="submenuDetailsContent">
+
+                                <div class="submenuStaticWrapper">
+
+                                    <div class="1 staticItem">
+                                        <p><a href="https://energia.regione.emilia-romagna.it/criter"><strong>Catasto regionale degli impianti termici</strong><br>
+                                        </a>Criter</p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/low-carboneconomy"><strong>Low carbon economy<br>
+                                        </strong></a>Sistema di produzione e consumi a basso contenuto di carbonio ed efficienza energetica</p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/costruire-riqualificare"><strong>Costruire e riqualificare<br>
+                                        </strong></a>Riqualificazione energetica del patrimonio edilizio</p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/comunita-energetiche"><strong>Comunità energetiche rinnovabili</strong></a><br>
+                                            Autoconsumo collettivo e Cer<strong></strong></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/transizione-energetica" title="Transizione energetica"><strong>Transizione energetica</strong></a><br>
+                                            Biometano, idrogeno verde e tecnologie innovative</p>
+                                    </div>
+
+                                    <div class="2 staticItem">
+                                        <p><a href="https://energia.regione.emilia-romagna.it/certificazione-energetica/certificazione-energetica-degli-edifici"><strong>Certificazione energetica<br>
+                                        </strong></a><span>Sistema regionale di attestazione della prestazione energetica degli edifici</span></p>
+                                        <p><span><a href="https://energia.regione.emilia-romagna.it/fonti-energetiche"><strong>Fonti energetiche</strong><br>
+                                        </a>Fonti fossili e fonti energetiche rinnovabili</span></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/osservatorio-energia"><strong>Osservatorio energia</strong></a><br>
+                                            Raccolta, elaborazione e diffusione di informazioni in materia di energia</p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/ricerca-innovazione"><strong>Ricerca e innovazione</strong><br>
+                                        </a><span>La Rete alta tecnologia, i ClustER, i Tecnopoli, i Laboratori di ricerca e i Centri per l'innovazione</span></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/fonti-energetiche"><strong></strong></a><span>
+                                            <br>
+                                        </span></p>
+                                    </div>
+
+                                    <div class="3 staticItem">
+                                        <blockquote class="mobile-hidden">
+                                            <p>
+                                                <img alt="Costruire e riqualificare " class="image-inline" src="https://energia.regione.emilia-romagna.it/immagini/Costruire%20e%20riqualificare.jpg/@@images/1ca2b202-c624-4563-9a24-ad958fcf54d9.jpeg" title="Costruire e riqualificare "></p>
+                                            <p>Il futuro? Energie rinnovabili e condivisione di servizi.</p>
+                                            <p>(Jeremy Rifkin)</p>
+                                        </blockquote>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>--%>
+                    <li id="portaltab-1" class="plain">
+                        <a href="https://energia.regione.emilia-romagna.it/come-fare-per" data-tabid="1" class="menuTabLink clickandgo"><span>Come fare per</span></a>
+                    </li>
+                    <li id="portaltab-2" class="plain">
+                        <a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/impianti-termici/impianti-termici" aria-haspopup="true" data-tabid="2" class="menuTabLink clickandgo"><span>Leggi Atti Bandi</span></a>
+                    </li>
+                    <%--<li id="portaltab-2" class="plain">
+                        <a href="#" data-tabid="2" class="menuTabLink " aria-haspopup="true" aria-expanded="false" role="menuitem"><span>Leggi Atti Bandi</span></a>
+                        <div id="submenu-details" class="submenu-2" style="display: none;">
+                            <div class="submenuDetailsContent">
+                                <div class="submenuStaticWrapper">
+                                    <div class="1 staticItem">
+                                        <h3>Normativa</h3>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/certificazione-energetica/certificazione-energetica-degli-edifici" aria-expanded="false">Certificazione energetica</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/efficienza-energetica/efficienza-energetica" aria-expanded="false">Efficienza energetica</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/fonti-rinnovabili/fonti-rinnovabili" aria-expanded="false">Fonti rinnovabili</a>&nbsp;</p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/impianti-termici/impianti-termici" aria-expanded="false">Impianti termici</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/infrastrutture-energetiche/normativa-infrastrutture-energetiche" aria-expanded="false">Infrastrutture e mercati</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/norme-e-atti-amministrativi/petrolio-e-gas/petrolio-e-gas" aria-expanded="false">Petrolio e gas</a><a href="https://energia.regione.emilia-romagna.it/criter/prova/criter-old" aria-expanded="false"></a></p>
+                                    </div>
+
+                                    <div class="2 staticItem">
+                                        <h3>Finanziamenti e agevolazioni</h3>
+                                        <p></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/bandi/bandi-e-finanziamenti" aria-expanded="false">Bandi aperti</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/bandi/bandi-finanziamenti-in-corso-chiusi" aria-expanded="false">Bandi in corso e chiusi</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/search_bandi_form" aria-expanded="false">Cerca in tutti i finanziamenti e le agevolazioni</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/incentivi-nazionali" aria-expanded="false">Incentivi nazionali</a></p>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/obblighi-di-pubblicazione-per-i-beneficiari-di-contributi" aria-expanded="false">Obblighi di pubblicazione per i beneficiari</a></p>
+                                        <h3>Autorizzazioni</h3>
+                                        <p><a href="https://energia.regione.emilia-romagna.it/leggi-atti-bandi-1/autorizzazioni" aria-expanded="false">Autorizzazione per impianti</a></p>
+                                    </div>
+
+                                    <div class="3 staticItem">
+                                        <blockquote class="mobile-hidden">
+                                            <p>
+                                                <img alt="Costruire e riqualificare " class="image-inline" src="https://energia.regione.emilia-romagna.it/immagini/Costruire%20e%20riqualificare.jpg/@@images/1ca2b202-c624-4563-9a24-ad958fcf54d9.jpeg" title="Costruire e riqualificare ">
+                                            </p>
+                                            <p>Il futuro? Energie rinnovabili e condivisione di servizi.</p>
+                                            <p>(Jeremy Rifkin)</p>
+                                        </blockquote>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>--%>
+
+
+
+
+
+                    <li id="portaltab-3" class="plain">
+                        <a href="https://energia.regione.emilia-romagna.it/piani-programmi-progetti" data-tabid="3" class="menuTabLink clickandgo"><span>Piani Programmi Progetti</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- ABOVE CONTENT -->
+        <div id="viewlet-above-content">
+            <nav id="portal-breadcrumbs" class="plone-breadcrumb">
+                <div class="container">
+                    <span id="breadcrumbs-you-are-here" class="hiddenStructure">Tu sei qui:</span>
+                    <ol aria-labelledby="breadcrumbs-you-are-here">
+                        <li id="breadcrumbs-home">
+                            <a title="Home" href="https://energia.regione.emilia-romagna.it">Home
+                            </a>
+                        </li>
+                        <li id="breadcrumbs-1">
+                            <a href="https://energia.regione.emilia-romagna.it/criter">Criter</a>
+                        </li>
+                    </ol>
+                </div>
+            </nav>
+
+            <div class="share">
+                <div class="share-slider">
+                    <div class="share-title">
+                        <a href="#" class="share-toggle">
+                            <span class="share-text">Condividi</span>
+                        </a>
+                    </div>
+                    <div class="share-options">
+                        <ul class="social-list">
+                            <li><a title="Twitter - apri in una nuova scheda" href="https://twitter.com/intent/tweet?url=https://energia.regione.emilia-romagna.it/criter/catasto-criter&amp;text=Catasto%20regionale%20impianti%20termici%20-%20CRITER" target="_blank"><i class="fab fa-twitter"></i><span class="u-hiddenVisually">Twitter</span></a></li>
+                            <li><a title="Facebook - apri in una nuova scheda" href="https://www.facebook.com/sharer/sharer.php?u=https://energia.regione.emilia-romagna.it/criter/catasto-criter" target="_blank"><i class="fab fa-facebook-f"></i><span class="u-hiddenVisually">Facebook</span></a></li>
+                            <li><a title="Linkedin - apri in una nuova scheda" href="http://www.linkedin.com/shareArticle?url=https://energia.regione.emilia-romagna.it/criter/catasto-criter&amp;title=Catasto%20regionale%20impianti%20termici%20-%20CRITER" target="_blank"><i class="fab fa-linkedin-in"></i><span class="u-hiddenVisually">Linkedin</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="share-button">
+                    <a href="#" class="share-toggle">
+                        <span class="share-icon"></span>
+                        <span class="sr-only">Attiva condividi</span>
+                    </a>
+                </div>
+            </div>
+
+            <%--<div id="subsite-title" class="subsite-child">
+                <div class="subsite-title-wrapper">
+                    <div class="subsite-title-container">
+                        <div class="subsite-title-content">
+                            <div class="subsite-title">
+                                <h2>Criter</h2>
+                            </div>
+
+                            <div class="subsite-anchor">
+                                <a href="#portal-column-two" title="In questa sezione">
+                                    <span class="subsite-anchor-label">In questa sezione</span>
+                                    <span class="subsite-anchor-icon">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>--%>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="column-wrapper" class="with-no-columns">
+            <article id="portal-column-content">
+                <div>
+                    <article id="content">
+                        <div id="content-core">
+                            <asp:ContentPlaceHolder ID="contentDisplay" runat="server"></asp:ContentPlaceHolder>
+
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </div>
+
+        <footer id="portal-footer-wrapper">
+            <div class="portal-footer">
+                <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a76616c7574612d696c2d7369746f" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a76616c7574612d696c2d7369746f">
+                </div>
+
+                <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a636f6e7461747469" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a636f6e7461747469">
+                    <section class="portlet rerPortletAdvancedStatic">
+                        <div class="portletHeader">
+                            <span class="headerImg" style="background-image: url()"></span>
+                            <h4 class="portlet-header">contatti
+                            </h4>
+                        </div>
+                        <section class="portletContent">
+                            <div class="colonna-2-di-3">
+                                <h3>
+                                    <img alt="Logo Regione Emilia-Romagna" class="image-inline" src="https://energia.regione.emilia-romagna.it/impostazioni/logo-regione.png/@@images/2976cef2-63c3-470e-a43f-82aaafd89ad1.png" title="Logo Regione Emilia-Romagna" /></h3>
+                                <h4>Direzione generale Conoscenza, ricerca, lavoro, imprese</h4>
+                                <p>Viale Aldo Moro, 44 - <strong></strong>40127 Bologna</p>
+                            </div>
+                            <div class="colonna-1-di-3">
+                                <h3>Redazione</h3>
+                                <hr />
+                                <ul>
+                                    <li><a href="https://energia.regione.emilia-romagna.it/info">Informazioni sul sito e crediti</a></li>
+                                    <li><strong>Scrivici</strong>: <a href="mailto:RedazionEnergia@Regione.Emilia-Romagna.it">e-mail</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+
+                <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a636f6e74617474692d726572" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a636f6e74617474692d726572">
+                    <section class="portlet rerPortletAdvancedStatic">
+                        <div class="portletHeader">
+                            <span class="headerImg" style="background-image: url()"></span>
+                            <h4 class="portlet-header">Contatti RER
+                            </h4>
+                        </div>
+                        <section class="portletContent">
+                            <div class="colonna-1-di-3">
+                                <h3>Recapiti</h3>
+                                <hr />
+                                <p>
+                                    <strong>Regione Emilia-Romagna</strong><br />
+                                    Viale Aldo Moro, 52<strong><br />
+                                    </strong>40127 Bologna<br />
+                                    <strong>Centralino</strong> <a href="tel:+39.0515271">051 5271</a><br />
+                                    <a class="external-link" href="http://wwwservizi.regione.emilia-romagna.it/Cercaregione/Default.aspx?cons=0">Cerca telefoni o indirizzi</a>
+                                </p>
+                            </div>
+                            <div class="colonna-1-di-3">
+                                <h3><acronym title="Ufficio relazioni con il pubblico">URP</acronym></h3>
+                                <hr />
+                                <p>
+                                    <strong>Sito web: </strong><a href="http://www.regione.emilia-romagna.it/urp/">www.regione.emilia-romagna.it/urp</a><br />
+                                    <strong>Numero verde: </strong><a href="tel:+39.800662200">800.66.22.00<br />
+                                    </a><a href="fax:+39.0514689664"></a><strong>Scrivici</strong>: <a href="mailto:urp@regione.emilia-romagna.it">e-mail</a> - <a href="mailto:urp@postacert.regione.emilia-romagna.it">PEC<br />
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="colonna-1-di-3">
+                                <h3>Trasparenza</h3>
+                                <hr />
+                                <ul>
+                                    <li><a href="http://trasparenza.regione.emilia-romagna.it/">Amministrazione trasparente</a></li>
+                                    <li><a href="http://www.regione.emilia-romagna.it/note-legali">Note legali e copyright</a></li>
+                                    <li><a href="https://energia.regione.emilia-romagna.it/privacy">Privacy e cookie</a></li>
+                                    <li><a data-cc-open-settings="" href="#">Gestisci i cookie</a></li>
+                                    <li><a href="https://energia.regione.emilia-romagna.it/accessibilita">Dichiarazione di accessibilità</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+
+                <div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a636f6c6f70686f6e" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f656e65726769610a636f6c6f70686f6e">
+                    <section class="portlet rerPortletAdvancedStatic footer-actions">
+                        <div class="portletHeader">
+                            <span class="headerImg" style="background-image: url()"></span>
+
+                            <h4 class="portlet-header">Colophon
+                            </h4>
+                        </div>
+
+                        <section class="portletContent">
+                            <hr />
+                            <div class="tinyAlignCenter">C.F. 800.625.903.79</div>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </footer>
+
+        <a href="javascript:" aria-hidden="true" id="return-to-top" title="Return to top" style="display: none"><i class="fas fa-chevron-up"></i></a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="539dadc6-cf82-47ad-8afd-9e041809138c" Title="Criter.Anagrafica" Url="html/N_Criter_Anagrafica.htm">
+    <HelpTOCNode Id="75941f62-b979-4120-96b3-c93b77a99628" Title="Classe POMJ_AnagraficaSoggetti" Url="html/T_Criter_Anagrafica_POMJ_AnagraficaSoggetti.htm">
+      <HelpTOCNode Title="Costruttore POMJ_AnagraficaSoggetti " Url="html/M_Criter_Anagrafica_POMJ_AnagraficaSoggetti__ctor.htm" />
+      <HelpTOCNode Id="aca45866-717d-49f8-88b3-82ee6327a2fb" Title="Propriet&#224; di POMJ_AnagraficaSoggetti" Url="html/Properties_T_Criter_Anagrafica_POMJ_AnagraficaSoggetti.htm">
+        <HelpTOCNode Title="Propriet&#224; CapSedeLegale " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_CapSedeLegale.htm" />
+        <HelpTOCNode Title="Propriet&#224; CittaSedeLegale " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_CittaSedeLegale.htm" />
+        <HelpTOCNode Title="Propriet&#224; Civico " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_Civico.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceCatastaleComune " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_CodiceCatastaleComune.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceFiscale " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_CodiceFiscale.htm" />
+        <HelpTOCNode Title="Propriet&#224; Cognome " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_Cognome.htm" />
+        <HelpTOCNode Title="Propriet&#224; Email " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_Email.htm" />
+        <HelpTOCNode Title="Propriet&#224; EmailPec " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_EmailPec.htm" />
+        <HelpTOCNode Title="Propriet&#224; Indirizzo " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_Indirizzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; IndirizzoSedeLegale " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_IndirizzoSedeLegale.htm" />
+        <HelpTOCNode Title="Propriet&#224; Nome " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_Nome.htm" />
+        <HelpTOCNode Title="Propriet&#224; NomeAzienda " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_NomeAzienda.htm" />
+        <HelpTOCNode Title="Propriet&#224; NumeroCivicoSedeLegale " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_NumeroCivicoSedeLegale.htm" />
+        <HelpTOCNode Title="Propriet&#224; NumeroIscrizioneCCIAA " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_NumeroIscrizioneCCIAA.htm" />
+        <HelpTOCNode Title="Propriet&#224; PartitaIVA " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_PartitaIVA.htm" />
+        <HelpTOCNode Title="Propriet&#224; ProvinciaIscrizioneCCIAA " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_ProvinciaIscrizioneCCIAA.htm" />
+        <HelpTOCNode Title="Propriet&#224; ProvinciaSedeLegale " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_ProvinciaSedeLegale.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoSoggetto " Url="html/P_Criter_Anagrafica_POMJ_AnagraficaSoggetti_TipoSoggetto.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="1a2aeff3-c632-454d-ab19-965e499e7014" Title="Criter.Libretto" Url="html/N_Criter_Libretto.htm">
+    <HelpTOCNode Id="49e4a44a-1525-4814-97fc-ee50687a26b4" Title="Classe POMJ_Accumulo" Url="html/T_Criter_Libretto_POMJ_Accumulo.htm">
+      <HelpTOCNode Title="Costruttore POMJ_Accumulo " Url="html/M_Criter_Libretto_POMJ_Accumulo__ctor.htm" />
+      <HelpTOCNode Id="4bb98a29-e0ad-49d2-afe3-e207f010e67f" Title="Propriet&#224; di POMJ_Accumulo" Url="html/Properties_T_Criter_Libretto_POMJ_Accumulo.htm">
+        <HelpTOCNode Title="Propriet&#224; CapacitaLt " Url="html/P_Criter_Libretto_POMJ_Accumulo_CapacitaLt.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_Accumulo_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_Accumulo_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fAcquaCalda " Url="html/P_Criter_Libretto_POMJ_Accumulo_fAcquaCalda.htm" />
+        <HelpTOCNode Title="Propriet&#224; fCoibentazionePresente " Url="html/P_Criter_Libretto_POMJ_Accumulo_fCoibentazionePresente.htm" />
+        <HelpTOCNode Title="Propriet&#224; fRaffrescamento " Url="html/P_Criter_Libretto_POMJ_Accumulo_fRaffrescamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; fRiscaldamento " Url="html/P_Criter_Libretto_POMJ_Accumulo_fRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_Accumulo_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_Accumulo_Modello.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d96ca17-91bf-47ca-ab71-7b7266d94289" Title="Classe POMJ_AltroGeneratore" Url="html/T_Criter_Libretto_POMJ_AltroGeneratore.htm">
+      <HelpTOCNode Title="Costruttore POMJ_AltroGeneratore " Url="html/M_Criter_Libretto_POMJ_AltroGeneratore__ctor.htm" />
+      <HelpTOCNode Id="0e7bb70d-3336-49dd-ab44-719dd66e3371" Title="Propriet&#224; di POMJ_AltroGeneratore" Url="html/Properties_T_Criter_Libretto_POMJ_AltroGeneratore.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_AltroGeneratore_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_AltroGeneratore_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_AltroGeneratore_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_AltroGeneratore_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaUtileKw " Url="html/P_Criter_Libretto_POMJ_AltroGeneratore_PotenzaUtileKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; Tipologia " Url="html/P_Criter_Libretto_POMJ_AltroGeneratore_Tipologia.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c9869ee-84d7-481f-8f27-5b7ae19e628c" Title="Classe POMJ_Bruciatori" Url="html/T_Criter_Libretto_POMJ_Bruciatori.htm">
+      <HelpTOCNode Title="Costruttore POMJ_Bruciatori " Url="html/M_Criter_Libretto_POMJ_Bruciatori__ctor.htm" />
+      <HelpTOCNode Id="093ef2cf-087b-4686-abd6-38e6c8c4d912" Title="Propriet&#224; di POMJ_Bruciatori" Url="html/Properties_T_Criter_Libretto_POMJ_Bruciatori.htm">
+        <HelpTOCNode Title="Propriet&#224; Combustibile " Url="html/P_Criter_Libretto_POMJ_Bruciatori_Combustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_Bruciatori_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_Bruciatori_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_Bruciatori_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_Bruciatori_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataTermicaMaxNominaleKw " Url="html/P_Criter_Libretto_POMJ_Bruciatori_PortataTermicaMaxNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataTermicaMinNominaleKw " Url="html/P_Criter_Libretto_POMJ_Bruciatori_PortataTermicaMinNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; Tipologia " Url="html/P_Criter_Libretto_POMJ_Bruciatori_Tipologia.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8a8c78d8-fc44-4da1-96bc-07290eaf2332" Title="Classe POMJ_CampoSolareTermico" Url="html/T_Criter_Libretto_POMJ_CampoSolareTermico.htm">
+      <HelpTOCNode Title="Costruttore POMJ_CampoSolareTermico " Url="html/M_Criter_Libretto_POMJ_CampoSolareTermico__ctor.htm" />
+      <HelpTOCNode Id="606d5727-8fbf-4d44-b251-308da72509c8" Title="Propriet&#224; di POMJ_CampoSolareTermico" Url="html/Properties_T_Criter_Libretto_POMJ_CampoSolareTermico.htm">
+        <HelpTOCNode Title="Propriet&#224; CollettoriNum " Url="html/P_Criter_Libretto_POMJ_CampoSolareTermico_CollettoriNum.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_CampoSolareTermico_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_CampoSolareTermico_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; SuperficieTotaleAperturaMq " Url="html/P_Criter_Libretto_POMJ_CampoSolareTermico_SuperficieTotaleAperturaMq.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33bc1377-14b9-478f-a62f-dace00e8611f" Title="Classe POMJ_CircuitoInterrato" Url="html/T_Criter_Libretto_POMJ_CircuitoInterrato.htm">
+      <HelpTOCNode Title="Costruttore POMJ_CircuitoInterrato " Url="html/M_Criter_Libretto_POMJ_CircuitoInterrato__ctor.htm" />
+      <HelpTOCNode Id="69e7185d-a144-4ba7-adf0-219d408b47df" Title="Propriet&#224; di POMJ_CircuitoInterrato" Url="html/Properties_T_Criter_Libretto_POMJ_CircuitoInterrato.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_CircuitoInterrato_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; LunghezzaCircuitoMt " Url="html/P_Criter_Libretto_POMJ_CircuitoInterrato_LunghezzaCircuitoMt.htm" />
+        <HelpTOCNode Title="Propriet&#224; ProfonditaInstallazioneMt " Url="html/P_Criter_Libretto_POMJ_CircuitoInterrato_ProfonditaInstallazioneMt.htm" />
+        <HelpTOCNode Title="Propriet&#224; SuperficieScambiatoreMq " Url="html/P_Criter_Libretto_POMJ_CircuitoInterrato_SuperficieScambiatoreMq.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="19b90faa-b000-4bb4-9079-a8269545613c" Title="Classe POMJ_Cogeneratore" Url="html/T_Criter_Libretto_POMJ_Cogeneratore.htm">
+      <HelpTOCNode Title="Costruttore POMJ_Cogeneratore " Url="html/M_Criter_Libretto_POMJ_Cogeneratore__ctor.htm" />
+      <HelpTOCNode Id="95873ad1-5fed-4afd-bae5-e84ba56c230e" Title="Propriet&#224; di POMJ_Cogeneratore" Url="html/Properties_T_Criter_Libretto_POMJ_Cogeneratore.htm">
+        <HelpTOCNode Title="Propriet&#224; CombustibileAltro " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_CombustibileAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; EmissioniCOMax " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_EmissioniCOMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; EmissioniCOMin " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_EmissioniCOMin.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaElettricaNominaleKw " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_PotenzaElettricaNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleKw " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_PotenzaTermicaNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaIngressoGradiMax " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaAcquaIngressoGradiMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaIngressoGradiMin " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaAcquaIngressoGradiMin.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaMotoreMax " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaAcquaMotoreMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaMotoreMin " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaAcquaMotoreMin.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaUscitaGradiMax " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaAcquaUscitaGradiMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaUscitaGradiMin " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaAcquaUscitaGradiMin.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumiMonteMax " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaFumiMonteMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumiMonteMin " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaFumiMonteMin.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumiValleMax " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaFumiValleMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumiValleMin " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TemperaturaFumiValleMin.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCogeneratore " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TipologiaCogeneratore.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCombustibile " Url="html/P_Criter_Libretto_POMJ_Cogeneratore_TipologiaCombustibile.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0658a4cd-42b5-4734-aef4-e67d2def4ea4" Title="Classe POMJ_ConsumoAcqua" Url="html/T_Criter_Libretto_POMJ_ConsumoAcqua.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ConsumoAcqua " Url="html/M_Criter_Libretto_POMJ_ConsumoAcqua__ctor.htm" />
+      <HelpTOCNode Id="7deb27c7-0f44-4258-8501-67b02efb3a16" Title="Propriet&#224; di POMJ_ConsumoAcqua" Url="html/Properties_T_Criter_Libretto_POMJ_ConsumoAcqua.htm">
+        <HelpTOCNode Title="Propriet&#224; ConsumoTotale " Url="html/P_Criter_Libretto_POMJ_ConsumoAcqua_ConsumoTotale.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioEnd " Url="html/P_Criter_Libretto_POMJ_ConsumoAcqua_DataEsercizioEnd.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioStart " Url="html/P_Criter_Libretto_POMJ_ConsumoAcqua_DataEsercizioStart.htm" />
+        <HelpTOCNode Title="Propriet&#224; LetturaFinale " Url="html/P_Criter_Libretto_POMJ_ConsumoAcqua_LetturaFinale.htm" />
+        <HelpTOCNode Title="Propriet&#224; LetturaIniziale " Url="html/P_Criter_Libretto_POMJ_ConsumoAcqua_LetturaIniziale.htm" />
+        <HelpTOCNode Title="Propriet&#224; UnitaMisura " Url="html/P_Criter_Libretto_POMJ_ConsumoAcqua_UnitaMisura.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7fa52b9d-4185-432d-bd65-237adc40a565" Title="Classe POMJ_ConsumoCombustibile" Url="html/T_Criter_Libretto_POMJ_ConsumoCombustibile.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ConsumoCombustibile " Url="html/M_Criter_Libretto_POMJ_ConsumoCombustibile__ctor.htm" />
+      <HelpTOCNode Id="9410f4bf-f61c-4cbf-9be3-b3758d3584d3" Title="Propriet&#224; di POMJ_ConsumoCombustibile" Url="html/Properties_T_Criter_Libretto_POMJ_ConsumoCombustibile.htm">
+        <HelpTOCNode Title="Propriet&#224; Acquisti " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_Acquisti.htm" />
+        <HelpTOCNode Title="Propriet&#224; CombustibileAltro " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_CombustibileAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; Consumo " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_Consumo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioEnd " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_DataEsercizioEnd.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioStart " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_DataEsercizioStart.htm" />
+        <HelpTOCNode Title="Propriet&#224; LetturaFinale " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_LetturaFinale.htm" />
+        <HelpTOCNode Title="Propriet&#224; LetturaIniziale " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_LetturaIniziale.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCombustibile " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_TipologiaCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; UnitaMisura " Url="html/P_Criter_Libretto_POMJ_ConsumoCombustibile_UnitaMisura.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63cdc277-cf10-429a-8ba7-6ac83cd978e5" Title="Classe POMJ_ConsumoEnergiaElettrica" Url="html/T_Criter_Libretto_POMJ_ConsumoEnergiaElettrica.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ConsumoEnergiaElettrica " Url="html/M_Criter_Libretto_POMJ_ConsumoEnergiaElettrica__ctor.htm" />
+      <HelpTOCNode Id="12dba2e0-c59f-473e-a065-eda0ba6628af" Title="Propriet&#224; di POMJ_ConsumoEnergiaElettrica" Url="html/Properties_T_Criter_Libretto_POMJ_ConsumoEnergiaElettrica.htm">
+        <HelpTOCNode Title="Propriet&#224; ConsumoTotale " Url="html/P_Criter_Libretto_POMJ_ConsumoEnergiaElettrica_ConsumoTotale.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioEnd " Url="html/P_Criter_Libretto_POMJ_ConsumoEnergiaElettrica_DataEsercizioEnd.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioStart " Url="html/P_Criter_Libretto_POMJ_ConsumoEnergiaElettrica_DataEsercizioStart.htm" />
+        <HelpTOCNode Title="Propriet&#224; LetturaFinale " Url="html/P_Criter_Libretto_POMJ_ConsumoEnergiaElettrica_LetturaFinale.htm" />
+        <HelpTOCNode Title="Propriet&#224; LetturaIniziale " Url="html/P_Criter_Libretto_POMJ_ConsumoEnergiaElettrica_LetturaIniziale.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="edf61259-f2a5-4c40-ac15-40a9d188e174" Title="Classe POMJ_ConsumoProdottiChimici" Url="html/T_Criter_Libretto_POMJ_ConsumoProdottiChimici.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ConsumoProdottiChimici " Url="html/M_Criter_Libretto_POMJ_ConsumoProdottiChimici__ctor.htm" />
+      <HelpTOCNode Id="26b9a05f-d262-4051-81ae-f029228c1658" Title="Propriet&#224; di POMJ_ConsumoProdottiChimici" Url="html/Properties_T_Criter_Libretto_POMJ_ConsumoProdottiChimici.htm">
+        <HelpTOCNode Title="Propriet&#224; Consumo " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_Consumo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioEnd " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_DataEsercizioEnd.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataEsercizioStart " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_DataEsercizioStart.htm" />
+        <HelpTOCNode Title="Propriet&#224; fAltriCircuiti " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_fAltriCircuiti.htm" />
+        <HelpTOCNode Title="Propriet&#224; fCircuitoAcs " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_fCircuitoAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; fCircuitoImpiantoTermico " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_fCircuitoImpiantoTermico.htm" />
+        <HelpTOCNode Title="Propriet&#224; NomeProdotto " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_NomeProdotto.htm" />
+        <HelpTOCNode Title="Propriet&#224; UnitaMisura " Url="html/P_Criter_Libretto_POMJ_ConsumoProdottiChimici_UnitaMisura.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="af2a1595-50e7-4727-9553-26b6ddc12057" Title="Classe POMJ_DatiCatastali" Url="html/T_Criter_Libretto_POMJ_DatiCatastali.htm">
+      <HelpTOCNode Title="Costruttore POMJ_DatiCatastali " Url="html/M_Criter_Libretto_POMJ_DatiCatastali__ctor.htm" />
+      <HelpTOCNode Id="ac6c03ac-0c4f-4950-93e9-506e320823e6" Title="Propriet&#224; di POMJ_DatiCatastali" Url="html/Properties_T_Criter_Libretto_POMJ_DatiCatastali.htm">
+        <HelpTOCNode Title="Propriet&#224; Foglio " Url="html/P_Criter_Libretto_POMJ_DatiCatastali_Foglio.htm" />
+        <HelpTOCNode Title="Propriet&#224; Identificativo " Url="html/P_Criter_Libretto_POMJ_DatiCatastali_Identificativo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Mappale " Url="html/P_Criter_Libretto_POMJ_DatiCatastali_Mappale.htm" />
+        <HelpTOCNode Title="Propriet&#224; Subalterno " Url="html/P_Criter_Libretto_POMJ_DatiCatastali_Subalterno.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e824bef5-430e-4922-9e9a-c93ee4a424e0" Title="Classe POMJ_GruppiFrigo" Url="html/T_Criter_Libretto_POMJ_GruppiFrigo.htm">
+      <HelpTOCNode Title="Costruttore POMJ_GruppiFrigo " Url="html/M_Criter_Libretto_POMJ_GruppiFrigo__ctor.htm" />
+      <HelpTOCNode Id="6e946913-3613-4dfc-882f-03d89ca10ad2" Title="Propriet&#224; di POMJ_GruppiFrigo" Url="html/Properties_T_Criter_Libretto_POMJ_GruppiFrigo.htm">
+        <HelpTOCNode Title="Propriet&#224; CoefficienteRaffrescamento " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_CoefficienteRaffrescamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; CoefficienteRiscaldamento " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_CoefficienteRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; Combustibile " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_Combustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; FiltroFrigorigeno " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_FiltroFrigorigeno.htm" />
+        <HelpTOCNode Title="Propriet&#224; FluidoLatoUtenze " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_FluidoLatoUtenze.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; NumCircuiti " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_NumCircuiti.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataTermicaNominaleKw " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_PortataTermicaNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaFrigoriferaAssorbitaNominaleKw " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_PotenzaFrigoriferaAssorbitaNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaFrigoriferaNominaleKw " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_PotenzaFrigoriferaNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaAssorbitaNominaleKw " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_PotenzaTermicaAssorbitaNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; SorgenteLatoEsterno " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_SorgenteLatoEsterno.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaMacchineFrigorifere " Url="html/P_Criter_Libretto_POMJ_GruppiFrigo_TipologiaMacchineFrigorifere.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f1e34101-cac5-43d6-aed1-e5633c153866" Title="Classe POMJ_GruppiTermici" Url="html/T_Criter_Libretto_POMJ_GruppiTermici.htm">
+      <HelpTOCNode Title="Costruttore POMJ_GruppiTermici " Url="html/M_Criter_Libretto_POMJ_GruppiTermici__ctor.htm" />
+      <HelpTOCNode Id="59adbe8b-e3b9-46c0-9eb7-75e056ce5a3c" Title="Propriet&#224; di POMJ_GruppiTermici" Url="html/Properties_T_Criter_Libretto_POMJ_GruppiTermici.htm">
+        <HelpTOCNode Title="Propriet&#224; AnalisiFumoPrevisteNr " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_AnalisiFumoPrevisteNr.htm" />
+        <HelpTOCNode Title="Propriet&#224; Bruciatori " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_Bruciatori.htm" />
+        <HelpTOCNode Title="Propriet&#224; CombustibileAltro " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_CombustibileAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; FluidoTermovettoreAltro " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_FluidoTermovettoreAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaUtileNominaleKw " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_PotenzaTermicaUtileNominaleKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; Recuperatori " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_Recuperatori.htm" />
+        <HelpTOCNode Title="Propriet&#224; RendimentoTermicoUtilePc " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_RendimentoTermicoUtilePc.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCombustibile " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_TipologiaCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFluidoTermoVettore " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_TipologiaFluidoTermoVettore.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaGruppiTermici " Url="html/P_Criter_Libretto_POMJ_GruppiTermici_TipologiaGruppiTermici.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="087193a6-4478-4c96-bf22-f76cc7b6dff2" Title="Classe POMJ_GruppiVMC" Url="html/T_Criter_Libretto_POMJ_GruppiVMC.htm">
+      <HelpTOCNode Title="Costruttore POMJ_GruppiVMC " Url="html/M_Criter_Libretto_POMJ_GruppiVMC__ctor.htm" />
+      <HelpTOCNode Id="9f946390-7f96-4b8f-8fbf-a5b5361e9a7f" Title="Propriet&#224; di POMJ_GruppiVMC" Url="html/Properties_T_Criter_Libretto_POMJ_GruppiVMC.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataAriaMaxMch " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_PortataAriaMaxMch.htm" />
+        <HelpTOCNode Title="Propriet&#224; RendimentoRecuperoCop " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_RendimentoRecuperoCop.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaImpiantoAltro " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_TipologiaImpiantoAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaImpiantoVMC " Url="html/P_Criter_Libretto_POMJ_GruppiVMC_TipologiaImpiantoVMC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d5497b3-f256-4ed8-bd4d-bf9ab51f0737" Title="Classe POMJ_LibrettoImpianto" Url="html/T_Criter_Libretto_POMJ_LibrettoImpianto.htm">
+      <HelpTOCNode Title="Costruttore POMJ_LibrettoImpianto " Url="html/M_Criter_Libretto_POMJ_LibrettoImpianto__ctor.htm" />
+      <HelpTOCNode Id="7a58f84f-3fe6-47c8-9ea9-d9f2b5566eb8" Title="Propriet&#224; di POMJ_LibrettoImpianto" Url="html/Properties_T_Criter_Libretto_POMJ_LibrettoImpianto.htm">
+        <HelpTOCNode Title="Propriet&#224; Accumuli " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Accumuli.htm" />
+        <HelpTOCNode Title="Propriet&#224; AltriGeneratori " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_AltriGeneratori.htm" />
+        <HelpTOCNode Title="Propriet&#224; CampiSolariTermici " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CampiSolariTermici.htm" />
+        <HelpTOCNode Title="Propriet&#224; CircuitiInterrati " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CircuitiInterrati.htm" />
+        <HelpTOCNode Title="Propriet&#224; Civico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Civico.htm" />
+        <HelpTOCNode Title="Propriet&#224; ClimatizzazioneAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ClimatizzazioneAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceCatastaleComune " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CodiceCatastaleComune.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceSoggetto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CodiceSoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceTargaturaImpianto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CodiceTargaturaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CogeneratoriTrigeneratori " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CogeneratoriTrigeneratori.htm" />
+        <HelpTOCNode Title="Propriet&#224; Cognome " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Cognome.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConducibilitaAcquaIngresso " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ConducibilitaAcquaIngresso.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConducibilitaInizioSpurgo " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ConducibilitaInizioSpurgo.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConsumiAcqua " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ConsumiAcqua.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConsumiCombustibile " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ConsumiCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConsumiEnergiaElettrica " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ConsumiEnergiaElettrica.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConsumiProdottiChimici " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ConsumiProdottiChimici.htm" />
+        <HelpTOCNode Title="Propriet&#224; ContenutoAcquaImpianto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ContenutoAcquaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKey " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CriterAPIKey.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKeySoggetto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_CriterAPIKeySoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataIntervento " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DataIntervento.htm" />
+        <HelpTOCNode Title="Propriet&#224; DatiCatastali " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DatiCatastali.htm" />
+        <HelpTOCNode Title="Propriet&#224; DescrizioneSistemaContabilizzazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DescrizioneSistemaContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; DescrizioneSistemaTelematico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DescrizioneSistemaTelematico.htm" />
+        <HelpTOCNode Title="Propriet&#224; DestinazioneUso " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DestinazioneUso.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaTotaleAcquaAcs " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DurezzaTotaleAcquaAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaTotaleAcquaImpianto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DurezzaTotaleAcquaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaTotaleAcquaImpiantoInvernale " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_DurezzaTotaleAcquaImpiantoInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fAcs " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; fAltroSistemaRegolazionePrimaria " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fAltroSistemaRegolazionePrimaria.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fClimatizzazioneAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneEstiva " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fClimatizzazioneEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneInvernale " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fCoibentazioneReteDistribuzione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fCoibentazioneReteDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; fContabilizzazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; fContabilizzazioneAcquaCalda " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fContabilizzazioneAcquaCalda.htm" />
+        <HelpTOCNode Title="Propriet&#224; fContabilizzazioneRaffrescamento " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fContabilizzazioneRaffrescamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; fContabilizzazioneRiscaldamento " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fContabilizzazioneRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; fControlloEntalpico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fControlloEntalpico.htm" />
+        <HelpTOCNode Title="Propriet&#224; fControlloPortataAriaVariabile " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fControlloPortataAriaVariabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; FineAssunzioneIncarico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_FineAssunzioneIncarico.htm" />
+        <HelpTOCNode Title="Propriet&#224; fPannelliSolariClimatizzazioneAcs " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fPannelliSolariClimatizzazioneAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; fPannelliSolariClimatizzazioneEstiva " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fPannelliSolariClimatizzazioneEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; fPannelliSolariClimatizzazioneInvernale " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fPannelliSolariClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fPannelliSolariTermici " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fPannelliSolariTermici.htm" />
+        <HelpTOCNode Title="Propriet&#224; fPannelliSolariTermiciAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fPannelliSolariTermiciAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; fProtezioneGelo " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fProtezioneGelo.htm" />
+        <HelpTOCNode Title="Propriet&#224; fSistemaRegolazioneAInverter " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fSistemaRegolazioneAInverter.htm" />
+        <HelpTOCNode Title="Propriet&#224; fSistemaRegolazioneIndipendente " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fSistemaRegolazioneIndipendente.htm" />
+        <HelpTOCNode Title="Propriet&#224; fSistemaRegolazioneIntegrato " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fSistemaRegolazioneIntegrato.htm" />
+        <HelpTOCNode Title="Propriet&#224; fSistemaRegolazioneMultigradino " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fSistemaRegolazioneMultigradino.htm" />
+        <HelpTOCNode Title="Propriet&#224; fSistemaRegolazioneOnOff " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fSistemaRegolazioneOnOff.htm" />
+        <HelpTOCNode Title="Propriet&#224; fSistemaSpurgoAutomatico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fSistemaSpurgoAutomatico.htm" />
+        <HelpTOCNode Title="Propriet&#224; fTelegestione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fTelegestione.htm" />
+        <HelpTOCNode Title="Propriet&#224; fTelelettura " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fTelelettura.htm" />
+        <HelpTOCNode Title="Propriet&#224; fTerzoResponsabile " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fTerzoResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; fTrattamentoAcquaAcs " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fTrattamentoAcquaAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; fTrattamentoAcquaEstiva " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fTrattamentoAcquaEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; fTrattamentoAcquaInvernale " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fTrattamentoAcquaInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fUnitaImmobiliare " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fUnitaImmobiliare.htm" />
+        <HelpTOCNode Title="Propriet&#224; fValvoleDueVie " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fValvoleDueVie.htm" />
+        <HelpTOCNode Title="Propriet&#224; fValvoleRegolazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fValvoleRegolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; fValvoleTermostatiche " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fValvoleTermostatiche.htm" />
+        <HelpTOCNode Title="Propriet&#224; fValvoleTreVie " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_fValvoleTreVie.htm" />
+        <HelpTOCNode Title="Propriet&#224; GruppiFrigo " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_GruppiFrigo.htm" />
+        <HelpTOCNode Title="Propriet&#224; GruppiTermiciCaldaie " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_GruppiTermiciCaldaie.htm" />
+        <HelpTOCNode Title="Propriet&#224; GruppiVMC " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_GruppiVMC.htm" />
+        <HelpTOCNode Title="Propriet&#224; Indirizzo " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Indirizzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; InizioAssunzioneIncarico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_InizioAssunzioneIncarico.htm" />
+        <HelpTOCNode Title="Propriet&#224; Interno " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Interno.htm" />
+        <HelpTOCNode Title="Propriet&#224; Nome " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Nome.htm" />
+        <HelpTOCNode Title="Propriet&#224; NomeAzienda " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_NomeAzienda.htm" />
+        <HelpTOCNode Title="Propriet&#224; NoteCoibentazioneReteDistribuzione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_NoteCoibentazioneReteDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; NoteRegolazioneSingoloAmbiente " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_NoteRegolazioneSingoloAmbiente.htm" />
+        <HelpTOCNode Title="Propriet&#224; NumeroAPE " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_NumeroAPE.htm" />
+        <HelpTOCNode Title="Propriet&#224; NumeroPDR " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_NumeroPDR.htm" />
+        <HelpTOCNode Title="Propriet&#224; NumeroPOD " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_NumeroPOD.htm" />
+        <HelpTOCNode Title="Propriet&#224; Palazzo " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Palazzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; PannelliSolariTermiciAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PannelliSolariTermiciAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; PercentualeGlicole " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PercentualeGlicole.htm" />
+        <HelpTOCNode Title="Propriet&#224; PhGlicole " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PhGlicole.htm" />
+        <HelpTOCNode Title="Propriet&#224; PompaCircolazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PompaCircolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaAcs " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PotenzaAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaClimatizzazioneEstiva " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PotenzaClimatizzazioneEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaClimatizzazioneInvernale " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PotenzaClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaSolariTermici " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_PotenzaSolariTermici.htm" />
+        <HelpTOCNode Title="Propriet&#224; RaffreddatoriLiquido " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_RaffreddatoriLiquido.htm" />
+        <HelpTOCNode Title="Propriet&#224; RecuperatoriCalore " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_RecuperatoriCalore.htm" />
+        <HelpTOCNode Title="Propriet&#224; ResponsabileImpianto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ResponsabileImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; Scala " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_Scala.htm" />
+        <HelpTOCNode Title="Propriet&#224; ScambiatoriCaloreIntermedio " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ScambiatoriCaloreIntermedio.htm" />
+        <HelpTOCNode Title="Propriet&#224; ScambiatoriCaloreSottostazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ScambiatoriCaloreSottostazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; SistemaEmissioneAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_SistemaEmissioneAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; SistemaRegolazionePrimariaAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_SistemaRegolazionePrimariaAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; SistemiRegolazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_SistemiRegolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; StatoLibrettoImpianto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_StatoLibrettoImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; SuperficieTotaleSolariTermici " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_SuperficieTotaleSolariTermici.htm" />
+        <HelpTOCNode Title="Propriet&#224; TerzoResponsabile " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TerzoResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaAcquaAlimento " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaAcquaAlimento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaAddolcimentoAcqua " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaAddolcimentoAcqua.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaAddolcimentoAcquaAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaAddolcimentoAcquaAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCircuitoRaffreddamento " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaCircuitoRaffreddamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCondizionamentoChimico " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaCondizionamentoChimico.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCondizionamentoChimicoAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaCondizionamentoChimicoAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFiltrazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaFiltrazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFiltrazioneAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaFiltrazioneAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFluidoVettore " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaFluidoVettore.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFluidoVettoreAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaFluidoVettoreAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaGeneratori " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaGeneratori.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaGeneratoriAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaGeneratoriAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaIntervento " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaIntervento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaProtezioneGelo " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaProtezioneGelo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaResponsabile " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaContabilizzazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaSistemaContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaDistribuzione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaSistemaDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaDistribuzioneAltro " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaSistemaDistribuzioneAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemiEmissione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaSistemiEmissione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaTermostatoZona " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaTermostatoZona.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaTrattamentoAcquaAcs " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaTrattamentoAcquaAcs.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaTrattamentoAcquaEstiva " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaTrattamentoAcquaEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaTrattamentoAcquaInvernale " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipologiaTrattamentoAcquaInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoSoggetto " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TipoSoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; TorriEvaporative " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_TorriEvaporative.htm" />
+        <HelpTOCNode Title="Propriet&#224; UnitaTrattamentoAria " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_UnitaTrattamentoAria.htm" />
+        <HelpTOCNode Title="Propriet&#224; ValvoleRegolazione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_ValvoleRegolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; VasiEspansione " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_VasiEspansione.htm" />
+        <HelpTOCNode Title="Propriet&#224; VolumeLordoRaffrescato " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_VolumeLordoRaffrescato.htm" />
+        <HelpTOCNode Title="Propriet&#224; VolumeLordoRiscaldato " Url="html/P_Criter_Libretto_POMJ_LibrettoImpianto_VolumeLordoRiscaldato.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f9844768-0bfa-4cb0-a27c-0483604a5914" Title="Classe POMJ_PompaCircolazione" Url="html/T_Criter_Libretto_POMJ_PompaCircolazione.htm">
+      <HelpTOCNode Title="Costruttore POMJ_PompaCircolazione " Url="html/M_Criter_Libretto_POMJ_PompaCircolazione__ctor.htm" />
+      <HelpTOCNode Id="9b44b26e-7909-4d48-b032-f42fa3d3dbdc" Title="Propriet&#224; di POMJ_PompaCircolazione" Url="html/Properties_T_Criter_Libretto_POMJ_PompaCircolazione.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_PompaCircolazione_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_PompaCircolazione_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fGiriVariabili " Url="html/P_Criter_Libretto_POMJ_PompaCircolazione_fGiriVariabili.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_PompaCircolazione_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaNominaleKw " Url="html/P_Criter_Libretto_POMJ_PompaCircolazione_PotenzaNominaleKw.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5772a487-838d-43fe-a0ff-bab86949b2a3" Title="Classe POMJ_RaffreddatoreLiquido" Url="html/T_Criter_Libretto_POMJ_RaffreddatoreLiquido.htm">
+      <HelpTOCNode Title="Costruttore POMJ_RaffreddatoreLiquido " Url="html/M_Criter_Libretto_POMJ_RaffreddatoreLiquido__ctor.htm" />
+      <HelpTOCNode Id="7c03845a-bbd0-4f04-bdb3-9f894eeb9523" Title="Propriet&#224; di POMJ_RaffreddatoreLiquido" Url="html/Properties_T_Criter_Libretto_POMJ_RaffreddatoreLiquido.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaVentilatori " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_TipologiaVentilatori.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaVentilatoriAltro " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_TipologiaVentilatoriAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; VentilatoriNum " Url="html/P_Criter_Libretto_POMJ_RaffreddatoreLiquido_VentilatoriNum.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d0d6a2e1-e2d0-493f-a1c2-1fc849c07f71" Title="Classe POMJ_RecuperatoreCalore" Url="html/T_Criter_Libretto_POMJ_RecuperatoreCalore.htm">
+      <HelpTOCNode Title="Costruttore POMJ_RecuperatoreCalore " Url="html/M_Criter_Libretto_POMJ_RecuperatoreCalore__ctor.htm" />
+      <HelpTOCNode Id="b72e43c1-7ace-48ab-b30e-6846dfdd7d2c" Title="Propriet&#224; di POMJ_RecuperatoreCalore" Url="html/Properties_T_Criter_Libretto_POMJ_RecuperatoreCalore.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; ModalitaInstallazioneRecuperatoriCalore " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_ModalitaInstallazioneRecuperatoriCalore.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataVentilatoreMandataLts " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_PortataVentilatoreMandataLts.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataVentilatoreRipresaLts " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_PortataVentilatoreRipresaLts.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaVentilatoreMandataKw " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_PotenzaVentilatoreMandataKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaVentilatoreRipresaKw " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_PotenzaVentilatoreRipresaKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; Tipologia " Url="html/P_Criter_Libretto_POMJ_RecuperatoreCalore_Tipologia.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d8ea3eea-ff38-457d-aaeb-cdd78788e944" Title="Classe POMJ_Recuperatori" Url="html/T_Criter_Libretto_POMJ_Recuperatori.htm">
+      <HelpTOCNode Title="Costruttore POMJ_Recuperatori " Url="html/M_Criter_Libretto_POMJ_Recuperatori__ctor.htm" />
+      <HelpTOCNode Id="3c872ae6-65e3-49e2-81dc-0a63ffeb6fd1" Title="Propriet&#224; di POMJ_Recuperatori" Url="html/Properties_T_Criter_Libretto_POMJ_Recuperatori.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_Recuperatori_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_Recuperatori_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_Recuperatori_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_Recuperatori_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataTermicaNominaleTotaleKw " Url="html/P_Criter_Libretto_POMJ_Recuperatori_PortataTermicaNominaleTotaleKw.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="73e0021a-f826-494d-970d-2e787a1ddf68" Title="Classe POMJ_ScambiatoreCalore" Url="html/T_Criter_Libretto_POMJ_ScambiatoreCalore.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ScambiatoreCalore " Url="html/M_Criter_Libretto_POMJ_ScambiatoreCalore__ctor.htm" />
+      <HelpTOCNode Id="57e66cc4-e454-4b6b-b8d1-e3f1df1f14f2" Title="Propriet&#224; di POMJ_ScambiatoreCalore" Url="html/Properties_T_Criter_Libretto_POMJ_ScambiatoreCalore.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCalore_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCalore_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCalore_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCalore_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleTotaleKw " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCalore_PotenzaTermicaNominaleTotaleKw.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68c7f746-17fc-42c1-984b-85c559902a1b" Title="Classe POMJ_ScambiatoreCaloreIntermedio" Url="html/T_Criter_Libretto_POMJ_ScambiatoreCaloreIntermedio.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ScambiatoreCaloreIntermedio " Url="html/M_Criter_Libretto_POMJ_ScambiatoreCaloreIntermedio__ctor.htm" />
+      <HelpTOCNode Id="9cf7d816-64b4-4034-983e-bed21005faee" Title="Propriet&#224; di POMJ_ScambiatoreCaloreIntermedio" Url="html/Properties_T_Criter_Libretto_POMJ_ScambiatoreCaloreIntermedio.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCaloreIntermedio_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCaloreIntermedio_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_ScambiatoreCaloreIntermedio_Modello.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cbda8988-efdf-48bf-a3f9-673ed33f35eb" Title="Classe POMJ_SistemiRegolazione" Url="html/T_Criter_Libretto_POMJ_SistemiRegolazione.htm">
+      <HelpTOCNode Title="Costruttore POMJ_SistemiRegolazione " Url="html/M_Criter_Libretto_POMJ_SistemiRegolazione__ctor.htm" />
+      <HelpTOCNode Id="255405d2-e4ed-42a0-ad3d-35a5c73c93f1" Title="Propriet&#224; di POMJ_SistemiRegolazione" Url="html/Properties_T_Criter_Libretto_POMJ_SistemiRegolazione.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_SistemiRegolazione_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_SistemiRegolazione_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; LivelliTemperaturaNum " Url="html/P_Criter_Libretto_POMJ_SistemiRegolazione_LivelliTemperaturaNum.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_SistemiRegolazione_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_SistemiRegolazione_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PuntiRegolazioneNum " Url="html/P_Criter_Libretto_POMJ_SistemiRegolazione_PuntiRegolazioneNum.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="170d623b-b319-47c4-9c34-70907edd8189" Title="Classe POMJ_TargaturaImpianto" Url="html/T_Criter_Libretto_POMJ_TargaturaImpianto.htm">
+      <HelpTOCNode Title="Costruttore POMJ_TargaturaImpianto " Url="html/M_Criter_Libretto_POMJ_TargaturaImpianto__ctor.htm" />
+      <HelpTOCNode Id="2a79bd2f-4d7b-4406-90bd-5764d79a555f" Title="Propriet&#224; di POMJ_TargaturaImpianto" Url="html/Properties_T_Criter_Libretto_POMJ_TargaturaImpianto.htm">
+        <HelpTOCNode Title="Propriet&#224; CodiceTargatura " Url="html/P_Criter_Libretto_POMJ_TargaturaImpianto_CodiceTargatura.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3905a216-f0b1-4f2e-a5af-9a4ed89907ce" Title="Classe POMJ_TorreEvaporativa" Url="html/T_Criter_Libretto_POMJ_TorreEvaporativa.htm">
+      <HelpTOCNode Title="Costruttore POMJ_TorreEvaporativa " Url="html/M_Criter_Libretto_POMJ_TorreEvaporativa__ctor.htm" />
+      <HelpTOCNode Id="b96e3d00-1b41-4c57-b10d-642d4a8a779c" Title="Propriet&#224; di POMJ_TorreEvaporativa" Url="html/Properties_T_Criter_Libretto_POMJ_TorreEvaporativa.htm">
+        <HelpTOCNode Title="Propriet&#224; CapacitaNominaleLt " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_CapacitaNominaleLt.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaVentilatori " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_TipologiaVentilatori.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaVentilatoriAltro " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_TipologiaVentilatoriAltro.htm" />
+        <HelpTOCNode Title="Propriet&#224; VentilatoriNum " Url="html/P_Criter_Libretto_POMJ_TorreEvaporativa_VentilatoriNum.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9fcb9f21-65b4-4dcc-8321-724bdb091313" Title="Classe POMJ_UnitaTrattamentoAria" Url="html/T_Criter_Libretto_POMJ_UnitaTrattamentoAria.htm">
+      <HelpTOCNode Title="Costruttore POMJ_UnitaTrattamentoAria " Url="html/M_Criter_Libretto_POMJ_UnitaTrattamentoAria__ctor.htm" />
+      <HelpTOCNode Id="3e7fbac4-6fb6-4e32-819a-3a2a9e065dfd" Title="Propriet&#224; di POMJ_UnitaTrattamentoAria" Url="html/Properties_T_Criter_Libretto_POMJ_UnitaTrattamentoAria.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataVentilatoreMandataLts " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_PortataVentilatoreMandataLts.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataVentilatoreRipresaLts " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_PortataVentilatoreRipresaLts.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaVentilatoreMandataKw " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_PotenzaVentilatoreMandataKw.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaVentilatoreRipresaKw " Url="html/P_Criter_Libretto_POMJ_UnitaTrattamentoAria_PotenzaVentilatoreRipresaKw.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2aff7d3d-d522-4060-b6e6-ee65c0bdf99d" Title="Classe POMJ_ValvolaRegolazione" Url="html/T_Criter_Libretto_POMJ_ValvolaRegolazione.htm">
+      <HelpTOCNode Title="Costruttore POMJ_ValvolaRegolazione " Url="html/M_Criter_Libretto_POMJ_ValvolaRegolazione__ctor.htm" />
+      <HelpTOCNode Id="9edb21ff-589d-4bfd-88c1-31e3c0fbe71f" Title="Propriet&#224; di POMJ_ValvolaRegolazione" Url="html/Properties_T_Criter_Libretto_POMJ_ValvolaRegolazione.htm">
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_ValvolaRegolazione_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Libretto_POMJ_ValvolaRegolazione_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Libretto_POMJ_ValvolaRegolazione_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; Servomotore " Url="html/P_Criter_Libretto_POMJ_ValvolaRegolazione_Servomotore.htm" />
+        <HelpTOCNode Title="Propriet&#224; VieNum " Url="html/P_Criter_Libretto_POMJ_ValvolaRegolazione_VieNum.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="09958c6e-9f4c-42a8-87bc-969ed45111d1" Title="Classe POMJ_VasoEspansione" Url="html/T_Criter_Libretto_POMJ_VasoEspansione.htm">
+      <HelpTOCNode Title="Costruttore POMJ_VasoEspansione " Url="html/M_Criter_Libretto_POMJ_VasoEspansione__ctor.htm" />
+      <HelpTOCNode Id="bc80226a-55e1-4e24-81b1-43680a59a82a" Title="Propriet&#224; di POMJ_VasoEspansione" Url="html/Properties_T_Criter_Libretto_POMJ_VasoEspansione.htm">
+        <HelpTOCNode Title="Propriet&#224; CapacitaLt " Url="html/P_Criter_Libretto_POMJ_VasoEspansione_CapacitaLt.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Libretto_POMJ_VasoEspansione_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; fChiuso " Url="html/P_Criter_Libretto_POMJ_VasoEspansione_fChiuso.htm" />
+        <HelpTOCNode Title="Propriet&#224; PressionePrecaricaBar " Url="html/P_Criter_Libretto_POMJ_VasoEspansione_PressionePrecaricaBar.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="65ae3308-5c44-4e6f-aa03-1578d28a8594" Title="Criter.Rapporti" Url="html/N_Criter_Rapporti.htm">
+    <HelpTOCNode Id="33143ff3-1b60-4981-bdd0-a52152bb2ada" Title="Classe POMJ_RapportoControlloTecnico_CG" Url="html/T_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG.htm">
+      <HelpTOCNode Title="Costruttore POMJ_RapportoControlloTecnico_CG " Url="html/M_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG__ctor.htm" />
+      <HelpTOCNode Id="50700583-04b6-4de7-a5b2-fff2dfd18361" Title="Propriet&#224; di POMJ_RapportoControlloTecnico_CG" Url="html/Properties_T_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG.htm">
+        <HelpTOCNode Title="Propriet&#224; AltroFluidoTermoVettore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_AltroFluidoTermoVettore.htm" />
+        <HelpTOCNode Title="Propriet&#224; ApertureLibere " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_ApertureLibere.htm" />
+        <HelpTOCNode Title="Propriet&#224; AssenzaPerditeCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_AssenzaPerditeCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; BolliniCalorePulito " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_BolliniCalorePulito.htm" />
+        <HelpTOCNode Title="Propriet&#224; CaminoCanaleFumoIdonei " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CaminoCanaleFumoIdonei.htm" />
+        <HelpTOCNode Title="Propriet&#224; CapsulaInsonorizzataIdonea " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CapsulaInsonorizzataIdonea.htm" />
+        <HelpTOCNode Title="Propriet&#224; CheckList " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CheckList.htm" />
+        <HelpTOCNode Title="Propriet&#224; Civico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Civico.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceProgressivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CodiceProgressivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceSoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CodiceSoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceTargaturaImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CodiceTargaturaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; Comune " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Comune.htm" />
+        <HelpTOCNode Title="Propriet&#224; Contabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Contabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CorrettoFunzionamentoContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CorrettoFunzionamentoContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKey " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CriterAPIKey.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKeySoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_CriterAPIKeySoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_DataControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataManutenzioneConsigliata " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_DataManutenzioneConsigliata.htm" />
+        <HelpTOCNode Title="Propriet&#224; DimensioniApertureAdeguate " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_DimensioniApertureAdeguate.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaAcqua " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_DurezzaAcqua.htm" />
+        <HelpTOCNode Title="Propriet&#224; EmissioneMonossido " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_EmissioneMonossido.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneEstiva " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fClimatizzazioneEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneInvernale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fDichiarazioneConformita " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fDichiarazioneConformita.htm" />
+        <HelpTOCNode Title="Propriet&#224; fImpiantoFunzionante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fImpiantoFunzionante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoCompilato " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fLibrettoImpiantoCompilato.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoPresente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fLibrettoImpiantoPresente.htm" />
+        <HelpTOCNode Title="Propriet&#224; fProduzioneACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fProduzioneACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; Funzionalit&#224;ScambiatoreSeparazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Funzionalit&#224;ScambiatoreSeparazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; fUsoManutenzioneGeneratore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_fUsoManutenzioneGeneratore.htm" />
+        <HelpTOCNode Title="Propriet&#224; GuidRapportoTecnico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_GuidRapportoTecnico.htm" />
+        <HelpTOCNode Title="Propriet&#224; ImpresaManutentrice " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_ImpresaManutentrice.htm" />
+        <HelpTOCNode Title="Propriet&#224; Indirizzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Indirizzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Interno " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Interno.htm" />
+        <HelpTOCNode Title="Propriet&#224; LineeElettricheIdonee " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_LineeElettricheIdonee.htm" />
+        <HelpTOCNode Title="Propriet&#224; LocaleInstallazioneIdoneo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_LocaleInstallazioneIdoneo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraArrivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_OraArrivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraPartenza " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_OraPartenza.htm" />
+        <HelpTOCNode Title="Propriet&#224; Osservazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Osservazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Palazzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Palazzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaAiMorsetti " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_PotenzaAiMorsetti.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaAssorbitaCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_PotenzaAssorbitaCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaByPass " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_PotenzaByPass.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaElettricaMorsetti " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_PotenzaElettricaMorsetti.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaMassimoRecupero " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_PotenzaMassimoRecupero.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleTotaleMax " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_PotenzaTermicaNominaleTotaleMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; Prescrizioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Prescrizioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Raccomandazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Raccomandazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; ResponsabileImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_ResponsabileImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; Scala " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Scala.htm" />
+        <HelpTOCNode Title="Propriet&#224; ScarichiIdonei " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_ScarichiIdonei.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottofrequenzaSogliaInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottofrequenzaSogliaInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottofrequenzaSogliaInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottofrequenzaSogliaInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottofrequenzaSogliaInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottofrequenzaSogliaInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottofrequenzaTempoInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottofrequenzaTempoInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottofrequenzaTempoInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottofrequenzaTempoInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottofrequenzaTempoInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottofrequenzaTempoInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottotensioneSogliaInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottotensioneSogliaInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottotensioneSogliaInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottotensioneSogliaInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottotensioneSogliaInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottotensioneSogliaInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottotensioneTempoInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottotensioneTempoInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottotensioneTempoInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottotensioneTempoInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SottotensioneTempoInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SottotensioneTempoInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovrafrequenzaSogliaInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovrafrequenzaSogliaInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovrafrequenzaSogliaInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovrafrequenzaSogliaInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovrafrequenzaSogliaInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovrafrequenzaSogliaInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovrafrequenzaTempoInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovrafrequenzaTempoInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovrafrequenzaTempoInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovrafrequenzaTempoInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovrafrequenzaTempoInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovrafrequenzaTempoInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovratensioneSogliaInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovratensioneSogliaInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovratensioneSogliaInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovratensioneSogliaInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovratensioneSogliaInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovratensioneSogliaInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovratensioneTempoInterv1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovratensioneTempoInterv1.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovratensioneTempoInterv2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovratensioneTempoInterv2.htm" />
+        <HelpTOCNode Title="Propriet&#224; SovratensioneTempoInterv3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_SovratensioneTempoInterv3.htm" />
+        <HelpTOCNode Title="Propriet&#224; StatoRapportoDiControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_StatoRapportoDiControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TecnicoIntervento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TecnicoIntervento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaIngresso " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TemperaturaAcquaIngresso.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquaMotore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TemperaturaAcquaMotore.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAcquauscita " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TemperaturaAcquauscita.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaAriaComburente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TemperaturaAriaComburente.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumiMonte " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TemperaturaFumiMonte.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumiValle " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TemperaturaFumiValle.htm" />
+        <HelpTOCNode Title="Propriet&#224; TenutaCircuitoAlimentazioneCombustibileIdonea " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TenutaCircuitoAlimentazioneCombustibileIdonea.htm" />
+        <HelpTOCNode Title="Propriet&#224; TenutaCircuitoOlioIdonea " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TenutaCircuitoOlioIdonea.htm" />
+        <HelpTOCNode Title="Propriet&#224; TenutaImpiantoIdraulico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TenutaImpiantoIdraulico.htm" />
+        <HelpTOCNode Title="Propriet&#224; Termoregolazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_Termoregolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TerzoResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TerzoResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipologiaContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipologiaControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFluidoTermoVettore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipologiaFluidoTermoVettore.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipologiaResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaDistribuzione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipologiaSistemaDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipoTrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TipoTrattamentoRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_CG_TrattamentoRiscaldamento.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5c303f27-69d2-4657-9d27-0188ecc4b5cd" Title="Classe POMJ_RapportoControlloTecnico_GF" Url="html/T_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF.htm">
+      <HelpTOCNode Title="Costruttore POMJ_RapportoControlloTecnico_GF " Url="html/M_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF__ctor.htm" />
+      <HelpTOCNode Id="24d70f38-c5d0-4923-b56a-4e358c632afc" Title="Propriet&#224; di POMJ_RapportoControlloTecnico_GF" Url="html/Properties_T_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF.htm">
+        <HelpTOCNode Title="Propriet&#224; ApertureLibere " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_ApertureLibere.htm" />
+        <HelpTOCNode Title="Propriet&#224; AssenzaPerditeRefrigerante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_AssenzaPerditeRefrigerante.htm" />
+        <HelpTOCNode Title="Propriet&#224; BolliniCalorePulito " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_BolliniCalorePulito.htm" />
+        <HelpTOCNode Title="Propriet&#224; CheckList " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CheckList.htm" />
+        <HelpTOCNode Title="Propriet&#224; Civico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Civico.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceProgressivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CodiceProgressivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceSoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CodiceSoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceTargaturaImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CodiceTargaturaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CoibentazioniIdonee " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CoibentazioniIdonee.htm" />
+        <HelpTOCNode Title="Propriet&#224; Comune " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Comune.htm" />
+        <HelpTOCNode Title="Propriet&#224; Contabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Contabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CorrettoFunzionamentoContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CorrettoFunzionamentoContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKey " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CriterAPIKey.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKeySoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_CriterAPIKeySoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_DataControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataManutenzioneConsigliata " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_DataManutenzioneConsigliata.htm" />
+        <HelpTOCNode Title="Propriet&#224; DimensioniApertureAdeguate " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_DimensioniApertureAdeguate.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaAcqua " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_DurezzaAcqua.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneEstiva " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fClimatizzazioneEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneInvernale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fDichiarazioneConformita " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fDichiarazioneConformita.htm" />
+        <HelpTOCNode Title="Propriet&#224; FiltriPuliti " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_FiltriPuliti.htm" />
+        <HelpTOCNode Title="Propriet&#224; fImpiantoFunzionante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fImpiantoFunzionante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoCompilato " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fLibrettoImpiantoCompilato.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoPresente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fLibrettoImpiantoPresente.htm" />
+        <HelpTOCNode Title="Propriet&#224; fProduzioneACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fProduzioneACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; fRaffrescamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fRaffrescamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; fRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; fUsoManutenzioneGeneratore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_fUsoManutenzioneGeneratore.htm" />
+        <HelpTOCNode Title="Propriet&#224; GuidRapportoTecnico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_GuidRapportoTecnico.htm" />
+        <HelpTOCNode Title="Propriet&#224; ImpresaManutentrice " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_ImpresaManutentrice.htm" />
+        <HelpTOCNode Title="Propriet&#224; Indirizzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Indirizzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Interno " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Interno.htm" />
+        <HelpTOCNode Title="Propriet&#224; LeakDetector " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_LeakDetector.htm" />
+        <HelpTOCNode Title="Propriet&#224; LineeElettricheIdonee " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_LineeElettricheIdonee.htm" />
+        <HelpTOCNode Title="Propriet&#224; LocaleInstallazioneIdoneo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_LocaleInstallazioneIdoneo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; NCircuiti " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_NCircuiti.htm" />
+        <HelpTOCNode Title="Propriet&#224; NCircuitiTotali " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_NCircuitiTotali.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraArrivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_OraArrivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraPartenza " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_OraPartenza.htm" />
+        <HelpTOCNode Title="Propriet&#224; Osservazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Osservazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Palazzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Palazzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; ParametriTermodinamici " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_ParametriTermodinamici.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaAssorbita " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_PotenzaAssorbita.htm" />
+        <HelpTOCNode Title="Propriet&#224; Potenzafrigorifera " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Potenzafrigorifera.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_PotenzaTermicaNominale.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleTotaleMax " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_PotenzaTermicaNominaleTotaleMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; Prescrizioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Prescrizioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Raccomandazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Raccomandazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; ResponsabileImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_ResponsabileImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; Scala " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Scala.htm" />
+        <HelpTOCNode Title="Propriet&#224; ScambiatoriLiberi " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_ScambiatoriLiberi.htm" />
+        <HelpTOCNode Title="Propriet&#224; StatoRapportoDiControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_StatoRapportoDiControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TBulboUmidoAria " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TBulboUmidoAria.htm" />
+        <HelpTOCNode Title="Propriet&#224; TecnicoIntervento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TecnicoIntervento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaCondensazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TemperaturaCondensazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaEvaporazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TemperaturaEvaporazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaSottoraffreddamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TemperaturaSottoraffreddamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaSurriscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TemperaturaSurriscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; Termoregolazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_Termoregolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TerzoResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TerzoResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TInglatoEst " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TInglatoEst.htm" />
+        <HelpTOCNode Title="Propriet&#224; TIngLatoUtenze " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TIngLatoUtenze.htm" />
+        <HelpTOCNode Title="Propriet&#224; TIngressoLatoEsterno " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TIngressoLatoEsterno.htm" />
+        <HelpTOCNode Title="Propriet&#224; TIngressoLatoMacchina " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TIngressoLatoMacchina.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipologiaContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipologiaControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaMacchineFrigorifere " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipologiaMacchineFrigorifere.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipologiaResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaDistribuzione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipologiaSistemaDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipoTrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TipoTrattamentoRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TrattamentoRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TUscitaFluido " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TUscitaFluido.htm" />
+        <HelpTOCNode Title="Propriet&#224; TUscitaLatoEsterno " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TUscitaLatoEsterno.htm" />
+        <HelpTOCNode Title="Propriet&#224; TUscitaLatoMacchina " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TUscitaLatoMacchina.htm" />
+        <HelpTOCNode Title="Propriet&#224; TUscLatoEst " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TUscLatoEst.htm" />
+        <HelpTOCNode Title="Propriet&#224; TUscLatoUtenze " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GF_TUscLatoUtenze.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c402fcac-0716-4492-aa24-24bfa117487c" Title="Classe POMJ_RapportoControlloTecnico_GT" Url="html/T_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT.htm">
+      <HelpTOCNode Title="Costruttore POMJ_RapportoControlloTecnico_GT " Url="html/M_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT__ctor.htm" />
+      <HelpTOCNode Id="9a788a8f-ff6e-4b05-b833-3afedf59b737" Title="Propriet&#224; di POMJ_RapportoControlloTecnico_GT" Url="html/Properties_T_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT.htm">
+        <HelpTOCNode Title="Propriet&#224; AltroCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_AltroCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; ApertureLibere " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ApertureLibere.htm" />
+        <HelpTOCNode Title="Propriet&#224; AssenzaPerditeCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_AssenzaPerditeCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; bacharach1 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_bacharach1.htm" />
+        <HelpTOCNode Title="Propriet&#224; bacharach2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_bacharach2.htm" />
+        <HelpTOCNode Title="Propriet&#224; bacharach3 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_bacharach3.htm" />
+        <HelpTOCNode Title="Propriet&#224; BolliniCalorePulito " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_BolliniCalorePulito.htm" />
+        <HelpTOCNode Title="Propriet&#224; CheckList " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CheckList.htm" />
+        <HelpTOCNode Title="Propriet&#224; Civico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Civico.htm" />
+        <HelpTOCNode Title="Propriet&#224; Co2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Co2.htm" />
+        <HelpTOCNode Title="Propriet&#224; CoCorretto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CoCorretto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceProgressivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CodiceProgressivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceSoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CodiceSoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceTargaturaImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CodiceTargaturaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; COFumiSecchi " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_COFumiSecchi.htm" />
+        <HelpTOCNode Title="Propriet&#224; COFumiSecchiNoAria1000 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_COFumiSecchiNoAria1000.htm" />
+        <HelpTOCNode Title="Propriet&#224; Comune " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Comune.htm" />
+        <HelpTOCNode Title="Propriet&#224; ConformitaUNI10389 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ConformitaUNI10389.htm" />
+        <HelpTOCNode Title="Propriet&#224; Contabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Contabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CorrettoFunzionamentoContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CorrettoFunzionamentoContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKey " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CriterAPIKey.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKeySoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_CriterAPIKeySoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DataControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataManutenzioneConsigliata " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DataManutenzioneConsigliata.htm" />
+        <HelpTOCNode Title="Propriet&#224; DepressioneCanaleFumo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DepressioneCanaleFumo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DimensioniApertureAdeguate " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DimensioniApertureAdeguate.htm" />
+        <HelpTOCNode Title="Propriet&#224; DispositiviComandoRegolazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DispositiviComandoRegolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; DispositiviSicurezza " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DispositiviSicurezza.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaAcqua " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_DurezzaAcqua.htm" />
+        <HelpTOCNode Title="Propriet&#224; EvacuazioneForzata " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_EvacuazioneForzata.htm" />
+        <HelpTOCNode Title="Propriet&#224; EvacuazioneNaturale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_EvacuazioneNaturale.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneInvernale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fDichiarazioneConformita " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fDichiarazioneConformita.htm" />
+        <HelpTOCNode Title="Propriet&#224; fImpiantoFunzionante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fImpiantoFunzionante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoCompilato " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fLibrettoImpiantoCompilato.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoPresente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fLibrettoImpiantoPresente.htm" />
+        <HelpTOCNode Title="Propriet&#224; fProduzioneACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fProduzioneACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; fUsoManutenzioneGeneratore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_fUsoManutenzioneGeneratore.htm" />
+        <HelpTOCNode Title="Propriet&#224; GeneratoriIdonei " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_GeneratoriIdonei.htm" />
+        <HelpTOCNode Title="Propriet&#224; GuidRapportoTecnico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_GuidRapportoTecnico.htm" />
+        <HelpTOCNode Title="Propriet&#224; ImpresaManutentrice " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ImpresaManutentrice.htm" />
+        <HelpTOCNode Title="Propriet&#224; Indirizzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Indirizzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Interno " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Interno.htm" />
+        <HelpTOCNode Title="Propriet&#224; LocaleInstallazioneIdoneo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_LocaleInstallazioneIdoneo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; ModuloTermico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ModuloTermico.htm" />
+        <HelpTOCNode Title="Propriet&#224; O2 " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_O2.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraArrivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_OraArrivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraPartenza " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_OraPartenza.htm" />
+        <HelpTOCNode Title="Propriet&#224; Osservazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Osservazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Palazzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Palazzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_PortataCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaEffettiva " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_PotenzaTermicaEffettiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_PotenzaTermicaNominale.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleFocolare " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_PotenzaTermicaNominaleFocolare.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleTotaleMax " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_PotenzaTermicaNominaleTotaleMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; Prescrizioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Prescrizioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Raccomandazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Raccomandazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; RegolazioneTemperaturaAmbiente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_RegolazioneTemperaturaAmbiente.htm" />
+        <HelpTOCNode Title="Propriet&#224; RendimentoCombustione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_RendimentoCombustione.htm" />
+        <HelpTOCNode Title="Propriet&#224; RendimentoMinimo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_RendimentoMinimo.htm" />
+        <HelpTOCNode Title="Propriet&#224; RendimentoSupMinimo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_RendimentoSupMinimo.htm" />
+        <HelpTOCNode Title="Propriet&#224; ResponsabileImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ResponsabileImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; RiflussoProdottiCombustione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_RiflussoProdottiCombustione.htm" />
+        <HelpTOCNode Title="Propriet&#224; RispettaIndiceBacharach " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_RispettaIndiceBacharach.htm" />
+        <HelpTOCNode Title="Propriet&#224; Scala " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Scala.htm" />
+        <HelpTOCNode Title="Propriet&#224; ScambiatoreFumiPulito " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ScambiatoreFumiPulito.htm" />
+        <HelpTOCNode Title="Propriet&#224; ScarichiIdonei " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ScarichiIdonei.htm" />
+        <HelpTOCNode Title="Propriet&#224; StatoRapportoDiControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_StatoRapportoDiControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TecnicoIntervento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TecnicoIntervento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaraturaComburente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TemperaraturaComburente.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaFumi " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TemperaturaFumi.htm" />
+        <HelpTOCNode Title="Propriet&#224; TenutaImpiantoIdraulico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TenutaImpiantoIdraulico.htm" />
+        <HelpTOCNode Title="Propriet&#224; Termoregolazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_Termoregolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TerzoResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TerzoResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaGeneratoriTermici " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaGeneratoriTermici.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaGruppiTermici " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaGruppiTermici.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaDistribuzione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipologiaSistemaDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipoTrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TipoTrattamentoRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_TrattamentoRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; ValvolaSicurezzaSovrappressione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_GT_ValvolaSicurezzaSovrappressione.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="446ffaa7-dd7b-44da-84ed-a3135854e52a" Title="Classe POMJ_RapportoControlloTecnico_SC" Url="html/T_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC.htm">
+      <HelpTOCNode Title="Costruttore POMJ_RapportoControlloTecnico_SC " Url="html/M_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC__ctor.htm" />
+      <HelpTOCNode Id="333d5dc7-58a1-4cfb-84f0-352691d2f00f" Title="Propriet&#224; di POMJ_RapportoControlloTecnico_SC" Url="html/Properties_T_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC.htm">
+        <HelpTOCNode Title="Propriet&#224; AssenzaPerditeCombustibile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_AssenzaPerditeCombustibile.htm" />
+        <HelpTOCNode Title="Propriet&#224; AssenzaTrafilamenti " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_AssenzaTrafilamenti.htm" />
+        <HelpTOCNode Title="Propriet&#224; BolliniCalorePulito " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_BolliniCalorePulito.htm" />
+        <HelpTOCNode Title="Propriet&#224; CheckList " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CheckList.htm" />
+        <HelpTOCNode Title="Propriet&#224; Civico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Civico.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceProgressivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CodiceProgressivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceSoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CodiceSoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CodiceTargaturaImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CodiceTargaturaImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; CoibentazioniIdonee " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CoibentazioniIdonee.htm" />
+        <HelpTOCNode Title="Propriet&#224; Comune " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Comune.htm" />
+        <HelpTOCNode Title="Propriet&#224; Contabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Contabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CorrettoFunzionamentoContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CorrettoFunzionamentoContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKey " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CriterAPIKey.htm" />
+        <HelpTOCNode Title="Propriet&#224; CriterAPIKeySoggetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_CriterAPIKeySoggetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_DataControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataInstallazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_DataInstallazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; DataManutenzioneConsigliata " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_DataManutenzioneConsigliata.htm" />
+        <HelpTOCNode Title="Propriet&#224; DurezzaAcqua " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_DurezzaAcqua.htm" />
+        <HelpTOCNode Title="Propriet&#224; Fabbricante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Fabbricante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneEstiva " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fClimatizzazioneEstiva.htm" />
+        <HelpTOCNode Title="Propriet&#224; fClimatizzazioneInvernale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fClimatizzazioneInvernale.htm" />
+        <HelpTOCNode Title="Propriet&#224; fDichiarazioneConformita " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fDichiarazioneConformita.htm" />
+        <HelpTOCNode Title="Propriet&#224; fImpiantoFunzionante " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fImpiantoFunzionante.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoCompilato " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fLibrettoImpiantoCompilato.htm" />
+        <HelpTOCNode Title="Propriet&#224; fLibrettoImpiantoPresente " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fLibrettoImpiantoPresente.htm" />
+        <HelpTOCNode Title="Propriet&#224; fProduzioneACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fProduzioneACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; fUsoManutenzioneGeneratore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_fUsoManutenzioneGeneratore.htm" />
+        <HelpTOCNode Title="Propriet&#224; GuidRapportoTecnico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_GuidRapportoTecnico.htm" />
+        <HelpTOCNode Title="Propriet&#224; ImpresaManutentrice " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_ImpresaManutentrice.htm" />
+        <HelpTOCNode Title="Propriet&#224; Indirizzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Indirizzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Interno " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Interno.htm" />
+        <HelpTOCNode Title="Propriet&#224; LineeElettricheIdonee " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_LineeElettricheIdonee.htm" />
+        <HelpTOCNode Title="Propriet&#224; LocaleInstallazioneIdoneo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_LocaleInstallazioneIdoneo.htm" />
+        <HelpTOCNode Title="Propriet&#224; Matricola " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Matricola.htm" />
+        <HelpTOCNode Title="Propriet&#224; Modello " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Modello.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraArrivo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_OraArrivo.htm" />
+        <HelpTOCNode Title="Propriet&#224; OraPartenza " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_OraPartenza.htm" />
+        <HelpTOCNode Title="Propriet&#224; Osservazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Osservazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Palazzo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Palazzo.htm" />
+        <HelpTOCNode Title="Propriet&#224; PortataFluidoPrimario " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_PortataFluidoPrimario.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaCompatibileProgetto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_PotenzaCompatibileProgetto.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermica " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_PotenzaTermica.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominale " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_PotenzaTermicaNominale.htm" />
+        <HelpTOCNode Title="Propriet&#224; PotenzaTermicaNominaleTotaleMax " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_PotenzaTermicaNominaleTotaleMax.htm" />
+        <HelpTOCNode Title="Propriet&#224; Prescrizioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Prescrizioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; Raccomandazioni " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Raccomandazioni.htm" />
+        <HelpTOCNode Title="Propriet&#224; ResponsabileImpianto " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_ResponsabileImpianto.htm" />
+        <HelpTOCNode Title="Propriet&#224; Scala " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Scala.htm" />
+        <HelpTOCNode Title="Propriet&#224; StatoCoibentazioniIdonee " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_StatoCoibentazioniIdonee.htm" />
+        <HelpTOCNode Title="Propriet&#224; StatoRapportoDiControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_StatoRapportoDiControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TecnicoIntervento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TecnicoIntervento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaEsterna " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TemperaturaEsterna.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaMandataPrimario " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TemperaturaMandataPrimario.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaMandataSecondario " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TemperaturaMandataSecondario.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaRitornoPrimario " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TemperaturaRitornoPrimario.htm" />
+        <HelpTOCNode Title="Propriet&#224; TemperaturaRitornoSecondario " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TemperaturaRitornoSecondario.htm" />
+        <HelpTOCNode Title="Propriet&#224; TenutaImpiantoIdraulico " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TenutaImpiantoIdraulico.htm" />
+        <HelpTOCNode Title="Propriet&#224; Termoregolazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_Termoregolazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TerzoResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TerzoResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaContabilizzazione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipologiaContabilizzazione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaControllo " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipologiaControllo.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaFluidoTermoVettore " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipologiaFluidoTermoVettore.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaResponsabile " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipologiaResponsabile.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipologiaSistemaDistribuzione " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipologiaSistemaDistribuzione.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipoTrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TipoTrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TipoTrattamentoRiscaldamento.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoACS " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TrattamentoACS.htm" />
+        <HelpTOCNode Title="Propriet&#224; TrattamentoRiscaldamento " Url="html/P_Criter_Rapporti_POMJ_RapportoControlloTecnico_SC_TrattamentoRiscaldamento.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

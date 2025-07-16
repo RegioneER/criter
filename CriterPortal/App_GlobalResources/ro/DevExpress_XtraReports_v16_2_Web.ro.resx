@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.SearchDialog_Header">
+    <value>Caută</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat">
+    <value>Caută asta</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat_AccessKey">
+    <value>k</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext">
+    <value>Caută următoarea apariție</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel">
+    <value>Abandon</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord">
+    <value>Doar cuvinte întregi</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord_AccessKey">
+    <value>c</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case">
+    <value>Diferențiere litere mari și mici</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case_AccessKey">
+    <value>n</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up">
+    <value>Sus</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up_AccessKey">
+    <value>f</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down">
+    <value>Jos</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down_AccessKey">
+    <value>l</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished">
+    <value>Finalizat</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search">
+    <value>Arată fereastra "Căutare"</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport">
+    <value>Tipărire raport</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage">
+    <value>Tipărire pagina curentă</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage">
+    <value>Prima pagină</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage">
+    <value>Pagina anterioară</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage">
+    <value>Pagina următoare</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage">
+    <value>Ultima pagină</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow">
+    <value>Exportare raport și deschidere în fereastră nouă</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk">
+    <value>Exportare și salvare raport</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel">
+    <value>Pagină</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel">
+    <value>/</value>
+    <comment>???</comment>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx">
+    <value>XLSX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt">
+    <value>Text</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png">
+    <value>Imagine</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText" xml:space="preserve">
+    <value>Acasă</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText" xml:space="preserve">
+    <value>Tipărire</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage" xml:space="preserve">
+    <value>Pagina anterioară</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText" xml:space="preserve">
+    <value>Navigare</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview" xml:space="preserve">
+    <value>Previzualizare</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save" xml:space="preserve">
+    <value>Salvare</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold" xml:space="preserve">
+    <value>Îngroşat</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape" xml:space="preserve">
+    <value>Peisaj</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait" xml:space="preserve">
+    <value>Portret</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average" xml:space="preserve">
+    <value>Medie</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Contorizare</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Maxim</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Minim</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Sumă</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+</root>

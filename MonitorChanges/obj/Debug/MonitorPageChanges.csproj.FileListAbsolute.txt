@@ -1,0 +1,20 @@
+D:\Applicazioni\CriterV01\CriterPortal\Bin\MonitorPageChanges.dll.config
+D:\Applicazioni\CriterV01\CriterPortal\Bin\MonitorPageChanges.dll
+D:\Applicazioni\CriterV01\CriterPortal\Bin\MonitorPageChanges.pdb
+D:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.csprojResolveAssemblyReference.cache
+D:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.dll
+D:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.pdb
+E:\Applicazioni\CriterV01\CriterPortal\Bin\MonitorPageChanges.dll.config
+E:\Applicazioni\CriterV01\CriterPortal\Bin\MonitorPageChanges.dll
+E:\Applicazioni\CriterV01\CriterPortal\Bin\MonitorPageChanges.pdb
+E:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.csprojAssemblyReference.cache
+E:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.dll
+E:\Applicazioni\CriterV01\MonitorChanges\obj\Debug\MonitorPageChanges.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\MonitorPageChanges.dll.config
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\MonitorPageChanges.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\MonitorPageChanges.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\MonitorChanges\obj\Debug\MonitorPageChanges.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\MonitorChanges\obj\Debug\MonitorPageChanges.csproj.CoreCompileInputs.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\MonitorChanges\obj\Debug\MonitorPageChanges.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\MonitorChanges\obj\Debug\MonitorPageChanges.pdb

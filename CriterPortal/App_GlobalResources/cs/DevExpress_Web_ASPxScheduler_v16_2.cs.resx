@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Daily">
+    <value>Denně</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Weekly">
+    <value>Týdně</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Monthly">
+    <value>Měsíčně</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceType_Yearly">
+    <value>Ročně</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceRange_NoEndDate">
+    <value>Není koncem data</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceRange_OccurrenceCount">
+    <value>Končící po:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurrenceRange_EndBy">
+    <value>Končící:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Days">
+    <value>Dní</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Every">
+    <value>Každý</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_EveryWeekday">
+    <value>Každý pracovní den</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_RecurEvery">
+    <value>Opakující se</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_WeeksOn">
+    <value>týden v:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Day">
+    <value>Den</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_The">
+    <value></value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OfEvery">
+    <value>z každého</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Months">
+    <value>měsíce</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Of">
+    <value>z</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Occurrences">
+    <value>výskyty</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Recurrence">
+    <value>Opakování</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_GotoDate">
+    <value>Běž na den</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_DeleteRecurrentApt">
+    <value>Opravdu smazat</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OpenRecurrentApt">
+    <value>Otevři opakující se položku</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_Backward">
+    <value>Zpět</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_Forward">
+    <value>Vpřed</value>
+  </data>
+  <data name="ASPxSchedulerStringId.CaptionViewNavigator_Today">
+    <value>Dnes</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_ViewVisibleInterval_Format">
+    <value>{0:D} &amp;ndash; {1:D}</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_OperationToolTip">
+    <value>Stikni ESC pro stornování operace</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Error">
+    <value>Chyba</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Warning">
+    <value>Varování</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_Info">
+    <value>Informace</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_DetailInfo">
+    <value>Zobraz detailní informace</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_ShowMore">
+    <value>Více</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Caption_LoadError" xml:space="preserve">
+    <value>{0} Nelze načíst.</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_AllDayEvent" xml:space="preserve">
+    <value>Celodenní událost</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonDelete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Date" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_EndTime" xml:space="preserve">
+    <value>Čas ukončení:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Location" xml:space="preserve">
+    <value>Umístění:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Occurrence" xml:space="preserve">
+    <value>Tento výskyt</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Recurrence" xml:space="preserve">
+    <value>Opakování</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Reminder" xml:space="preserve">
+    <value>Připomenutí</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Resource" xml:space="preserve">
+    <value>Zdroj:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_StartTime" xml:space="preserve">
+    <value>Čas zahájení:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Status" xml:space="preserve">
+    <value>Zobrazit čas jako:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Subject" xml:space="preserve">
+    <value>Předmět:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.TooltipViewNavigator_GotoDate" xml:space="preserve">
+    <value>Přejít na datum</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonCancel" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonDismissAll" xml:space="preserve">
+    <value>Zrušit vše</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonSnooze" xml:space="preserve">
+    <value>Připomenout znovu</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ConfirmEdit" xml:space="preserve">
+    <value>"{0}", je opakovaná událost. Chcete otevřít pouze tento výskyt nebo celou řadu?</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Series" xml:space="preserve">
+    <value>Série</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ShowIn" xml:space="preserve">
+    <value>Zobrazit v:</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_ButtonDismiss" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="ASPxSchedulerStringId.Form_Label" xml:space="preserve">
+    <value>Popis:</value>
+  </data>
+</root>

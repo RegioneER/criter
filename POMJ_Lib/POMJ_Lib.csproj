@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1AA9419-1FFA-47BE-8F6A-8A007016755E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POMJ_Lib</RootNamespace>
+    <AssemblyName>POMJ_Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\CriterPortal\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\CriterPortal\Bin\POMJ_Lib.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anagrafica\NamespaceDoc.cs" />
+    <Compile Include="Libretto\NamespaceDoc.cs" />
+    <Compile Include="Libretto\POMJ_Accumulo.cs" />
+    <Compile Include="Libretto\POMJ_AltroGeneratore.cs" />
+    <Compile Include="Anagrafica\POMJ_AnagraficaSoggetti.cs" />
+    <Compile Include="Libretto\POMJ_Bruciatori.cs" />
+    <Compile Include="Libretto\POMJ_CampoSolareTermico.cs" />
+    <Compile Include="Libretto\POMJ_CircuitoInterrato.cs" />
+    <Compile Include="Libretto\POMJ_Cogeneratore.cs" />
+    <Compile Include="Libretto\POMJ_ConsumoAcqua.cs" />
+    <Compile Include="Libretto\POMJ_ConsumoCombustibile.cs" />
+    <Compile Include="Libretto\POMJ_ConsumoEnergiaElettrica.cs" />
+    <Compile Include="Libretto\POMJ_ConsumoProdottiChimici.cs" />
+    <Compile Include="Libretto\POMJ_DatiCatastali.cs" />
+    <Compile Include="Libretto\POMJ_GruppiVMC.cs" />
+    <Compile Include="Libretto\POMJ_GruppiFrigo.cs" />
+    <Compile Include="Libretto\POMJ_GruppiTermici.cs" />
+    <Compile Include="Libretto\POMJ_LibrettoImpianto.cs" />
+    <Compile Include="Libretto\POMJ_PompaCircolazione.cs" />
+    <Compile Include="Libretto\POMJ_RaffreddatoreLiquido.cs" />
+    <Compile Include="Libretto\POMJ_RecuperatoreCalore.cs" />
+    <Compile Include="Libretto\POMJ_Recuperatori.cs" />
+    <Compile Include="Libretto\POMJ_SistemiRegolazione.cs" />
+    <Compile Include="Libretto\POMJ_ScambiatoreCalore.cs" />
+    <Compile Include="Libretto\POMJ_ScambiatoreCaloreIntermedio.cs" />
+    <Compile Include="Libretto\POMJ_TargaturaImpianto.cs" />
+    <Compile Include="Libretto\POMJ_TorreEvaporativa.cs" />
+    <Compile Include="Libretto\POMJ_UnitaTrattamentoAria.cs" />
+    <Compile Include="Libretto\POMJ_ValvolaRegolazione.cs" />
+    <Compile Include="Libretto\POMJ_VasoEspansione.cs" />
+    <Compile Include="Login\NamespaceDoc.cs" />
+    <Compile Include="Login\POMJ_Login.cs" />
+    <Compile Include="Lookup\NamespaceDoc.cs" />
+    <Compile Include="Lookup\RaccomandazioniPrescrizioni.cs" />
+    <Compile Include="Lookup\SYS_AbilitazioneSoggetto.cs" />
+    <Compile Include="Lookup\SYS_CausaliRaccomandate.cs" />
+    <Compile Include="Lookup\SYS_ClassificazioneImpianto.cs" />
+    <Compile Include="Lookup\SYS_CodiciCatastali.cs" />
+    <Compile Include="Lookup\SYS_CodiciCatastaliSezioni.cs" />
+    <Compile Include="Lookup\SYS_DestinazioneUso.cs" />
+    <Compile Include="Lookup\SYS_FasceContributive.cs" />
+    <Compile Include="Lookup\SYS_FluidoLatoUtenze.cs" />
+    <Compile Include="Lookup\SYS_FormeGiuridiche.cs" />
+    <Compile Include="Lookup\SYS_FunzioniSoggetti.cs" />
+    <Compile Include="Lookup\SYS_ModalitaInstallazioneRecuperatoriCalore.cs" />
+    <Compile Include="Lookup\SYS_Paesi.cs" />
+    <Compile Include="Lookup\SYS_Province.cs" />
+    <Compile Include="Lookup\SYS_RCTCheckList.cs" />
+    <Compile Include="Lookup\SYS_RCTTipologiaCheckList.cs" />
+    <Compile Include="Lookup\SYS_RCTTipologiaPrescrizione.cs" />
+    <Compile Include="Lookup\SYS_RCTTipologiaRaccomandazione.cs" />
+    <Compile Include="Lookup\SYS_Regioni.cs" />
+    <Compile Include="Lookup\SYS_RuoloSoggetto.cs" />
+    <Compile Include="Lookup\SYS_SorgenteLatoEsterno.cs" />
+    <Compile Include="Lookup\SYS_StatoLibrettoImpianto.cs" />
+    <Compile Include="Lookup\SYS_StatoRapportoDiControllo.cs" />
+    <Compile Include="Lookup\SYS_TipologiaAcquaAlimento.cs" />
+    <Compile Include="Lookup\SYS_TipologiaAddolcimentoAcqua.cs" />
+    <Compile Include="Lookup\SYS_TipologiaCircuitoRaffreddamento.cs" />
+    <Compile Include="Lookup\SYS_TipologiaCogeneratore.cs" />
+    <Compile Include="Lookup\SYS_TipologiaCombustibile.cs" />
+    <Compile Include="Lookup\SYS_TipologiaCondizionamentoChimico.cs" />
+    <Compile Include="Lookup\SYS_TipologiaContabilizzazione.cs" />
+    <Compile Include="Lookup\SYS_TipologiaControllo.cs" />
+    <Compile Include="Lookup\SYS_TipologiaDistributori.cs" />
+    <Compile Include="Lookup\SYS_TipologiaDistributoriCombustibile.cs" />
+    <Compile Include="Lookup\SYS_TipologiaFiltrazione.cs" />
+    <Compile Include="Lookup\SYS_TipologiaFluidoTermoVettore.cs" />
+    <Compile Include="Lookup\SYS_TipologiaFluidoVettore.cs" />
+    <Compile Include="Lookup\SYS_TipologiaGeneratori.cs" />
+    <Compile Include="Lookup\SYS_TipologiaGeneratoriTermici.cs" />
+    <Compile Include="Lookup\SYS_TipologiaGruppiTermici.cs" />
+    <Compile Include="Lookup\SYS_TipologiaImpiantiVMC.cs" />
+    <Compile Include="Lookup\SYS_TipologiaIntervento.cs" />
+    <Compile Include="Lookup\SYS_TipologiaMacchineFrigorifere.cs" />
+    <Compile Include="Lookup\SYS_TipologiaOrdineCollegio.cs" />
+    <Compile Include="Lookup\SYS_TipologiaProtezioneGelo.cs" />
+    <Compile Include="Lookup\SYS_TipologiaRaccomandazionePrescrizioneRct.cs" />
+    <Compile Include="Lookup\SYS_TipologiaRapportoDiControllo.cs" />
+    <Compile Include="Lookup\SYS_TipologiaResponsabile.cs" />
+    <Compile Include="Lookup\SYS_TipologiaSistemaContabilizzazione.cs" />
+    <Compile Include="Lookup\SYS_TipologiaSistemaDistribuzione.cs" />
+    <Compile Include="Lookup\SYS_TipologiaSistemiEmissione.cs" />
+    <Compile Include="Lookup\SYS_TipologiaTermostatoZona.cs" />
+    <Compile Include="Lookup\SYS_TipologiaTitoloStudio.cs" />
+    <Compile Include="Lookup\SYS_TipologiaTrattamentoAcqua.cs" />
+    <Compile Include="Lookup\SYS_TipologiaVentilatori.cs" />
+    <Compile Include="Lookup\SYS_TipoSistema.cs" />
+    <Compile Include="Lookup\SYS_TipoSoggetto.cs" />
+    <Compile Include="Lookup\SYS_TitoliSoggetti.cs" />
+    <Compile Include="Lookup\SYS_UnitaMisura.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rapporti\NamespaceDoc.cs" />
+    <Compile Include="Rapporti\POMJ_RaccomandazioniPrescrizioni.cs" />
+    <Compile Include="Rapporti\POMJ_RapportoControlloTecnico_CG.cs" />
+    <Compile Include="Rapporti\POMJ_RapportoControlloTecnico_GF.cs" />
+    <Compile Include="Rapporti\POMJ_RapportoControlloTecnico_GT.cs" />
+    <Compile Include="Rapporti\POMJ_RapportoControlloTecnico_SC.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

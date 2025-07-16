@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.SearchDialog_Header">
+    <value>Hledání</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat">
+    <value>Najít</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext">
+    <value>Najít další</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel">
+    <value>Storno</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord">
+    <value>Pouze celá slova</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case">
+    <value>Rozlišovat velikost písmen</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up">
+    <value>Nahoru</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down">
+    <value>Dolů</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished">
+    <value>Dokončeno hledání v dokumentu.</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search">
+    <value>Zobrazit okno hledání</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport">
+    <value>Tisknout report</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage">
+    <value>Tisknout aktuální stránku</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage">
+    <value>První strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage">
+    <value>Předchozí strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage">
+    <value>Další strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage">
+    <value>Poslední strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow">
+    <value>Exportovat report a otevřít ho v novém okně</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk">
+    <value>Exportovat report a uložit ho na disk</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel">
+    <value>Strana</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel">
+    <value>z</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Reset">
+    <value>Vymazat</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Submit">
+    <value>Odeslat</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True">
+    <value>Ano</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False">
+    <value>Ne</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx">
+    <value>XLSX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt">
+    <value>Text</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png">
+    <value>Obrázek</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText" xml:space="preserve">
+    <value>Domů</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText" xml:space="preserve">
+    <value>Tisk</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_NextPage" xml:space="preserve">
+    <value>Další stránka</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage" xml:space="preserve">
+    <value>Předchozí stránka</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText" xml:space="preserve">
+    <value>Exportovat</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText" xml:space="preserve">
+    <value>Navigace</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview" xml:space="preserve">
+    <value>Náhled</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Tables" xml:space="preserve">
+    <value>Tabulky</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Next" xml:space="preserve">
+    <value>Další</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold" xml:space="preserve">
+    <value>Tučně</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape" xml:space="preserve">
+    <value>Na šířku</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait" xml:space="preserve">
+    <value>Na výšku</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Previous" xml:space="preserve">
+    <value>Předchozí</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average" xml:space="preserve">
+    <value>Průměr</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Počet</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Součet</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageText" xml:space="preserve">
+    <value>Aktuální stránka</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_EnterText" xml:space="preserve">
+    <value>Zadejte text, který chcete vyhledat v dokumentu.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_0Pages" xml:space="preserve">
+    <value>0 stránek</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText" xml:space="preserve">
+    <value>Exportovat do</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText" xml:space="preserve">
+    <value>Výsledek hledání</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintReport" xml:space="preserve">
+    <value>Tisk sestavy</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintPage" xml:space="preserve">
+    <value>Nastavení tisku a vytisknout aktuální stránky.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintReport" xml:space="preserve">
+    <value>Nastavení tisku a vytiskne dokument.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_AvailableFields" xml:space="preserve">
+    <value>Dostupná pole</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseColumns_Description" xml:space="preserve">
+    <value>Vyberte sloupce, které chcete zobrazit v sestavě.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataMember_Title" xml:space="preserve">
+    <value>Vyberte tabulku nebo zobrazení</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Columnar" xml:space="preserve">
+    <value>Sloupovitý</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ChooseDataSource_Title" xml:space="preserve">
+    <value>Zvolte zdroj dat</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Stepped" xml:space="preserve">
+    <value>Vystoupil</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Tabular" xml:space="preserve">
+    <value>Tabulkové</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Title" xml:space="preserve">
+    <value>Vyberte rozvržení sestavy</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Caption" xml:space="preserve">
+    <value>Titulek</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_RemoveParameter" xml:space="preserve">
+    <value>Odstranit parametr</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Groups" xml:space="preserve">
+    <value>Skupiny</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertRowAbove" xml:space="preserve">
+    <value>Vložit řádek nad</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_FieldListActions_AddParameter" xml:space="preserve">
+    <value>Přidat parametr</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Outline1" xml:space="preserve">
+    <value>Osnova 1</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Preview_ParametersTitle" xml:space="preserve">
+    <value>Parametry náhledu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_StylesEditor_CreateNew" xml:space="preserve">
+    <value>Vytvořit nový styl</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteCell" xml:space="preserve">
+    <value>Odstranit buňku</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteColumn" xml:space="preserve">
+    <value>Odstranit sloupec</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_DeleteRow" xml:space="preserve">
+    <value>Odstranit řádek</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TableActions_InsertCell" xml:space="preserve">
+    <value>Vložit buňku</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Casual" xml:space="preserve">
+    <value>Příležitostné</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Compact" xml:space="preserve">
+    <value>Kompaktní</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Corporate" xml:space="preserve">
+    <value>Firemní</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Formal" xml:space="preserve">
+    <value>Formální</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SelectedFields" xml:space="preserve">
+    <value>Vybraná pole</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_IgnoreNullValues" xml:space="preserve">
+    <value>Ignorovat hodnoty Null</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Title" xml:space="preserve">
+    <value>Zvolte možnosti souhrnu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_CreateGroups_Title" xml:space="preserve">
+    <value>Vytvořit skupiny</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Header" xml:space="preserve">
+    <value>Průvodce sestavou</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_DocumentMap" xml:space="preserve">
+    <value>Rozvržení dokumentu</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Accordion_Collapsed" xml:space="preserve">
+    <value>Sbalené</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ElementsAction_SizeToControl" xml:space="preserve">
+    <value>Velikost ovládacího prvku</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SelectAll" xml:space="preserve">
+    <value>(Vybrat vše)</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetBuildStatusError" xml:space="preserve">
+    <value>Chyba při získávání stav sestavení</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetDocumentDataError" xml:space="preserve">
+    <value>Nelze získat další dokument data pro aktuální dokument</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetLookUpValuesError" xml:space="preserve">
+    <value>Nelze zadat hodnoty filtrovaných vyhledávací editor parametrů sestavy</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_InitializationError" xml:space="preserve">
+    <value>Zpráva náhled inicializace se nezdařila</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_NoParameters" xml:space="preserve">
+    <value>Zpráva neobsahuje žádné parametry.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReport_Error" xml:space="preserve">
+    <value>Zobrazit zprávu, pouze jednu z následujících akcí lze provést v době:
+-přiřazení vlastnosti ASPxWebDocumentViewer.ReportSourceId;
+-volání metody ASPxWebDocumentViewer.OpenReport;
+-volání metody ASPxWebDocumentViewer.OpenReportXmlLayout.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentBuilding" xml:space="preserve">
+    <value>Dokument je budova...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentCreationError" xml:space="preserve">
+    <value>Nelze vytvořit dokument pro aktuální zprávy</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Loading" xml:space="preserve">
+    <value>Načítání...</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertBottomMarginBand" xml:space="preserve">
+    <value>Vložte spodní okraj skupiny</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_ReportActions_InsertSubBand" xml:space="preserve">
+    <value>Vložit podskupinu</value>
+  </data>
+</root>

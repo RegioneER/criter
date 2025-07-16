@@ -1,0 +1,32 @@
+C:\SORGENTI\RER\CRITER\CriterV01\CriterPortal\Bin\EncryptQueryString.dll
+C:\SORGENTI\RER\CRITER\CriterV01\CriterPortal\Bin\EncryptQueryString.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.dll
+C:\SORGENTI\RER\CRITER\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.pdb
+C:\SORGENTI\RER\CRITER\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\CriterPortal\Bin\EncryptQueryString.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\CriterPortal\Bin\EncryptQueryString.pdb
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.csprojResolveAssemblyReference.cache
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.dll
+C:\SORGENTI\RER\CONSEGNA 2017-02-01\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.pdb
+D:\Applicazioni\CriterV01\CriterPortal\Bin\EncryptQueryString.dll
+D:\Applicazioni\CriterV01\CriterPortal\Bin\EncryptQueryString.pdb
+D:\Applicazioni\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.dll
+D:\Applicazioni\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.pdb
+D:\Applicazioni\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.csprojResolveAssemblyReference.cache
+E:\Applicazioni\CriterV01\CriterPortal\Bin\EncryptQueryString.dll
+E:\Applicazioni\CriterV01\CriterPortal\Bin\EncryptQueryString.pdb
+E:\Applicazioni\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.csproj.CoreCompileInputs.cache
+E:\Applicazioni\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.dll
+E:\Applicazioni\CriterV01\EncryptQueryString\obj\Debug\EncryptQueryString.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\EncryptQueryString.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\CriterPortal\Bin\EncryptQueryString.pdb
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.csproj.AssemblyReference.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.csproj.CoreCompileInputs.cache
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.dll
+C:\Users\tommaso.castagnola\source\repos\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.pdb
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\EncryptQueryString.dll
+E:\Applicazioni\Art-ER - Criter\CriterPortal\Bin\EncryptQueryString.pdb
+E:\Applicazioni\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.csproj.AssemblyReference.cache
+E:\Applicazioni\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.csproj.CoreCompileInputs.cache
+E:\Applicazioni\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.dll
+E:\Applicazioni\Art-ER - Criter\EncryptQueryString\obj\Debug\EncryptQueryString.pdb

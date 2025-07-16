@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxperienceStringId.Loading">
+    <value>Laster inn</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_All">
+    <value>Alle</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_First">
+    <value>Første</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Prev">
+    <value>Forrige</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Next">
+    <value>Neste</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Last">
+    <value>Siste</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryFormat">
+    <value>Side {0} av {1} ({2} elementer)</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryAllPagesFormat">
+    <value>Sider: {0}-{1} ({2} elementer)</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryFormat">
+    <value>Side {0} av {1}</value>
+    <comment>Page {0} of {1}</comment>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryAllPages">
+    <value>Alle sider</value>
+    <comment>All pages</comment>
+  </data>
+  <data name="ASPxperienceStringId.DataViewBase_EmptyDataText">
+    <value>Ingen data å vise</value>
+    <comment>No data to display</comment>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_BackToTop">
+    <value>Tilbake til toppen</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_Page">
+    <value>Side:</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CloseButton">
+    <value>[Lukk]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_SizeGrip">
+    <value>[Endre størrelse]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterCaption">
+    <value>Filter:</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterHint">
+    <value>&lt;b&gt;?&lt;/b&gt; = et hvilket som helst enkelttegn
+&lt;b&gt;*&lt;/b&gt; = alle tegn</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_BackToTop">
+    <value>[Tilbake til toppen]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_NoData">
+    <value>Fant ingen data med disse filterkriteriene</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MaxSize">
+    <value>Filstørrelsen overskrider den maksimale tillatte størrelsen, som er {0} byte</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_GeneralError">
+    <value>Opplasting av fil mislykktes på grunn av en ekstern feil som ikke forholder seg til ASPxUploadControl-funksjonaliteten</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_EnctypeError">
+    <value>Opplasting av fil mislykktes fordi skjemaets enctype-attributt ikke er satt til 'multipart /form-data'</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedContentTypes">
+    <value>Denne innholdstypen er ikke tillatt</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedFileExtension">
+    <value>Denne filendelsen er ikke tillatt</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_FileDoesNotExistError">
+    <value>Filen som skal lastes opp eksisterer ikke</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_RemoveButton">
+    <value>Fjern</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AddButton">
+    <value>Legge til</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadButton">
+    <value>Last opp</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_CancelButton">
+    <value>Avbryt</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsPath">
+    <value>Filbanen "{0}" er ikke en gyldig Windows-filbane.</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltExpand">
+    <value>Utvid</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltCollapse">
+    <value>Fold sammen</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltLoading">
+    <value>Laster inn</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FolderLocked">
+    <value>Låst for opplasting</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Folder">
+    <value>Mappe</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Filter">
+    <value>Filtrer etter:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Path">
+    <value>Plassering:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCreate">
+    <value>Opprett</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRename">
+    <value>Gi nytt navn (F2)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbMove">
+    <value>Flytt (F6)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDelete">
+    <value>Slett (Del)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRefresh">
+    <value>Oppdater</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_DeleteConfirm">
+    <value>Er du sikker på at du vil slette {0}?</value>
+    <comment>Are you sure you want to delete '{0}'?</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Ok">
+    <value>Ok</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Cancel">
+    <value>Avbryt</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNoAccess">
+    <value>Ingen tilgang. Operasjonen kan ikke fullføres.</value>
+    <comment>Access denied. The operation cannot be completed.</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorIO">
+    <value>Uspesifisert I/O-feil</value>
+    <comment>Unspecified IO error</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFileNotFound">
+    <value>Finner ikke filen</value>
+    <comment>File not found</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFolderNotFound">
+    <value>Finner ikke mappen</value>
+    <comment>Folder not found</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorOther">
+    <value>Uspesifisert feil</value>
+    <comment>Unspecified error</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorInvalidSymbols">
+    <value>Dette navnet inneholder ugyldige tegn. Operasjonen kan ikke fullføres.</value>
+    <comment>This name contains invalid characters. The operation cannot be completed.</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorWrongExtension">
+    <value>Denne filendelsen er ikke tillatt. Operasjonen kan ikke fullføres.</value>
+    <comment>This file extension is not allowed. The operation cannot be completed.</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAlreadyExists">
+    <value>Den angitte filen/mappen finnes allerede</value>
+    <comment>The specified file/folder already exists</comment>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUsedByAnotherProcess">
+    <value>Operasjonen kan ikke fullføres fordi filen/mappen brukes av en annen prosess</value>
+    <comment>The operation cannot be completed because the file/folder is being used by another process</comment>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_BrowseButton" xml:space="preserve">
+    <value>Bla gjennom...</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNameCannotBeEmpty" xml:space="preserve">
+    <value>Fil-/mappenavn kan ikke være blankt</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_ClearFileSelectionButtonToolTip" xml:space="preserve">
+    <value>Tøm valg</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MultiSelection" xml:space="preserve">
+    <value>Obs! 
+
+Følgende {0} filer er ugyldige fordi de overskrider tillatte filstørrelse ({1}) eller deres filtyper er ikke tillatt. Disse filene har blitt fjernet fra utvalget, slik at de ikke vil bli lastet opp.
+
+{2}</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAccessProhibited" xml:space="preserve">
+    <value>Tilgang nektet. Operasjonen kan ikke fullføres</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDownload" xml:space="preserve">
+    <value>Last ned</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSize" xml:space="preserve">
+    <value>Sidestørrelse:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorThumbnail" xml:space="preserve">
+    <value>Ingen tilgang til miniatyrbildemappen</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_SelectedSeveralFiles" xml:space="preserve">
+    <value>{0} filer er valgt for opplasting</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadWasCanceledError" xml:space="preserve">
+    <value>Opplasting av filer avbrutt.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AccessDeniedError" xml:space="preserve">
+    <value>Tilgang til serverstien "{0}" er nektet. Grunnen kan være mangel på skrivetilgang i denne (eller forelder) mappen.</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerPageSize" xml:space="preserve">
+    <value>Sidestørrelse:</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UnspecifiedError" xml:space="preserve">
+    <value>Det oppstod en intern uspesifisert feil på serveren som hindret den fra å oppfylle forespørselen.</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSizeAllItem" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorRootFolderNotSpecified" xml:space="preserve">
+    <value>Rot mappen er ikke spesifisert eller finnes ikke</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUploadSeveralFiles" xml:space="preserve">
+    <value>Opplastingen feilet for {0} av {1} filer</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerRowPerPage" xml:space="preserve">
+    <value>Rader per side:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Size" xml:space="preserve">
+    <value>Størrelse</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCopy" xml:space="preserve">
+    <value>Kopier</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_FileName" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateToday" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="ASPxperienceStringId.Ribbon_FileTabText" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_NewFolderName" xml:space="preserve">
+    <value>Ny mappe</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_InformationUnitSymbol" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ASPxperienceStringId.ImageZoom_HintText" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeGigantic" xml:space="preserve">
+    <value>Gigantisk ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeLarge" xml:space="preserve">
+    <value>Stor ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeMedium" xml:space="preserve">
+    <value>Medium ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeSmall" xml:space="preserve">
+    <value>Liten ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_MaximizeButton" xml:space="preserve">
+    <value>[Maksimere/gjenopprette]</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_TooManyFilesError" xml:space="preserve">
+    <value>For mange filer er valgt. Reduser antall valgte filer og prøv på nytt.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeHuge" xml:space="preserve">
+    <value>Stor ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerNextPage" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCollapse" xml:space="preserve">
+    <value>Fold sammen</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListExpand" xml:space="preserve">
+    <value>Utvid</value>
+  </data>
+  <data name="ASPxperienceStringId.InsertTableControl_InsertTable" xml:space="preserve">
+    <value>Sett inn tabell</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorPathToLong" xml:space="preserve">
+    <value>Den angitte banen, filnavnet eller begge er for lang</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_UploadProgressPopupText" xml:space="preserve">
+    <value>Laster opp...</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsFileName" xml:space="preserve">
+    <value>Navnet inneholder ugyldige tegn.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_OperationTimeoutError" xml:space="preserve">
+    <value>Filopplasting kan ikke fullføres på grunn av et tidsavbrudd for operasjonen. Oppdater web siden og laste opp filen(e) igjen.</value>
+  </data>
+  <data name="ASPxperienceStringId.GridViewFilterRow_InputTitle" xml:space="preserve">
+    <value>Filter for kolonnen {0}</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_DropZone" xml:space="preserve">
+    <value>Slipp filer her</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_AscendingSortOrder" xml:space="preserve">
+    <value>Sortert stigende</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CalendarDescription" xml:space="preserve">
+    <value>Kalender. Bruk piltastene til å navigere.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarMultiSelect" xml:space="preserve">
+    <value>Valgte datoer er:</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_EmptyItem" xml:space="preserve">
+    <value>Tom</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_NoneSortOrder" xml:space="preserve">
+    <value>Ikke sortert</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerSummaryFormat" xml:space="preserve">
+    <value>Side {0} av {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_PlatformErrorText" xml:space="preserve">
+    <value>Kan bruke en nettleser med HTML5-støtte, eller installere &lt; en href = "{0}" &gt; Microsoft Silverlight v3 eller senere &lt; /a &gt; for å vise dette innholdet og ha en mulighet til å laste opp filer.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadModeNotSupported" xml:space="preserve">
+    <value>Leseren støtter ikke denne filen Last modus.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewHeaderLinkFormat" xml:space="preserve">
+    <value>{0} overskriftskolonnen.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ItemPositionFormat" xml:space="preserve">
+    <value>, {0} of {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TitleForFakeInput" xml:space="preserve">
+    <value>Inndataene viser valgte filnavn</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCheckBoxSelectionDescription" xml:space="preserve">
+    <value>Bruk avmerkingsboksene til å velge noder.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListDeselectAllCheckBox" xml:space="preserve">
+    <value>Avmerk alle noder</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListNodeCollapsedState" xml:space="preserve">
+    <value>Kollapset.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListNodeExpandedState" xml:space="preserve">
+    <value>Utvidet.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListSelectAllCheckBox" xml:space="preserve">
+    <value>Merk alle noder</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorWrongIdPathLength" xml:space="preserve">
+    <value>Antall kataloger i relativeName må være lik matriselengden idPath.</value>
+  </data>
+  <data name="ASPxperienceStringId.Documents_CantSaveToAlreadyOpenedFileMessage" xml:space="preserve">
+    <value>Det er umulig å lagre til en allerede åpnet fil.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CheckBoxListItemFormat" xml:space="preserve">
+    <value>{2}, {0} av {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarRangeFormat" xml:space="preserve">
+    <value>fra {0} til {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ComboBoxCurrentTextFormat" xml:space="preserve">
+    <value>Gjeldende tekst er {2}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuHorizontal" xml:space="preserve">
+    <value>Horisontal</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuVertical" xml:space="preserve">
+    <value>Loddrett</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Color" xml:space="preserve">
+    <value>Farge</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_RefreshButton" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+</root>

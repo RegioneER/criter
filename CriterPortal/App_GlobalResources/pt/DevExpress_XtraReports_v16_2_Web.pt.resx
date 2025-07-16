@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxReportsStringId.SearchDialog_Header">
+    <value>Procurar</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat">
+    <value>Procura&amp;nbsp;qual</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindWhat_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_FindNext">
+    <value>Procure próximo</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Cancel">
+    <value>Cancelar</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord">
+    <value>Coincidir só palavra inteira</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_WholeWord_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case">
+    <value>Adaptar caso</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Case_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up">
+    <value>Para cima</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Up_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down">
+    <value>Por baixo</value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Down_AccessKey">
+    <value></value>
+  </data>
+  <data name="ASPxReportsStringId.SearchDialog_Finished">
+    <value>Terminou a procura no documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_Search">
+    <value>Mostrar a janela procurar </value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintReport">
+    <value>Imprimir relatório</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PrintPage">
+    <value>Imprimir página atual</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_FirstPage">
+    <value>Primeira página</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PreviousPage">
+    <value>Página anterior</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_NextPage">
+    <value>Próxima página</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_LastPage">
+    <value>Ultima página</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToWindow">
+    <value>Exportar um relatório e mostrar em uma nova janela</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_SaveToDisk">
+    <value>Exportar um relatório e salvar no disko rígido </value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_PageLabel">
+    <value>Página</value>
+  </data>
+  <data name="ASPxReportsStringId.ToolBarItemText_OfLabel">
+    <value>de</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Reset">
+    <value>Redefinir</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_Submit">
+    <value>Submeter</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_True">
+    <value>Sim</value>
+  </data>
+  <data name="ASPxReportsStringId.ParametersPanel_False">
+    <value>Não</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_pdf">
+    <value>PDF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xls">
+    <value>XLS</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_xlsx">
+    <value>XLSX</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_rtf">
+    <value>RTF</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_mht">
+    <value>MHT</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_html">
+    <value>HTML</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_txt">
+    <value>Texto</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_csv">
+    <value>CSV</value>
+  </data>
+  <data name="ASPxReportsStringId.ExportName_png">
+    <value>Imagem</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonHomeTabText" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonPrintGroupText" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_FirstPage" xml:space="preserve">
+    <value>Primeira Página</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_NextPage" xml:space="preserve">
+    <value>Próxima página</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PreviousPage" xml:space="preserve">
+    <value>Página Anterior</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonExportGroupText" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonNavigationGroupText" xml:space="preserve">
+    <value>Navegação</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredential_Error" xml:space="preserve">
+    <value>As credenciais do utilizador não podem ser vazias.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorCredentialHandled_Error" xml:space="preserve">
+    <value>Para iniciar a sessão no servidor de relatório, manipular o evento RequestCredentials.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RemoteAuthenticatorLogin_Error" xml:space="preserve">
+    <value>Falhou ao iniciar sessão com as credenciais do usuário especificado.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonReportGroupText" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintPage" xml:space="preserve">
+    <value>Imprimir página</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_PrintReport" xml:space="preserve">
+    <value>Imprimir relatório</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintPage" xml:space="preserve">
+    <value>Especificar as configurações de impressão e imprimir a página atual.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PrintReport" xml:space="preserve">
+    <value>Especificar as configurações de impressão e imprimir o documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_TooltipButtons_Preview" xml:space="preserve">
+    <value>Pré-Visualização</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_MenuButtons_Save" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Tables" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Next" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Bold" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Landscape" xml:space="preserve">
+    <value>Paisagem</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportLayout_Portrait" xml:space="preserve">
+    <value>Retrato</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Average" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Count" xml:space="preserve">
+    <value>Contar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_SummaryOptions_Sum" xml:space="preserve">
+    <value>Soma</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_Finish" xml:space="preserve">
+    <value>Terminar</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Casual" xml:space="preserve">
+    <value>Casual</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Data" xml:space="preserve">
+    <value>Dados</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Formal" xml:space="preserve">
+    <value>Formal</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_DocumentMap" xml:space="preserve">
+    <value>Mapa do documento</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_LastPage" xml:space="preserve">
+    <value>Última página</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandText_ParametersPanel" xml:space="preserve">
+    <value>Painel de parâmetros</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FindText" xml:space="preserve">
+    <value>Encontrar o texto no documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_FirstPage" xml:space="preserve">
+    <value>Mostrar a primeira página do documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_LastPage" xml:space="preserve">
+    <value>Mostrar a última página do documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_NextPage" xml:space="preserve">
+    <value>Mostrar a próxima página do documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_PreviousPage" xml:space="preserve">
+    <value>Mostrar a página anterior do documento.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCommandToolTip_SaveToWindow" xml:space="preserve">
+    <value>Guardar o documento num formato especificado e mostrar o resultado numa nova janela.</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageText" xml:space="preserve">
+    <value>Página atual</value>
+  </data>
+  <data name="ASPxReportsStringId.DocumentViewer_RibbonCurrentPageToolTip" xml:space="preserve">
+    <value>Mostrar a página especificada.</value>
+  </data>
+  <data name="ASPxReportsStringId.ReportDesigner_Wizard_ReportStyle_Caption" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_0Pages" xml:space="preserve">
+    <value>0 páginas</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentBuilding" xml:space="preserve">
+    <value>Documento está construindo...</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_DocumentCreationError" xml:space="preserve">
+    <value>Não é possível criar um documento para o relatório atual</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_ExportToText" xml:space="preserve">
+    <value>Exportar para</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetBuildStatusError" xml:space="preserve">
+    <value>Erro de obtenção de um status de compilação</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetDocumentDataError" xml:space="preserve">
+    <value>Não é possível obter dados adicionais do documento para o documento atual</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_GetLookUpValuesError" xml:space="preserve">
+    <value>Não é possível fornecer valores de pesquisa filtrada para um editor de parâmetro de relatório</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_InitializationError" xml:space="preserve">
+    <value>Falhou a inicialização de visualização de relatório</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_NoParameters" xml:space="preserve">
+    <value>o relatório não contém quaisquer parâmetros.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_OpenReport_Error" xml:space="preserve">
+    <value>Para exibir um relatório, apenas uma das ações a seguir podem ser executadas em um tempo:
+-atribuir a propriedade de ASPxWebDocumentViewer.ReportSourceId;
+-chamando o método ASPxWebDocumentViewer.OpenReport;
+-chamando o método ASPxWebDocumentViewer.OpenReportXmlLayout.</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchError" xml:space="preserve">
+    <value>Ocorreu um erro durante a pesquisa</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SearchResultText" xml:space="preserve">
+    <value>Resultado da pesquisa</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_SelectAll" xml:space="preserve">
+    <value>(Selecionar tudo)</value>
+  </data>
+  <data name="ASPxReportsStringId.WebDocumentViewer_Loading" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+</root>

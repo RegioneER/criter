@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxEditorsStringId.DefaultErrorText">
+    <value>Chyba textu.</value>
+  </data>
+  <data name="ASPxEditorsStringId.RegExValidationErrorText">
+    <value>Text neodpovídá zadanému kritériu.</value>
+  </data>
+  <data name="ASPxEditorsStringId.RequiredFieldErrorText">
+    <value>*</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Today">
+    <value>Dnes</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Clear">
+    <value>Prázdný</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_OK">
+    <value>Ok</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Cancel">
+    <value>Storno</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OK">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Cancel">
+    <value>Storno</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_GroupType">
+    <value>A,Nebo,A není,Nebo není</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClauseType">
+    <value>Equals,Does not equal,Is greater than,Is greater than or equal to,Is less than,Is less than or equal to,Is between,Is not between,Contains,Does not contain,Begins with,Ends with,Is like,Is not like,Is blank,Is not blank,Is any of,Is none of,,,,Is beyond this year,Is later this year,Is later this month,Is next week,Is later this week,Is tomorrow,Is today,Is yesterday,Is earlier this week,Is last week,Is earlier this month,Is earlier this year,Is prior this year</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_BetweenAnd">
+    <value>A</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddConditionHint">
+    <value>Přidej podmínku</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_RemoveConditionHint">
+    <value>Odstraň podmínku</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddValueHint">
+    <value>Přidej nový element do listu</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClearFilter">
+    <value>Vynuluj filtr</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ShowFilterControl">
+    <value>Zobraz filtr</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddGroup">
+    <value>Přidat skupinu</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddCondition">
+    <value>Přidat podmínku</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Remove">
+    <value>Odstaň</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_Empty">
+    <value>&amp;lt;prázný&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterConrol_EmptyEnter">
+    <value>&amp;lt;vložte hodnotu&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_PopupHeaderText">
+    <value>Editor filtru</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultErrorText" xml:space="preserve">
+    <value>Odeslaný kód není správný</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultImageAlternateText" xml:space="preserve">
+    <value>Obrázek CAPTCHA</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultTextBoxLabelText" xml:space="preserve">
+    <value>Zadejte kód:</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_RefreshText" xml:space="preserve">
+    <value>Zobrazit další kód</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Checked" xml:space="preserve">
+    <value>Zaškrtnuto</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Unchecked" xml:space="preserve">
+    <value>Nezaškrtnuto</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Undefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Not" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Drag" xml:space="preserve">
+    <value>Přetáhnout</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_CustomColor" xml:space="preserve">
+    <value>Vlastní barva...</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Increment" xml:space="preserve">
+    <value>Přírůstek</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Decrement" xml:space="preserve">
+    <value>Úbytek</value>
+  </data>
+  <data name="ASPxEditorsStringId.TokenBox_TokenRemoveButtonToolTip" xml:space="preserve">
+    <value>&amp;Odstranit</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidDateEditRange" xml:space="preserve">
+    <value>Datum musí být v rozsahu od {0}...{1}</value>
+  </data>
+  <data name="ASPxEditorsStringId.InvalidSpinEditRange" xml:space="preserve">
+    <value>Číslo musí být v rozsahu od {0}...{1}</value>
+  </data>
+  <data name="ASPxEditorsStringId.DateRangeErrorText" xml:space="preserve">
+    <value>Rozsah datumů musí být od {0} do {1} dní</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Cancel" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Empty" xml:space="preserve">
+    <value>Žádný obrázek</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Uploading" xml:space="preserve">
+    <value>Nahrávání...</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_DropZone" xml:space="preserve">
+    <value>Přetáhněte obrázek zde</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Clear" xml:space="preserve">
+    <value>Vymazat</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_TextFilterTabCaption" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_VisualFilterTabCaption" xml:space="preserve">
+    <value>Vizuální</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_AutomaticColor" xml:space="preserve">
+    <value>Automatická barva</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Empty" xml:space="preserve">
+    <value>&amp;lt;prázdné&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_EmptyEnter" xml:space="preserve">
+    <value>&amp;lt;zadejte hodnotu&amp;gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_UploadFile" xml:space="preserve">
+    <value>Nahrajte soubor...</value>
+  </data>
+  <data name="ASPxEditorsStringId.DateRangeMinErrorText" xml:space="preserve">
+    <value>Rozsah dat musí být větší než nebo rovno {0} dní</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OperandTypeButtonHint" xml:space="preserve">
+    <value>Porovnat hodnotu / další hodnota pole</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AggregateType" xml:space="preserve">
+    <value>Existuje, Count, Max, Min, Avg, Sum</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_DateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>Datumové operátory</value>
+  </data>
+</root>

@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxperienceStringId.UploadControl_UnspecifiedError">
+    <value>Poslužitelj je naišao na nedefinirane interne pogreške, spriječen je u ispunjavanju zahtjeva.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadWasCanceledError">
+    <value>Slanje datoteke ja prekinuto.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_BrowseButton">
+    <value>Odaberi...</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDownload">
+    <value>Preuzmi</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorRootFolderNotSpecified">
+    <value>Korijenska mapa nije navedena ili ne postoji</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNameCannotBeEmpty">
+    <value>Naziv datoteke/mape ne može biti prazno</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAccessProhibited">
+    <value>Pristup zabranjen. Operacija ne može biti dovršena</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorThumbnail">
+    <value>Nemam pristup mapi minijatura</value>
+  </data>
+  <data name="ASPxperienceStringId.Loading">
+    <value>Učitavam&amp;hellip;</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_All">
+    <value>Svi</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_First">
+    <value>Prvi</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Prev">
+    <value>Prethodni</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Next">
+    <value>Slijedeći</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_Last">
+    <value>Zadnji</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryFormat">
+    <value>Strana {0} of {1} ({2} podataka)</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_SummaryAllPagesFormat">
+    <value>Stranice: {0} - {1} ({2} podataka)</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryFormat">
+    <value>Strana {0} od {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerSummaryAllPages">
+    <value>Sve stranice</value>
+  </data>
+  <data name="ASPxperienceStringId.DataViewBase_EmptyDataText">
+    <value>Nema podataka</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_BackToTop">
+    <value>Natrag na vrh</value>
+  </data>
+  <data name="ASPxperienceStringId.NewsControl_Page">
+    <value>Strana:</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CloseButton">
+    <value>[Zatvori]</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_SizeGrip">
+    <value>[Promijeni veličinu]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterCaption">
+    <value>Filter:&amp;nbsp;&amp;nbsp;&amp;nbsp;</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_FilterHint">
+    <value>&lt;b&gt;?&lt;/b&gt; = bilo koji znak
+&lt;b&gt;*&lt;/b&gt; = bilo koji znakovi</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_BackToTop">
+    <value>[Natrag na vrh]</value>
+  </data>
+  <data name="ASPxperienceStringId.TitleIndex_NoData">
+    <value>Nema podataka za ovaj filter</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MaxSize">
+    <value>Veličina datoteke premašuje maksimalnu dozvoljenu veličinu, koja je {0} bytes</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_GeneralError">
+    <value>Učitavanje datoteke nije uspijelo zbog vanjske pogreške koja se ne odnosi na ASPxUploadControl funkcionalnost</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_EnctypeError">
+    <value>Učitavanje datoteke nije uspjelo jer enctype atribut forme nije postavljena na "multipart/form-data"</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedContentTypes">
+    <value>Ovaj tip datoteke nije dopušten</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_NotAllowedFileExtension">
+    <value>Ova ekstenzija datoteke nije dopuštena</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_FileDoesNotExistError">
+    <value>Datoteka za prijenos ne postoji</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_RemoveButton">
+    <value>Ukloni</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AddButton">
+    <value>Dodaj</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_UploadButton">
+    <value>Slanje datoteka</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_CancelButton">
+    <value>Odustani</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsPath">
+    <value>Staza do dokumenta "{0}" nije ispravna Windows staza.</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltExpand">
+    <value>Proširi</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltCollapse">
+    <value>Minimiziraj</value>
+  </data>
+  <data name="ASPxperienceStringId.TreeView_AltLoading">
+    <value>Učitavam</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FolderLocked">
+    <value>Zaključan za učitavanje</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Folder">
+    <value>Mapa</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Filter">
+    <value>Filtriraj po:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Path">
+    <value>Staza:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCreate">
+    <value>Napravi</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRename">
+    <value>Preimenuj (F2)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbMove">
+    <value>Premjesti (F6)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbDelete">
+    <value>Izbriši (Del)</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbRefresh">
+    <value>Osvježi</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_DeleteConfirm">
+    <value>Sigurno želite obrisati '{0}'?</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Ok">
+    <value>U redu</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_Cancel">
+    <value>Odustani</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorNoAccess">
+    <value>Pristup odbijen. Operacija se ne može dovršiti.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorIO">
+    <value>Neodređena IO pogreška.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFileNotFound">
+    <value>Datoteka nije nađena</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorFolderNotFound">
+    <value>Mapa nije nađena</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorOther">
+    <value>Neodređena pogreška</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorInvalidSymbols">
+    <value>Ime sadrži nevažeće znakove. Operacija se ne može dovršiti.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorWrongExtension">
+    <value>Ova datoteka nije dopuštena. operacija se ne može dovršiti.</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorAlreadyExists">
+    <value>Navedena datoteka/mapa već postoji</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUsedByAnotherProcess">
+    <value>Operacija ne može biti dovršena jer datoteku/mapu koristi netko drugi.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_ClearFileSelectionButtonToolTip">
+    <value>Očisti odabir</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerPageSize">
+    <value>Veličina stranice:</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_PagerRowPerPage">
+    <value>Redci po stranici:</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_ErrorUploadSeveralFiles">
+    <value>Prebacivanje je bilo neuspješano za {0} od {1} datoteka</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_FileName">
+    <value>Ime</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_LastWriteTime">
+    <value>Vrijeme promjene</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_FileInfoTypeCaption_Size">
+    <value>Veličina</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateMonth">
+    <value>Zadnji mjesec</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateToday">
+    <value>Danas</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateWeek">
+    <value>Prošli tjedan</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_DateYear">
+    <value>Prošla godina</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeEmpty">
+    <value>Prazno ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeGigantic">
+    <value>Gigantsko ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeHuge">
+    <value>Ogromno ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeLarge">
+    <value>Veliko ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeMedium">
+    <value>Srednje ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeSmall">
+    <value>Malo ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_GridViewFilter_SizeTiny">
+    <value>Sićušno ({0})</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSize">
+    <value>Page size:</value>
+  </data>
+  <data name="ASPxperienceStringId.Pager_PageSizeAllItem">
+    <value>Svi</value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_CollapseButton">
+    <value></value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_MaximizeButton">
+    <value></value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_PinButton">
+    <value></value>
+  </data>
+  <data name="ASPxperienceStringId.PopupControl_RefreshButton">
+    <value>[Osvježi]</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_AccessDeniedError">
+    <value>Pristup serveru "{0}" je odbijen.Razlog bi mogao biti nedostatak dozvole za pisanje datoteka u ovoj (ili roditelj) mapi.</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_MultiSelection">
+    <value>Pozor!
+
+Sljedeće {0} datoteke su nevažeće jer prelaze dopuštenu veličinu ({1}) ili njihove ekstenzije nisu dozvoljene. Ove datoteke su uklonjene iz selekcije, tako da neće biti prenesene.
+
+{2}</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_SelectedSeveralFiles">
+    <value>{0} datoteke su odabrane za upload</value>
+  </data>
+  <data name="ASPxperienceStringId.DataView_ShowMoreItemsText" xml:space="preserve">
+    <value>Prikaži više...</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_NewFolderName" xml:space="preserve">
+    <value>Nova mapa</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_TbCopy" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="ASPxperienceStringId.Ribbon_FileTabText" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="ASPxperienceStringId.FileManager_InformationUnitSymbol" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ASPxperienceStringId.ImageZoom_HintText" xml:space="preserve">
+    <value>Zumiraj</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_DropZone" xml:space="preserve">
+    <value>Ispustite datoteke ovdje</value>
+  </data>
+  <data name="ASPxperienceStringId.UploadControl_InvalidWindowsFileName" xml:space="preserve">
+    <value>Naziv datoteke sadrži znakove koji nisu valjani.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerNextPage" xml:space="preserve">
+    <value>Slijedeći</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerPreviousPage" xml:space="preserve">
+    <value>Prethodni</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListCollapse" xml:space="preserve">
+    <value>Sažmi</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_TreeListExpand" xml:space="preserve">
+    <value>Proširi</value>
+  </data>
+  <data name="ASPxperienceStringId.InsertTableControl_InsertTable" xml:space="preserve">
+    <value>Umetni tablicu</value>
+  </data>
+  <data name="ASPxperienceStringId.RoundPanel_CollapseButton" xml:space="preserve">
+    <value>[Sažmi/Proširi]</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarRangeFormat" xml:space="preserve">
+    <value>od {0} do {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CheckBoxListItemFormat" xml:space="preserve">
+    <value>{2}, {0} od {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ClientCalendarMultiSelect" xml:space="preserve">
+    <value>označeni datumi su:</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_ComboBoxCurrentTextFormat" xml:space="preserve">
+    <value>Trenutni tekst je {2}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_EmptyItem" xml:space="preserve">
+    <value>prazan</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewHeaderLinkFormat" xml:space="preserve">
+    <value>{0} zaglavlje stupca.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_AscendingSortOrder" xml:space="preserve">
+    <value>Razvrstano uzlazno</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_BlankEditor" xml:space="preserve">
+    <value>prazno</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CalendarDescription" xml:space="preserve">
+    <value>Kalendar. Koristite tipke sa strelicama za navigaciju.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CardViewCardDescriptionFormat" xml:space="preserve">
+    <value>Kartica {0} od {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_CheckBoxColumnHeader" xml:space="preserve">
+    <value>Potvrdni okvir stupac</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_IFrameTitle" xml:space="preserve">
+    <value>Nema korisničkog sadržaja</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_PagerSummaryFormat" xml:space="preserve">
+    <value>Stranica {0} od {1}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DescendingSortOrder" xml:space="preserve">
+    <value>Sortirano silazno</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewFilterRowButtonFormat" xml:space="preserve">
+    <value>Kriteriji filtriranja za stupac {0}</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewFilterRowEditorFormat" xml:space="preserve">
+    <value>Filter za {0} stupca. Prikazuje podatke čiji stupac vrijednosti {1} vrijednost filtra.</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewFooterTableCaption" xml:space="preserve">
+    <value>Podnožje tablice se odnose na zaglavlja i podataka tablice iznad</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_GridViewHeaderTableCaption" xml:space="preserve">
+    <value>Zaglavlja tablice podataka</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuHorizontal" xml:space="preserve">
+    <value>Vodoravno</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_MenuVertical" xml:space="preserve">
+    <value>Okomito</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Color" xml:space="preserve">
+    <value>Boja</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_Of" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="ASPxperienceStringId.Accessibility_DropDownEditDropDownButton" xml:space="preserve">
+    <value>Otvaranje ili zatvaranje padajućeg prozora</value>
+  </data>
+</root>
